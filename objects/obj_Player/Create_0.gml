@@ -1,3 +1,5 @@
-var snd_step = footstep_grass1
+snd_step = footstep_grass1
 
-audio_play_sound(birds1, 0, 1)
+audio_play_sound(birds1, false, true)
+
+step_snd_offset = 0
