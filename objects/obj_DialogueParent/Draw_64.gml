@@ -20,7 +20,14 @@ if(should_show_dialog == true){
 	//draw_set_alpha(alpha)
 	
 	//DRAW THE BOX
-	draw_sprite_ext(spr_Dialogue_body_after, 0, 0, 0, 5, 5, 0, c_white, 1)
+	draw_set_colour(c_black)
+	draw_rectangle(0, 0, display_get_gui_width(), height, false)
+	
+	draw_set_colour(c_white)
+	draw_rectangle(border, border, display_get_gui_width() - border, height - border, false)
+	
+	draw_set_color(c_black)
+	draw_rectangle(border*2, border*2, display_get_gui_width() - border*2, height - border*2, false)
 	
 	//DRAW SPRITE
 	if(current_dialog.sprite != -1){

@@ -60,8 +60,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Menu",
+    "path":"folders/Menu.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
