@@ -1,0 +1,46 @@
+{
+  "$GMRoomUI":"",
+  "%Name":"RoomUI",
+  "children":[
+    {"$GMRUILayer":"v1","%Name":"UILayer_1","alignItems":2,"children":[
+        {"$GMRFlexPanel":"","%Name":"PauseMenu","alignItems":2,"alignSelf":2,"children":[
+            {"$GMRFlexPanel":"","%Name":"StartGame","alignItems":2,"children":[
+                {"$GMRFlexPanel":"","%Name":"Text","alignItems":2,"children":[
+                    {"$GMRTextItem":"v3","%Name":"text_31536F2A","alignment":0,"charSpacing":0.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"fontId":{"name":"MeatMadness","path":"fonts/MeatMadness/MeatMadness.yy",},"frameH":0.0,"frameW":0.0,"frozen":false,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"lineSpacing":0.0,"name":"text_31536F2A","paragraphSpacing":0.0,"resourceType":"GMRTextItem","resourceVersion":"2.0","rotation":0.0,"scaleX":3.8514853,"scaleY":4.0,"text":"Start Game","wrap":false,"x":14.5,"y":2.0,},
+                  ],"flexDirection":0,"height":{"unit":3,"value":20.0,},"justifyContent":1,"marginBottom":{"unit":1,"value":6.0,},"marginLeft":{"unit":1,"value":10.0,},"marginRight":{"unit":1,"value":16.0,},"marginTop":{"unit":1,"value":6.0,},"name":"Text","nodeColour":4282970862,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":20.0,},},
+                {"$GMRInstance":"v4","%Name":"inst_79F9C3C","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_79F9C3C","objectId":{"name":"obj_Button","path":"objects/obj_Button/obj_Button.yy",},"properties":[
+                    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Button","path":"objects/obj_Button/obj_Button.yy",},"propertyId":{"name":"button_id","path":"objects/obj_Button/obj_Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
+                  ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":7.5,"y":0.0,},
+              ],"flexDirection":0,"height":{"unit":1,"value":79.0,},"justifyContent":1,"name":"StartGame","nodeColour":4291184882,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":415.0,},},
+            {"$GMRFlexPanel":"","%Name":"Settings","alignItems":2,"children":[
+                {"$GMRFlexPanel":"","%Name":"Text","alignItems":2,"children":[
+                    {"$GMRTextItem":"v3","%Name":"text_3729E6B7","alignment":0,"charSpacing":0.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"fontId":{"name":"MeatMadness","path":"fonts/MeatMadness/MeatMadness.yy",},"frameH":0.0,"frameW":0.0,"frozen":false,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"lineSpacing":0.0,"name":"text_3729E6B7","paragraphSpacing":0.0,"resourceType":"GMRTextItem","resourceVersion":"2.0","rotation":0.0,"scaleX":4.0,"scaleY":4.0,"text":"Settings","wrap":false,"x":0.0,"y":0.0,},
+                  ],"flexDirection":0,"height":{"unit":3,"value":20.0,},"justifyContent":1,"name":"Text","nodeColour":4294068420,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":20.0,},},
+                {"$GMRInstance":"v4","%Name":"inst_76716CB6","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_76716CB6","objectId":{"name":"obj_Button","path":"objects/obj_Button/obj_Button.yy",},"properties":[
+                    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Button","path":"objects/obj_Button/obj_Button.yy",},"propertyId":{"name":"button_id","path":"objects/obj_Button/obj_Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+                  ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+              ],"flexDirection":0,"height":{"unit":1,"value":81.0,},"justifyContent":1,"marginBottom":{"unit":1,"value":6.0,},"marginLeft":{"unit":1,"value":16.0,},"marginRight":{"unit":1,"value":16.0,},"marginTop":{"unit":1,"value":6.0,},"name":"Settings","nodeColour":4283953736,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":325.0,},},
+            {"$GMRFlexPanel":"","%Name":"Quit","alignItems":2,"children":[
+                {"$GMRFlexPanel":"","%Name":"Text","alignItems":2,"children":[
+                    {"$GMRTextItem":"v3","%Name":"text_7420758","alignment":0,"charSpacing":0.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"fontId":{"name":"MeatMadness","path":"fonts/MeatMadness/MeatMadness.yy",},"frameH":0.0,"frameW":0.0,"frozen":false,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"lineSpacing":0.0,"name":"text_7420758","paragraphSpacing":0.0,"resourceType":"GMRTextItem","resourceVersion":"2.0","rotation":0.0,"scaleX":4.0,"scaleY":4.0,"text":"Quit Game","wrap":false,"x":0.0,"y":0.0,},
+                  ],"flexDirection":0,"height":{"unit":3,"value":20.0,},"justifyContent":1,"name":"Text","nodeColour":4287885896,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":20.0,},},
+                {"$GMRInstance":"v4","%Name":"inst_390B16EC","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_390B16EC","objectId":{"name":"obj_Button","path":"objects/obj_Button/obj_Button.yy",},"properties":[
+                    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Button","path":"objects/obj_Button/obj_Button.yy",},"propertyId":{"name":"button_id","path":"objects/obj_Button/obj_Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+                  ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+              ],"flexDirection":0,"height":{"unit":1,"value":87.0,},"justifyContent":1,"marginBottom":{"unit":1,"value":6.0,},"marginLeft":{"unit":1,"value":16.0,},"marginRight":{"unit":1,"value":16.0,},"marginTop":{"unit":1,"value":6.0,},"name":"Quit","nodeColour":4294068361,"positionType":0,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":375.0,},},
+            {"$GMRSpriteGraphic":"v1","%Name":"graphic_29270591","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_29270591","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":12.950002,"scaleY":11.500003,"spriteId":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},"x":0.0,"y":0.0,},
+          ],"flexDirection":0,"gapRow":9.0,"height":{"unit":1,"value":542.0,},"justifyContent":1,"name":"PauseMenu","nodeColour":4293718600,"positionType":0,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":537.0,},},
+        {"$GMRFlexPanel":"","%Name":"SettingsMenu","alignItems":2,"children":[],"flexDirection":0,"height":{"unit":1,"value":100.0,},"justifyContent":1,"name":"SettingsMenu","nodeColour":4294074696,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":100.0,},},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"UILayer_1","nodeColour":4282970773,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+  ],
+  "locked":false,
+  "name":"RoomUI",
+  "parent":{
+    "name":"RoboBitch",
+    "path":"RoboBitch.yyp",
+  },
+  "resourceType":"GMRoomUI",
+  "resourceVersion":"2.0",
+  "viewspaceChildren":[],
+  "visible":true,
+}

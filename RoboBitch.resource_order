@@ -1,6 +1,6 @@
 {
   "FolderOrderSettings":[
-    {"name":"Menu","order":1,"path":"folders/Menu.yy",},
+    {"name":"Font","order":1,"path":"folders/Font.yy",},
     {"name":"Objects","order":4,"path":"folders/Objects.yy",},
     {"name":"Rooms","order":2,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
@@ -8,15 +8,30 @@
     {"name":"Sprites","order":3,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_Button","order":3,"path":"objects/obj_Button/obj_Button.yy",},
     {"name":"obj_DialogSampleA","order":1,"path":"objects/obj_DialogSampleA/obj_DialogSampleA.yy",},
     {"name":"obj_DialogueParent","order":2,"path":"objects/obj_DialogueParent/obj_DialogueParent.yy",},
+<<<<<<< HEAD
+    {"name":"obj_GameController","order":4,"path":"objects/obj_GameController/obj_GameController.yy",},
+    {"name":"room_Title_screen","order":1,"path":"rooms/room_Title_screen/room_Title_screen.yy",},
+    {"name":"RoomUI","order":9,"path":"roomui/RoomUI/RoomUI.yy",},
+=======
+    {"name":"obj_RunOnLoad","order":3,"path":"objects/obj_RunOnLoad/obj_RunOnLoad.yy",},
     {"name":"TitleMenu","order":2,"path":"objects/TitleMenu/TitleMenu.yy",},
     {"name":"room_Title_screen","order":3,"path":"rooms/room_Title_screen/room_Title_screen.yy",},
+>>>>>>> 4e2703c422bbf84a2b0a1bf8a6b2b71c566cd971
     {"name":"footstep_grass1","order":3,"path":"sounds/footstep_grass1/footstep_grass1.yy",},
-    {"name":"Cursor2","order":4,"path":"sprites/Cursor2/Cursor2.yy",},
     {"name":"spr_ANGRY","order":3,"path":"sprites/spr_ANGRY/spr_ANGRY.yy",},
     {"name":"spr_background","order":1,"path":"sprites/spr_background/spr_background.yy",},
+<<<<<<< HEAD
+    {"name":"spr_Button","order":5,"path":"sprites/spr_Button/spr_Button.yy",},
+    {"name":"spr_menu","order":6,"path":"sprites/spr_menu/spr_menu.yy",},
+=======
+    {"name":"spr_Cursor2","order":4,"path":"sprites/spr_Cursor2/spr_Cursor2.yy",},
+    {"name":"spr_Dialogue_body_after","order":5,"path":"sprites/spr_Dialogue_body_after/spr_Dialogue_body_after.yy",},
+    {"name":"spr_Dialogue_frame_after","order":6,"path":"sprites/spr_Dialogue_frame_after/spr_Dialogue_frame_after.yy",},
     {"name":"spr_menu","order":1,"path":"sprites/spr_menu/spr_menu.yy",},
+>>>>>>> 4e2703c422bbf84a2b0a1bf8a6b2b71c566cd971
     {"name":"spr_talkingbubble","order":2,"path":"sprites/spr_talkingbubble/spr_talkingbubble.yy",},
   ],
 }

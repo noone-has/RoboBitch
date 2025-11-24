@@ -10,7 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
-    {"$GMFolder":"","%Name":"Menu","folderPath":"folders/Menu.yy","name":"Menu","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Font","folderPath":"folders/Font.yy","name":"Font","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -28,19 +28,32 @@
   },
   "name":"RoboBitch",
   "resources":[
-    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
+    {"id":{"name":"MeatMadness","path":"fonts/MeatMadness/MeatMadness.yy",},},
+    {"id":{"name":"obj_Button","path":"objects/obj_Button/obj_Button.yy",},},
     {"id":{"name":"obj_DialogSampleA","path":"objects/obj_DialogSampleA/obj_DialogSampleA.yy",},},
     {"id":{"name":"obj_DialogueParent","path":"objects/obj_DialogueParent/obj_DialogueParent.yy",},},
+    {"id":{"name":"obj_GameController","path":"objects/obj_GameController/obj_GameController.yy",},},
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},},
+<<<<<<< HEAD
+=======
+    {"id":{"name":"obj_RunOnLoad","path":"objects/obj_RunOnLoad/obj_RunOnLoad.yy",},},
     {"id":{"name":"TitleMenu","path":"objects/TitleMenu/TitleMenu.yy",},},
+>>>>>>> 4e2703c422bbf84a2b0a1bf8a6b2b71c566cd971
     {"id":{"name":"room_Title_screen","path":"rooms/room_Title_screen/room_Title_screen.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"Dialogue","path":"scripts/Dialogue/Dialogue.yy",},},
     {"id":{"name":"birds1","path":"sounds/birds1/birds1.yy",},},
     {"id":{"name":"footstep_grass1","path":"sounds/footstep_grass1/footstep_grass1.yy",},},
-    {"id":{"name":"Cursor2","path":"sprites/Cursor2/Cursor2.yy",},},
     {"id":{"name":"spr_ANGRY","path":"sprites/spr_ANGRY/spr_ANGRY.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
+<<<<<<< HEAD
+    {"id":{"name":"spr_Button","path":"sprites/spr_Button/spr_Button.yy",},},
+=======
+    {"id":{"name":"spr_Cursor2","path":"sprites/spr_Cursor2/spr_Cursor2.yy",},},
+    {"id":{"name":"spr_Dialogue_body_after","path":"sprites/spr_Dialogue_body_after/spr_Dialogue_body_after.yy",},},
+    {"id":{"name":"spr_Dialogue_frame_after","path":"sprites/spr_Dialogue_frame_after/spr_Dialogue_frame_after.yy",},},
+>>>>>>> 4e2703c422bbf84a2b0a1bf8a6b2b71c566cd971
     {"id":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_talkingbubble","path":"sprites/spr_talkingbubble/spr_talkingbubble.yy",},},
