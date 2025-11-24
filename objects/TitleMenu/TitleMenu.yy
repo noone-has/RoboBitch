@@ -10,8 +10,8 @@
   "name":"TitleMenu",
   "overriddenProperties":[],
   "parent":{
-    "name":"Menu",
-    "path":"folders/Menu.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -119,8 +119,8 @@
   "maintainGms1Font":false,
   "name":"Font1",
   "parent":{
-    "name":"Menu",
-    "path":"folders/Menu.yy",
+    "name":"Fonts",
+    "path":"folders/Fonts.yy",
   },
   "pointRounding":0,
   "ranges":[

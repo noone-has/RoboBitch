@@ -1,0 +1,46 @@
+{
+  "$GMRoomUI":"",
+  "%Name":"RoomUI",
+  "children":[
+    {"$GMRUILayer":"v1","%Name":"MainMenuLayer","alignItems":2,"children":[
+        {"$GMRFlexPanel":"","%Name":"Title","alignItems":2,"children":[
+            {"$GMRTextItem":"v3","%Name":"text_6D4BFB9E","alignment":0,"charSpacing":0.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"fontId":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"frameH":0.0,"frameW":0.0,"frozen":false,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"lineSpacing":0.0,"name":"text_6D4BFB9E","paragraphSpacing":0.0,"resourceType":"GMRTextItem","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":5.0,"text":"ROBO BITCH","wrap":false,"x":0.0,"y":0.0,},
+          ],"flexDirection":0,"height":{"unit":3,"value":17.0,},"justifyContent":1,"name":"Title","nodeColour":4294068417,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":109.0,},},
+        {"$GMRFlexPanel":"","%Name":"MainMenu","alignItems":2,"children":[
+            {"$GMRFlexPanel":"","%Name":"StartGame","alignItems":2,"children":[
+                {"$GMRFlexPanel":"","%Name":"Text","alignItems":2,"children":[
+                    {"$GMRTextItem":"v3","%Name":"text_1FF8DDA2","alignment":0,"charSpacing":0.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"fontId":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"frameH":0.0,"frameW":0.0,"frozen":false,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"lineSpacing":0.0,"name":"text_1FF8DDA2","paragraphSpacing":0.0,"resourceType":"GMRTextItem","resourceVersion":"2.0","rotation":0.0,"scaleX":4.0,"scaleY":4.0,"text":"Start Game","wrap":false,"x":0.0,"y":0.0,},
+                  ],"flexDirection":0,"height":{"unit":1,"value":66.0,},"justifyContent":1,"marginBottom":{"unit":1,"value":6.0,},"marginLeft":{"unit":1,"value":16.0,},"marginRight":{"unit":1,"value":16.0,},"marginTop":{"unit":1,"value":6.0,},"name":"Text","nodeColour":4294068361,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":408.0,},},
+                {"$GMRInstance":"v4","%Name":"inst_70FC734F","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_70FC734F","objectId":{"name":"obj_BUtton","path":"objects/obj_BUtton/obj_BUtton.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+              ],"flexDirection":0,"height":{"unit":3,"value":17.0,},"justifyContent":1,"marginBottom":{"unit":1,"value":6.0,},"marginTop":{"unit":1,"value":6.0,},"name":"StartGame","nodeColour":4282970773,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":109.0,},},
+            {"$GMRFlexPanel":"","%Name":"Settings","alignItems":2,"children":[
+                {"$GMRFlexPanel":"","%Name":"Text","alignItems":2,"children":[
+                    {"$GMRTextItem":"v3","%Name":"text_540FAC0","alignment":0,"charSpacing":0.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"fontId":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"frameH":0.0,"frameW":0.0,"frozen":false,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"lineSpacing":0.0,"name":"text_540FAC0","paragraphSpacing":0.0,"resourceType":"GMRTextItem","resourceVersion":"2.0","rotation":0.0,"scaleX":4.0,"scaleY":4.0,"text":"Settings","wrap":false,"x":0.0,"y":0.0,},
+                  ],"flexDirection":0,"height":{"unit":1,"value":62.0,},"justifyContent":1,"marginBottom":{"unit":1,"value":6.0,},"marginLeft":{"unit":1,"value":16.0,},"marginRight":{"unit":1,"value":16.0,},"marginTop":{"unit":1,"value":6.0,},"name":"Text","nodeColour":4283953736,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":303.0,},},
+                {"$GMRInstance":"v4","%Name":"inst_6B17E170","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6B17E170","objectId":{"name":"obj_BUtton","path":"objects/obj_BUtton/obj_BUtton.yy",},"properties":[
+                    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_BUtton","path":"objects/obj_BUtton/obj_BUtton.yy",},"propertyId":{"name":"button_id","path":"objects/obj_BUtton/obj_BUtton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+                  ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+              ],"flexDirection":0,"height":{"unit":3,"value":17.0,},"justifyContent":1,"name":"Settings","nodeColour":4294075464,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":109.0,},},
+            {"$GMRFlexPanel":"","%Name":"QuitGame","alignItems":2,"children":[
+                {"$GMRFlexPanel":"","%Name":"Text","alignItems":2,"children":[
+                    {"$GMRTextItem":"v3","%Name":"text_B093EFF","alignment":0,"charSpacing":0.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"fontId":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"frameH":0.0,"frameW":0.0,"frozen":false,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"lineSpacing":0.0,"name":"text_B093EFF","paragraphSpacing":0.0,"resourceType":"GMRTextItem","resourceVersion":"2.0","rotation":0.0,"scaleX":4.0,"scaleY":4.0,"text":"Quit Game","wrap":false,"x":0.0,"y":0.0,},
+                  ],"flexDirection":0,"height":{"unit":1,"value":64.0,},"justifyContent":1,"marginBottom":{"unit":1,"value":6.0,},"marginLeft":{"unit":1,"value":16.0,},"marginRight":{"unit":1,"value":16.0,},"marginTop":{"unit":1,"value":6.0,},"name":"Text","nodeColour":4285221106,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":347.0,},},
+                {"$GMRInstance":"v4","%Name":"inst_63DE6D90","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_63DE6D90","objectId":{"name":"obj_BUtton","path":"objects/obj_BUtton/obj_BUtton.yy",},"properties":[
+                    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_BUtton","path":"objects/obj_BUtton/obj_BUtton.yy",},"propertyId":{"name":"button_id","path":"objects/obj_BUtton/obj_BUtton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+                  ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+              ],"flexDirection":0,"height":{"unit":3,"value":17.0,},"justifyContent":1,"name":"QuitGame","nodeColour":4282932978,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":109.0,},},
+            {"$GMRSpriteGraphic":"v1","%Name":"graphic_5334A862","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_5334A862","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},"x":0.0,"y":0.0,},
+          ],"flexDirection":0,"gapRow":16.0,"height":{"unit":1,"value":392.0,},"justifyContent":1,"name":"MainMenu","nodeColour":4291184882,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":539.0,},},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"MainMenuLayer","nodeColour":4291359304,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+  ],
+  "locked":false,
+  "name":"RoomUI",
+  "parent":{
+    "name":"RoboBitch",
+    "path":"RoboBitch.yyp",
+  },
+  "resourceType":"GMRoomUI",
+  "resourceVersion":"2.0",
+  "viewspaceChildren":[],
+  "visible":true,
+}
