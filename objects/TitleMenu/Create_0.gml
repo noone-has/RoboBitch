@@ -7,6 +7,7 @@ menu_space = 16;
 
 pos = 0;
 
+// Menu array matrix
 option[0,0] = "Start Game";
 option[0,1] = "Settings";
 option[0,2] = "Quit Game";

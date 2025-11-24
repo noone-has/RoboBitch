@@ -1,3 +1,4 @@
+// Menu sizing
 draw_sprite_ext(sprite_index, image_index, x, y, width/sprite_width, height/sprite_height, 0 , c_white, 1);
 var new_width = 0;
 for (var i=0; i < menu_lenght; i++)
@@ -7,14 +8,17 @@ for (var i=0; i < menu_lenght; i++)
 	}
 width = new_width + menu_border*2;
 height = menu_border*2 + string_height(option[0,0]) + (menu_lenght-1)*menu_space;
-/*
+/* Centering (doesn't work)
 x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0])/2 - width/2;
 y = camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0])/2 - height/2;
-*/
+ */
+
+// Draw letters
 draw_set_font(Font1)
 draw_set_valign(fa_top)
 draw_set_halign(fa_left)
 
+// Loop for displaying options
 for (var i=0; i < menu_lenght; i++)
 {
 	var c1 = c_grey;

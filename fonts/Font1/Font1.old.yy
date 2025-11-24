@@ -119,8 +119,8 @@
   "maintainGms1Font":false,
   "name":"Font1",
   "parent":{
-    "name":"BLANK GAME1",
-    "path":"BLANK GAME1.yyp",
+    "name":"Menu",
+    "path":"folders/Menu.yy",
   },
   "pointRounding":0,
   "ranges":[
