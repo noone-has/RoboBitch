@@ -2,12 +2,9 @@ width = 0;
 height = 0;
 fullscreen = 1;
 
-<<<<<<< HEAD
 cursor_sprite = Cursor2
 window_set_cursor(cr_none)
 
-=======
->>>>>>> e35ee85c9dd35e4e41e21b1efd9b801f296f8385
 menu_border = 8;
 menu_space = 16;
 
