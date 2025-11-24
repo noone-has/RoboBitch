@@ -26,7 +26,7 @@ for (var i=0; i < menu_lenght; i++)
 	var c3 = c_grey;
 	var c4 = c_grey;
 	if pos == i {c1 = c_white; c3 = c_white; c2 = c_white; c4 = c_white;}
-	draw_text_color(x+menu_border, y+menu_border + menu_space*i , option[menu_level, i], c1, c2, c3, c4, 1)
+	draw_text_ext_transformed_colour(x+menu_border, y+menu_border + menu_space*i , option[menu_level, i], 250, 250, 5, 5, 0, c1, c2, c3, c4, 1)
 }
 
 window_set_fullscreen(fullscreen)
