@@ -16,7 +16,8 @@ if(should_show_dialog == true){
 	height += padding*2
 	text_x = sprite_get_width(current_dialog.sprite) + (padding * 2)
 	
-	draw_set_alpha(alpha)
+	image_alpha = alpha
+	//draw_set_alpha(alpha)
 	
 	//DRAW THE BOX
 	draw_set_colour(c_black)

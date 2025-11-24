@@ -2,6 +2,8 @@ width = 0;
 height = 0;
 fullscreen = 1;
 
+cursor_sprite = Cursor2
+
 menu_border = 8;
 menu_space = 16;
 

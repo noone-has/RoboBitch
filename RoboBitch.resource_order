@@ -13,6 +13,7 @@
     {"name":"TitleMenu","order":2,"path":"objects/TitleMenu/TitleMenu.yy",},
     {"name":"room_Title_screen","order":3,"path":"rooms/room_Title_screen/room_Title_screen.yy",},
     {"name":"footstep_grass1","order":3,"path":"sounds/footstep_grass1/footstep_grass1.yy",},
+    {"name":"Cursor2","order":4,"path":"sprites/Cursor2/Cursor2.yy",},
     {"name":"spr_ANGRY","order":3,"path":"sprites/spr_ANGRY/spr_ANGRY.yy",},
     {"name":"spr_background","order":1,"path":"sprites/spr_background/spr_background.yy",},
     {"name":"spr_menu","order":1,"path":"sprites/spr_menu/spr_menu.yy",},

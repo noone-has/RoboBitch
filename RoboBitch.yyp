@@ -24,7 +24,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.0.207",
+    "IDEVersion":"2024.14.1.210",
   },
   "name":"RoboBitch",
   "resources":[
@@ -38,6 +38,7 @@
     {"id":{"name":"Dialogue","path":"scripts/Dialogue/Dialogue.yy",},},
     {"id":{"name":"birds1","path":"sounds/birds1/birds1.yy",},},
     {"id":{"name":"footstep_grass1","path":"sounds/footstep_grass1/footstep_grass1.yy",},},
+    {"id":{"name":"Cursor2","path":"sprites/Cursor2/Cursor2.yy",},},
     {"id":{"name":"spr_ANGRY","path":"sprites/spr_ANGRY/spr_ANGRY.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},},
