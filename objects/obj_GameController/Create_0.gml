@@ -1,0 +1,1 @@
+layer_set_visible("MainMenuLayer", true) layer_set_visible("SettingsLayer", false)
