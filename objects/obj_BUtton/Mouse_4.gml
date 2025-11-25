@@ -7,7 +7,7 @@ switch (button_id)
 	// Quit game
 	case 2: game_end();
 	// Fullscreen Checkbox
-	case 3: break;
+	case 3: global.isFullscreen = !global.isFullscreen; break;
 	// Music Slider
 	case 4: break;
 	// Sound Slider

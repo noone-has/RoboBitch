@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"birds1",
+  "%Name":"msc_bird1",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -12,7 +12,7 @@
   "conversionMode":0,
   "duration":50.816963,
   "exportDir":"",
-  "name":"birds1",
+  "name":"msc_bird1",
   "parent":{
     "name":"SFX",
     "path":"folders/SFX.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"birds1.wav",
+  "soundFile":"msc_bird1.wav",
   "volume":1.0,
 }

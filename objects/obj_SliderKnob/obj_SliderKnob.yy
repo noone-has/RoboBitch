@@ -1,19 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_GameController",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_SliderKnob",
+  "eventList":[],
   "managed":true,
-  "name":"obj_GameController",
+  "name":"obj_SliderKnob",
   "overriddenProperties":[],
   "parent":{
-    "name":"Systems",
-    "path":"folders/Objects/Systems.yy",
+    "name":"UI",
+    "path":"folders/Objects/UI.yy",
   },
   "parentObjectId":null,
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_Slider",
+    "path":"sprites/spr_Slider/spr_Slider.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

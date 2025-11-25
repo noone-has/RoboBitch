@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"footstep_grass1",
+  "%Name":"sfx_footstep_grass1",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -12,7 +12,7 @@
   "conversionMode":0,
   "duration":0.3271882,
   "exportDir":"",
-  "name":"footstep_grass1",
+  "name":"sfx_footstep_grass1",
   "parent":{
     "name":"SFX",
     "path":"folders/SFX.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"footstep_grass1.wav",
+  "soundFile":"sfx_footstep_grass1.wav",
   "volume":1.0,
 }

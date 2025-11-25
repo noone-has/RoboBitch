@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Slider",
-  "eventList":[],
+  "%Name":"obj_Tick",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_Slider",
+  "name":"obj_Tick",
   "overriddenProperties":[],
   "parent":{
     "name":"UI",
@@ -23,11 +25,16 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"tick_id","filters":[],"listItems":[],"multiselect":false,"name":"tick_id","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Tick",
+    "path":"sprites/Tick/Tick.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
