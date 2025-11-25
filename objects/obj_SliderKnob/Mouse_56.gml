@@ -1,1 +1,0 @@
-beingDragged = false;

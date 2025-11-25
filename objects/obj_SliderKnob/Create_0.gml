@@ -1,5 +1,5 @@
-maxAmount = 100;
+/*maxAmount = 100;
 currentAmount = 50;
 minAmount = 0;
-beingDragged = false;
+minpos 30x maxpos 360x */
 

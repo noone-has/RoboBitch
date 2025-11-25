@@ -47,7 +47,7 @@
     {"id":{"name":"Dialogue","path":"scripts/Dialogue/Dialogue.yy",},},
     {"id":{"name":"msc_bird1","path":"sounds/msc_bird1/msc_bird1.yy",},},
     {"id":{"name":"sfx_footstep_grass1","path":"sounds/sfx_footstep_grass1/sfx_footstep_grass1.yy",},},
-    {"id":{"name":"Cursor2","path":"sprites/Cursor2/Cursor2.yy",},},
+    {"id":{"name":"Cursor","path":"sprites/Cursor/Cursor.yy",},},
     {"id":{"name":"spr_ANGRY","path":"sprites/spr_ANGRY/spr_ANGRY.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_Button","path":"sprites/spr_Button/spr_Button.yy",},},
