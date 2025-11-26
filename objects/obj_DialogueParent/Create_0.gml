@@ -2,7 +2,7 @@
 
 dialog = new Dialogue()
 
-key_next = vk_anykey
+key_next = vk_enter
 
 should_show_dialog = false
 

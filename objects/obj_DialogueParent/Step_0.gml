@@ -2,6 +2,7 @@
 
 
 if(should_show_dialog == false){
+	layer_set_visible("Dialogue", false)
 	if(dialog.count() <= 0){
 		instance_destroy()
 		return

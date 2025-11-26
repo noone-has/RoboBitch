@@ -51,6 +51,8 @@
     {"id":{"name":"spr_ANGRY","path":"sprites/spr_ANGRY/spr_ANGRY.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_Button","path":"sprites/spr_Button/spr_Button.yy",},},
+    {"id":{"name":"spr_Dialogue_body_after","path":"sprites/spr_Dialogue_body_after/spr_Dialogue_body_after.yy",},},
+    {"id":{"name":"spr_Dialogue_frame_after","path":"sprites/spr_Dialogue_frame_after/spr_Dialogue_frame_after.yy",},},
     {"id":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_SliderBar","path":"sprites/spr_SliderBar/spr_SliderBar.yy",},},

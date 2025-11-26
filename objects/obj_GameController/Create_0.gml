@@ -1,5 +1,7 @@
 // Menu Visibility
-layer_set_visible("MainMenuLayer", true) layer_set_visible("SettingsLayer", false);
+layer_set_visible("MainMenuLayer", true) 
+layer_set_visible("SettingsLayer", false)
+layer_set_visible("DialogueLayer", false)
 
 // Cursor
 window_set_cursor(cr_none);

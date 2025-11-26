@@ -19,20 +19,11 @@ if(should_show_dialog == true){
 	image_alpha = alpha
 	//draw_set_alpha(alpha)
 	
-	//DRAW THE BOX
-	draw_set_colour(c_black)
-	draw_rectangle(0, 0, display_get_gui_width(), height, false)
+	//ENABLE THE DIALOGUE LAYER
+	layer_set_visible("DialogueLayer", true)
 	
-	draw_set_colour(c_white)
-	draw_rectangle(border, border, display_get_gui_width() - border, height - border, false)
-	
-	draw_set_color(c_black)
-	draw_rectangle(border*2, border*2, display_get_gui_width() - border*2, height - border*2, false)
-	
-	//DRAW SPRITE
-	if(current_dialog.sprite != -1){
-		draw_sprite(current_dialog.sprite, 0, border*3, border*3)
-	}
+	//SET THE CHARACTER SPRITE
+
 	
 	//DRAW THE TEXT
 	draw_set_color(c_white)

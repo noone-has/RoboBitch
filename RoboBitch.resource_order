@@ -23,6 +23,8 @@
     {"name":"spr_ANGRY","order":3,"path":"sprites/spr_ANGRY/spr_ANGRY.yy",},
     {"name":"spr_background","order":1,"path":"sprites/spr_background/spr_background.yy",},
     {"name":"spr_Button","order":6,"path":"sprites/spr_Button/spr_Button.yy",},
+    {"name":"spr_Dialogue_body_after","order":10,"path":"sprites/spr_Dialogue_body_after/spr_Dialogue_body_after.yy",},
+    {"name":"spr_Dialogue_frame_after","order":11,"path":"sprites/spr_Dialogue_frame_after/spr_Dialogue_frame_after.yy",},
     {"name":"spr_menu","order":5,"path":"sprites/spr_menu/spr_menu.yy",},
     {"name":"spr_SliderBar","order":8,"path":"sprites/spr_SliderBar/spr_SliderBar.yy",},
     {"name":"spr_SliderKnob","order":9,"path":"sprites/spr_SliderKnob/spr_SliderKnob.yy",},
