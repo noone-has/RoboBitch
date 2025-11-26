@@ -23,7 +23,7 @@
   ],
   "name":"spr_SliderBar",
   "nineSlice":null,
-  "origin":3,
+  "origin":0,
   "parent":{
     "name":"Sprites",
     "path":"folders/Sprites.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":0,
-    "yorigin":6,
+    "yorigin":0,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
