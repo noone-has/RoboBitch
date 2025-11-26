@@ -21,6 +21,7 @@
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"Nersans Three.otf","CopyToMask":-1,"filePath":"datafiles","name":"Nersans Three.otf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"Stacked pixel.ttf","CopyToMask":-1,"filePath":"datafiles","name":"Stacked pixel.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
