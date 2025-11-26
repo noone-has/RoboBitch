@@ -1,4 +1,4 @@
-function Dialogue() {
+function Dialogue() constructor{
 	
 	_dialogs = [];
 	
