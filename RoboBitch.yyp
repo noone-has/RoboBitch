@@ -31,6 +31,7 @@
   "name":"RoboBitch",
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
+    {"id":{"name":"Font2","path":"fonts/Font2/Font2.yy",},},
     {"id":{"name":"_deprecatedMenu","path":"objects/_deprecatedMenu/_deprecatedMenu.yy",},},
     {"id":{"name":"obj_Button","path":"objects/obj_Button/obj_Button.yy",},},
     {"id":{"name":"obj_Checkbox","path":"objects/obj_Checkbox/obj_Checkbox.yy",},},

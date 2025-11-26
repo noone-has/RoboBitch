@@ -1,2 +1,5 @@
-x=mouse_x;
-y=mouse_y;
+//coords=function(){}
+x = mouse_x
+
+
+
