@@ -1,1 +1,2 @@
-instance_create_layer(x,y,"Instances",obj_SliderKnob)
+layer_add_instance("Instances",inst_6E41B050)
+
