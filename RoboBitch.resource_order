@@ -30,6 +30,7 @@
     {"name":"spr_SliderBar","order":8,"path":"sprites/spr_SliderBar/spr_SliderBar.yy",},
     {"name":"spr_SliderKnob","order":9,"path":"sprites/spr_SliderKnob/spr_SliderKnob.yy",},
     {"name":"spr_talkingbubble","order":2,"path":"sprites/spr_talkingbubble/spr_talkingbubble.yy",},
-    {"name":"Tick","order":7,"path":"sprites/Tick/Tick.yy",},
+    {"name":"spr_Tick","order":7,"path":"sprites/spr_Tick/spr_Tick.yy",},
+    {"name":"spr_wall","order":12,"path":"sprites/spr_wall/spr_wall.yy",},
   ],
 }

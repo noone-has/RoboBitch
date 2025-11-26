@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Tick",
-    "path":"sprites/Tick/Tick.yy",
+    "name":"spr_Tick",
+    "path":"sprites/spr_Tick/spr_Tick.yy",
   },
   "spriteMaskId":null,
   "visible":true,
