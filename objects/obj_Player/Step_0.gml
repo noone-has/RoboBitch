@@ -28,7 +28,7 @@ if(isMoving && !audio_is_playing(sfx_footstep_grass1)){
 		var gain = random_range(0.9, 1.1)
 		var offset = random_range(0, 0.1)
 		step_snd_offset = offset
-		audio_play_sound(sfx_footstep_grass1, 1, false, gain, 0, pitch)
+		audio_play_sound(sfx_footstep_grass1, 1, false, gain * global.AudioVolume, 0, pitch)
 	}
 }
 

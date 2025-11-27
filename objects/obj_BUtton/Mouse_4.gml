@@ -8,10 +8,20 @@ switch (button_id)
 	case 2: game_end();
 	// Fullscreen Checkbox
 	case 3: global.isFullscreen = !global.isFullscreen; break;
-	// Music Slider
-	case 4: break;
-	// Sound Slider
-	case 5: break;
+	// Resume game
+	case 4: pause = false; break;
+	case 5: 
 	// Back 
-	case 6: layer_set_visible("MainMenuLayer", true) layer_set_visible("SettingsLayer", false) break;
+	case 6: 
+			if (room == room_Title_screen)
+			{
+			layer_set_visible("MainMenuLayer", true);
+			layer_set_visible("SettingsLayer", false);
+			} 
+			else 
+			{
+			layer_set_visible("PauseLayer", true);
+			layer_set_visible("SettingsLayer", false);
+			}
+			break;
 }
