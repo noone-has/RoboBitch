@@ -13,11 +13,11 @@ global.AudioVolume = 1;
 global.MusicVolume = 1;
 
 // Pause 
-paused = false;
+global.paused = false;
 
 Pause = function() 
 {
-	if(paused)
+	if(global.paused)
 	{
 		instance_deactivate_all(true);
 		layer_set_visible("PauseLayer", true);
@@ -26,6 +26,7 @@ Pause = function()
 	{
 		instance_activate_all();
 		layer_set_visible("PauseLayer", false);
+		layer_set_visible("SettingsLayer", false);
 	}
 }
 Pause();
