@@ -32,3 +32,4 @@ if(isMoving && !audio_is_playing(sfx_footstep_grass1)){
 	}
 }
 
+
