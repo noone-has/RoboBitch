@@ -14,8 +14,11 @@ var ifInput = point_distance(0, 0, horInput, verInput);
 ifInput = clamp(ifInput, 0, 1);
 Spd = moveSpd * ifInput;
 
-xSpd = lengthdir_x(Spd, moveDir);
-ySpd = lengthdir_y(Spd, moveDir);
+xSpd += lengthdir_x(Spd, moveDir)*acceleration;
+ySpd += lengthdir_y(Spd, moveDir)*acceleration;
+
+xSpd = clamp(xSpd, -maxSpd, maxSpd)
+ySpd = clamp(ySpd, -maxSpd, maxSpd)
 
 move_and_collide(xSpd,ySpd,all);
 // SFX
@@ -33,3 +36,19 @@ if(isMoving && !audio_is_playing(sfx_footstep_grass1)){
 }
 
 
+//CAMERA
+var camera = view_camera[0]
+// adding the width/height to get the center of the camera
+var cam_x = camera_get_view_x(camera) + camera_get_view_width(camera)/2 
+var cam_y = camera_get_view_y(camera) + camera_get_view_height(camera)/2
+
+distance_from_camera_center = point_distance(x, y, cam_x, cam_y);
+
+var max_distance_from_camera = point_distance(cam_x, cam_y, cam_x + camera_get_view_width(camera)/2, cam_y + camera_get_view_height(camera)/2)
+max_distance_from_camera -= camera_distance_cutoff
+
+var dist = distance_from_camera_center / max_distance_from_camera
+
+var cam_speed = lerp(camera_speed_min, camera_speed_max, dist);
+
+camera_set_view_speed(camera, cam_speed, cam_speed)
