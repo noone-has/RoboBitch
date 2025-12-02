@@ -35,6 +35,7 @@
     {"id":{"name":"Font2","path":"fonts/Font2/Font2.yy",},},
     {"id":{"name":"_deprecatedMenu","path":"objects/_deprecatedMenu/_deprecatedMenu.yy",},},
     {"id":{"name":"obj_Button","path":"objects/obj_Button/obj_Button.yy",},},
+    {"id":{"name":"obj_Camera","path":"objects/obj_Camera/obj_Camera.yy",},},
     {"id":{"name":"obj_Checkbox","path":"objects/obj_Checkbox/obj_Checkbox.yy",},},
     {"id":{"name":"obj_DialogSampleA","path":"objects/obj_DialogSampleA/obj_DialogSampleA.yy",},},
     {"id":{"name":"obj_DialogueParent","path":"objects/obj_DialogueParent/obj_DialogueParent.yy",},},
