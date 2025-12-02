@@ -45,11 +45,10 @@ if(!isMovingY){
 	}
 }
 
-<<<<<<< HEAD
+
 move_and_collide(xSpd,ySpd,all);
 
-=======
->>>>>>> c5c6426cc4949af4a92a9251809a99c168141ee8
+
 // SFX
 if((isMovingX || isMovingY) && !audio_is_playing(sfx_footstep_grass1)){
 	
