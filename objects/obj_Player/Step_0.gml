@@ -28,22 +28,22 @@ var isMovingY = verInput != 0
 if(!isMovingX){
 	if(xSpd < 0)
 	{
-		xSpd += clamp(moveSpd * acceleration, -1 ,0 )
+		xSpd = clamp(xSpd + moveSpd * acceleration, -1, 0)
 	}
 	if(xSpd > 0)
 	{
-		xSpd -= clamp(moveSpd * acceleration, 1 ,0 )
+		xSpd = clamp(xSpd - moveSpd * acceleration, 1, 0)
 	}
 }
 if(!isMovingY){
 	if(ySpd < 0)
 	{
-		ySpd += clamp(moveSpd * acceleration, -1 ,0 )
+		ySpd = clamp(ySpd + moveSpd * acceleration, -1, 0)
 
 	}
 	if(ySpd > 0)
 	{
-		ySpd -= clamp(moveSpd * acceleration, 1 ,0 )
+		ySpd = clamp(ySpd - moveSpd * acceleration, 1, 0)
 	}
 }
 
