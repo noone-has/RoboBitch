@@ -20,40 +20,32 @@ ySpd += lengthdir_y(Spd, moveDir)*acceleration;
 xSpd = clamp(xSpd, -maxSpd, maxSpd)
 ySpd = clamp(ySpd, -maxSpd, maxSpd)
 
-move_and_collide(xSpd,ySpd,all);
-
-//this is really fuxked but it works
 var isMovingX = horInput != 0
 var isMovingY = verInput != 0
 
 if(!isMovingX){
-	if(xSpd < 0){
-		xSpd += moveSpd * acceleration
-		if(xSpd >= 0 ){
-			xSpd = 0
-		}
+	if(xSpd < 0)
+	{
+		xSpd += clamp(moveSpd * acceleration, -1 ,0 )
 	}
-	if(xSpd > 0){
-		xSpd -= moveSpd * acceleration
-		if(xSpd <= 0 ){
-			xSpd = 0
-		}
+	if(xSpd > 0)
+	{
+		xSpd -= clamp(moveSpd * acceleration, 1 ,0 )
 	}
 }
 if(!isMovingY){
-	if(ySpd < 0){
-		ySpd += moveSpd * acceleration
-		if(ySpd >= 0 ){
-			ySpd = 0
-		}
+	if(ySpd < 0)
+	{
+		ySpd += clamp(moveSpd * acceleration, -1 ,0 )
+
 	}
-	if(ySpd > 0){
-		ySpd -= moveSpd * acceleration
-		if(ySpd <= 0 ){
-			ySpd = 0
-		}
+	if(ySpd > 0)
+	{
+		ySpd -= clamp(moveSpd * acceleration, 1 ,0 )
 	}
 }
+
+move_and_collide(xSpd,ySpd,all);
 
 // SFX
 if((isMovingX || isMovingY) && !audio_is_playing(sfx_footstep_grass1)){
