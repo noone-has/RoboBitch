@@ -17,7 +17,7 @@
     {"name":"obj_SliderBar","order":5,"path":"objects/obj_SliderBar/obj_SliderBar.yy",},
     {"name":"obj_SliderKnob","order":4,"path":"objects/obj_SliderKnob/obj_SliderKnob.yy",},
     {"name":"obj_Tick","order":3,"path":"objects/obj_Tick/obj_Tick.yy",},
-    {"name":"Object11","order":3,"path":"objects/Object11/Object11.yy",},
+    {"name":"obj_WhiteMonster","order":3,"path":"objects/obj_WhiteMonster/obj_WhiteMonster.yy",},
     {"name":"rm_Agartha","order":3,"path":"rooms/rm_Agartha/rm_Agartha.yy",},
     {"name":"rm_inside","order":2,"path":"rooms/rm_inside/rm_inside.yy",},
     {"name":"rm_Title_screen","order":1,"path":"rooms/rm_Title_screen/rm_Title_screen.yy",},
@@ -25,7 +25,6 @@
     {"name":"scr_Pause","order":1,"path":"scripts/scr_Pause/scr_Pause.yy",},
     {"name":"sfx_footstep_grass1","order":3,"path":"sounds/sfx_footstep_grass1/sfx_footstep_grass1.yy",},
     {"name":"Cursor","order":4,"path":"sprites/Cursor/Cursor.yy",},
-    {"name":"G4myQM0XAAAupi_","order":18,"path":"sprites/G4myQM0XAAAupi_/G4myQM0XAAAupi_.yy",},
     {"name":"spr_Agartha","order":16,"path":"sprites/spr_Agartha/spr_Agartha.yy",},
     {"name":"spr_ANGRY","order":3,"path":"sprites/spr_ANGRY/spr_ANGRY.yy",},
     {"name":"spr_background","order":1,"path":"sprites/spr_background/spr_background.yy",},
@@ -42,5 +41,6 @@
     {"name":"spr_talkingbubble","order":2,"path":"sprites/spr_talkingbubble/spr_talkingbubble.yy",},
     {"name":"spr_Tick","order":7,"path":"sprites/spr_Tick/spr_Tick.yy",},
     {"name":"spr_wall","order":12,"path":"sprites/spr_wall/spr_wall.yy",},
+    {"name":"spr_WhiteMonster","order":18,"path":"sprites/spr_WhiteMonster/spr_WhiteMonster.yy",},
   ],
 }

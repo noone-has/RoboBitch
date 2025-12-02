@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Object11",
+  "%Name":"obj_WhiteMonster",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object11",
+  "name":"obj_WhiteMonster",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"G4myQM0XAAAupi_",
-    "path":"sprites/G4myQM0XAAAupi_/G4myQM0XAAAupi_.yy",
+    "name":"spr_WhiteMonster",
+    "path":"sprites/spr_WhiteMonster/spr_WhiteMonster.yy",
   },
   "spriteMaskId":null,
   "visible":true,
