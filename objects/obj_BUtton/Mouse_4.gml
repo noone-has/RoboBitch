@@ -22,7 +22,7 @@ switch (button_id)
 	case 5: 
 	// Back 
 	case 6: 
-		if (room == room_Title_screen)
+		if (room == rm_Title_screen)
 		{
 		layer_set_visible("MainMenuLayer", true);
 		layer_set_visible("SettingsLayer", false);
