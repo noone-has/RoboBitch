@@ -1,6 +1,3 @@
-
-
-
 if(should_show_dialog == false){
 	layer_set_visible("DialogueLayer", false)
 	if(dialog.count() <= 0){
