@@ -11,6 +11,7 @@
   "ResourceOrderSettings":[
     {"name":"Font2","order":1,"path":"fonts/Font2/Font2.yy",},
     {"name":"obj_Button","order":1,"path":"objects/obj_Button/obj_Button.yy",},
+    {"name":"obj_Camera","order":4,"path":"objects/obj_Camera/obj_Camera.yy",},
     {"name":"obj_Checkbox","order":2,"path":"objects/obj_Checkbox/obj_Checkbox.yy",},
     {"name":"obj_DialogueParent","order":1,"path":"objects/obj_DialogueParent/obj_DialogueParent.yy",},
     {"name":"obj_GameController","order":2,"path":"objects/obj_GameController/obj_GameController.yy",},
@@ -35,6 +36,7 @@
     {"name":"spr_GameMaker","order":13,"path":"sprites/spr_GameMaker/spr_GameMaker.yy",},
     {"name":"spr_hanze_outside","order":14,"path":"sprites/spr_hanze_outside/spr_hanze_outside.yy",},
     {"name":"spr_hanze","order":15,"path":"sprites/spr_hanze/spr_hanze.yy",},
+    {"name":"spr_MainHallHaze","order":19,"path":"sprites/spr_MainHallHaze/spr_MainHallHaze.yy",},
     {"name":"spr_menu","order":5,"path":"sprites/spr_menu/spr_menu.yy",},
     {"name":"spr_SliderBar","order":8,"path":"sprites/spr_SliderBar/spr_SliderBar.yy",},
     {"name":"spr_SliderKnob","order":9,"path":"sprites/spr_SliderKnob/spr_SliderKnob.yy",},

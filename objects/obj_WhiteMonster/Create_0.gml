@@ -1,1 +1,1 @@
-trigger_radius = 20
+trigger_radius = 30

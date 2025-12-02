@@ -21,6 +21,7 @@
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"mainhallhaze.webp","CopyToMask":-1,"filePath":"datafiles","name":"mainhallhaze.webp","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"Nersans Three.otf","CopyToMask":-1,"filePath":"datafiles","name":"Nersans Three.otf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"Stacked pixel.ttf","CopyToMask":-1,"filePath":"datafiles","name":"Stacked pixel.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
@@ -35,6 +36,7 @@
     {"id":{"name":"Font2","path":"fonts/Font2/Font2.yy",},},
     {"id":{"name":"_deprecatedMenu","path":"objects/_deprecatedMenu/_deprecatedMenu.yy",},},
     {"id":{"name":"obj_Button","path":"objects/obj_Button/obj_Button.yy",},},
+    {"id":{"name":"obj_Camera","path":"objects/obj_Camera/obj_Camera.yy",},},
     {"id":{"name":"obj_Checkbox","path":"objects/obj_Checkbox/obj_Checkbox.yy",},},
     {"id":{"name":"obj_DialogSampleA","path":"objects/obj_DialogSampleA/obj_DialogSampleA.yy",},},
     {"id":{"name":"obj_DialogueParent","path":"objects/obj_DialogueParent/obj_DialogueParent.yy",},},
@@ -63,6 +65,7 @@
     {"id":{"name":"spr_GameMaker","path":"sprites/spr_GameMaker/spr_GameMaker.yy",},},
     {"id":{"name":"spr_hanze_outside","path":"sprites/spr_hanze_outside/spr_hanze_outside.yy",},},
     {"id":{"name":"spr_hanze","path":"sprites/spr_hanze/spr_hanze.yy",},},
+    {"id":{"name":"spr_MainHallHaze","path":"sprites/spr_MainHallHaze/spr_MainHallHaze.yy",},},
     {"id":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_SliderBar","path":"sprites/spr_SliderBar/spr_SliderBar.yy",},},
