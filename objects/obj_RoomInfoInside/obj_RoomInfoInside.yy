@@ -8,8 +8,8 @@
   "name":"obj_RoomInfoInside",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Systems",
+    "path":"folders/Objects/Systems.yy",
   },
   "parentObjectId":{
     "name":"obj_RoomInfoParent",

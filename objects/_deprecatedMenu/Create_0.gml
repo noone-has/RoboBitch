@@ -2,7 +2,7 @@ width = 0;
 height = 0;
 fullscreen = 1;
 
-cursor_sprite = Cursor
+cursor_sprite = spr_Cursor
 window_set_cursor(cr_none)
 
 menu_border = 8;

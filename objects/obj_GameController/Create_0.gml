@@ -5,7 +5,7 @@ layer_set_visible("DialogueLayer", false)
 
 // Cursor
 window_set_cursor(cr_none);
-cursor_sprite = Cursor;
+cursor_sprite = spr_Cursor;
 
 // Global Variables
 global.isFullscreen = 1;

@@ -13,12 +13,6 @@ decceleration = 0.1;
 //For the point and click movement
 moving = false;
 
-// Camera
-/*halfViewWidth = camera_get_view_width(view_camera[0]) / 2;
-halfViewHeight = camera_get_view_height(view_camera[0]) / 2;*/
-
-
-
 TopDownMovement = function(){
 	// Input
 	rightKey = keyboard_check(ord("D")) || keyboard_check(vk_right)
@@ -81,8 +75,8 @@ PointAndClickMovement = function(){
 	}
 	
 	if(moving){
-		x += dx / 10
-		y += dy / 10
+		x += dx / 50
+		y += dy / 50
 	
 		//check if the player is close to the new position
 		if(point_distance(x, y, nextCheckPoint.getX(), nextCheckPoint.getY()) < 5){
