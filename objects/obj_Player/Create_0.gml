@@ -10,6 +10,8 @@ maxSpd = 8;
 acceleration = 0.1;
 decceleration = 0.1;
 
+//For the point and click movement
+moving = false;
 
 // Camera
 /*halfViewWidth = camera_get_view_width(view_camera[0]) / 2;
@@ -17,3 +19,82 @@ halfViewHeight = camera_get_view_height(view_camera[0]) / 2;*/
 
 
 
+TopDownMovement = function(){
+	// Input
+	rightKey = keyboard_check(ord("D")) || keyboard_check(vk_right)
+	leftKey =  keyboard_check(ord("A")) || keyboard_check(vk_left)
+	upKey =    keyboard_check(ord("W")) || keyboard_check(vk_up)
+	downKey =  keyboard_check(ord("S")) || keyboard_check(vk_down)
+
+	//Movement
+	var horInput = rightKey - leftKey;
+	var verInput = downKey - upKey;
+	moveDir = point_direction(0, 0, horInput, verInput);
+
+	var Spd = 0;
+	var ifInput = point_distance(0, 0, horInput, verInput);
+	ifInput = clamp(ifInput, 0, 1);
+	Spd = moveSpd * ifInput;
+
+	xSpd += lengthdir_x(Spd, moveDir)*acceleration;
+	ySpd += lengthdir_y(Spd, moveDir)*acceleration;
+
+	xSpd = clamp(xSpd, -maxSpd, maxSpd)
+	ySpd = clamp(ySpd, -maxSpd, maxSpd)
+
+	var isMovingX = horInput != 0
+	var isMovingY = verInput != 0
+	
+	if(!isMovingX){
+		if(xSpd < 0)
+		{
+			xSpd = clamp(xSpd + (moveSpd * decceleration), -infinity, 0)
+		}
+		if(xSpd > 0)
+		{
+			xSpd = clamp(xSpd - (moveSpd * decceleration), 0, infinity)
+		}
+	}
+	if(!isMovingY){
+		if(ySpd < 0)
+		{
+			ySpd = clamp(ySpd + (moveSpd * decceleration), -infinity, 0)
+
+		}
+		if(ySpd > 0)
+		{
+			ySpd = clamp(ySpd - (moveSpd * decceleration), 0, infinity)
+		}
+	}
+
+	move_and_collide(xSpd,ySpd,all);
+}
+
+PointAndClickMovement = function(){
+	if(mouse_check_button_pressed(1)){
+		nextCheckPoint = new Position(mouse_x, mouse_y);
+		
+		dx = nextCheckPoint.getX() - x
+		dy = nextCheckPoint.getY() - y
+		
+		moving = true;
+	}
+	
+	if(moving){
+		x += dx / 10
+		y += dy / 10
+	
+		//check if the player is close to the new position
+		if(point_distance(x, y, nextCheckPoint.getX(), nextCheckPoint.getY()) < 5){
+			moving = false
+			//make sure the player is EXACTLY at the new position
+			x = nextCheckPoint.getX();
+			y = nextCheckPoint.getY();
+		}
+	}
+}
+
+//later we can set this movement var with game logic and switch between movement systems that way
+//important when setting movement to not use the brackets for the function
+movement = PointAndClickMovement
+//movement = TopDownMovement
