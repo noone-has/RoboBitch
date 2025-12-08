@@ -93,7 +93,7 @@ PointAndClickMovement = function(){
 		
 		show_debug_message(string(dx) + ";" + string(dy))
 		
-		move_and_collide(dx, dy, other)
+		move_and_collide(dx, dy, all)
 	
 		//check if the player is close to the new position
 		if(point_distance(x, y, nextPoint.getX(), nextPoint.getY()) < 5){

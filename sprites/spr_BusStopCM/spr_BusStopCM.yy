@@ -1,8 +1,8 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_BusStopCollisionMask",
+  "%Name":"spr_BusStopCM",
   "bboxMode":0,
-  "bbox_bottom":996,
+  "bbox_bottom":868,
   "bbox_left":0,
   "bbox_right":1919,
   "bbox_top":0,
@@ -21,19 +21,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"1edc8f3b-b244-4b40-bc21-4ef173483c39","blendMode":0,"displayName":"default","isLocked":false,"name":"1edc8f3b-b244-4b40-bc21-4ef173483c39","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_BusStopCollisionMask",
+  "name":"spr_BusStopCM",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BGs",
-    "path":"folders/Sprites/BGs.yy",
+    "name":"Collision Masks",
+    "path":"folders/Sprites/BGs/Collision Masks.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_BusStopCollisionMask",
+    "%Name":"spr_BusStopCM",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_BusStopCollisionMask",
+    "name":"spr_BusStopCM",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,7 +69,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6fbd157e-f4a2-4e01-baf6-94cbca0380da","path":"sprites/spr_BusStopCollisionMask/spr_BusStopCollisionMask.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6fbd157e-f4a2-4e01-baf6-94cbca0380da","path":"sprites/spr_BusStopCM/spr_BusStopCM.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"fee93587-ad67-4d7f-a887-5151e1b05550","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

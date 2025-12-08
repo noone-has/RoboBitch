@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Object16",
-  "eventList":[],
+  "%Name":"cm_Outside",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Object16",
+  "name":"cm_Outside",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Collision Masks",
+    "path":"folders/Objects/Collision Masks.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_BusStopCollisionMask",
-    "path":"sprites/spr_BusStopCollisionMask/spr_BusStopCollisionMask.yy",
+    "name":"spr_HanzeOutsideCM",
+    "path":"sprites/spr_HanzeOutsideCM/spr_HanzeOutsideCM.yy",
   },
   "spriteMaskId":null,
   "visible":true,
