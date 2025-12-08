@@ -6,12 +6,12 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
+    {"name":"inst_5DBABD67","path":"rooms/rm_Title_screen/rm_Title_screen.yy",},
     {"name":"inst_70FC734F","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_6B17E170","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_63DE6D90","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_642D9D43","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_7BB1E72A","path":"roomui/RoomUI/RoomUI.yy",},
-    {"name":"inst_5DBABD67","path":"rooms/rm_Title_screen/rm_Title_screen.yy",},
     {"name":"inst_F7CF143","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_7A5C2223","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_E13CF6D","path":"roomui/RoomUI/RoomUI.yy",},

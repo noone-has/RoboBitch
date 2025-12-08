@@ -1,4 +1,4 @@
-function Dialogue() constructor{
+function scr_Dialogue() constructor{
 	
 	_dialogs = [];
 	

@@ -72,7 +72,11 @@ TopDownMovement = function(){
 
 PointAndClickMovement = function(){
 	if(mouse_check_button_pressed(1)){
+<<<<<<< Updated upstream
 		nextPoint = new Position(mouse_x - sprite_width/2, mouse_y - sprite_height/2);
+=======
+		nextCheckPoint = new scr_Position(mouse_x, mouse_y);
+>>>>>>> Stashed changes
 		
 		//get the difference(delta) on both axis
 		dx = nextPoint.getX() - x;

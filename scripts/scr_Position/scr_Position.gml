@@ -1,4 +1,4 @@
-function Position(_x, _y) constructor{
+function scr_Position(_x, _y) constructor{
 	xx = _x;
 	yy = _y;
 	

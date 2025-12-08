@@ -1,6 +1,6 @@
 
 
-dialog = new Dialogue()
+dialog = new scr_Dialogue()
 
 key_next = vk_enter
 
