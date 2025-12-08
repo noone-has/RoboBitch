@@ -72,26 +72,28 @@ TopDownMovement = function(){
 
 PointAndClickMovement = function(){
 	if(mouse_check_button_pressed(1)){
-<<<<<<< Updated upstream
-		nextPoint = new Position(mouse_x - sprite_width/2, mouse_y - sprite_height/2);
-=======
-		nextCheckPoint = new scr_Position(mouse_x, mouse_y);
->>>>>>> Stashed changes
+		nextPoint = new scr_Position(mouse_x - sprite_width/2, mouse_y - sprite_height/2);
+		
+		if(point_distance(nextPoint.getX(), nextPoint.getY(), x, y) < 5) { return; }
 		
 		//get the difference(delta) on both axis
-		dx = nextPoint.getX() - x;
-		dy = nextPoint.getY() - y;
+		var dx = nextPoint.getX() - x;
+		var dy = nextPoint.getY() - y;
 		
 		//get a direction vector
-		directionToNextPoint = new Position(dx, dy)
+		directionToNextPoint = new scr_Position(dx, dy)
 		directionToNextPoint.normalize()
 		
 		moving = true;
 	}
 	
 	if(moving){
+		var dx = directionToNextPoint.getX()*moveSpd
+		var dy = directionToNextPoint.getY()*moveSpd
 		
-		move_and_collide(directionToNextPoint.getX()*moveSpd, directionToNextPoint.getY()*moveSpd, other)
+		show_debug_message(string(dx) + ";" + string(dy))
+		
+		move_and_collide(dx, dy, other)
 	
 		//check if the player is close to the new position
 		if(point_distance(x, y, nextPoint.getX(), nextPoint.getY()) < 5){
