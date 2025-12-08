@@ -1,27 +1,27 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_BusStop",
-  "bboxMode":2,
-  "bbox_bottom":1079,
+  "%Name":"spr_BusStopCollisionMask",
+  "bboxMode":0,
+  "bbox_bottom":996,
   "bbox_left":0,
   "bbox_right":1919,
   "bbox_top":0,
-  "collisionKind":1,
+  "collisionKind":0,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"9590bd63-e1fb-4c88-853b-746345bf3a20","name":"9590bd63-e1fb-4c88-853b-746345bf3a20","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6fbd157e-f4a2-4e01-baf6-94cbca0380da","name":"6fbd157e-f4a2-4e01-baf6-94cbca0380da","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1080,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"0306df3e-73a2-4ea9-8125-44495457c782","blendMode":0,"displayName":"default","isLocked":false,"name":"0306df3e-73a2-4ea9-8125-44495457c782","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"1edc8f3b-b244-4b40-bc21-4ef173483c39","blendMode":0,"displayName":"default","isLocked":false,"name":"1edc8f3b-b244-4b40-bc21-4ef173483c39","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_BusStop",
+  "name":"spr_BusStopCollisionMask",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_BusStop",
+    "%Name":"spr_BusStopCollisionMask",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_BusStop",
+    "name":"spr_BusStopCollisionMask",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9590bd63-e1fb-4c88-853b-746345bf3a20","path":"sprites/spr_BusStop/spr_BusStop.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fa2ea396-2137-4fc8-a83e-42adedbc6d76","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6fbd157e-f4a2-4e01-baf6-94cbca0380da","path":"sprites/spr_BusStopCollisionMask/spr_BusStopCollisionMask.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fee93587-ad67-4d7f-a887-5151e1b05550","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
