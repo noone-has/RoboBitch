@@ -12,6 +12,12 @@ function Position(_x, _y) constructor{
 	}
 	
 	getY = function(){
-		return yy;	
+		return yy;
+	}
+	
+	normalize = function(){
+		l = sqrt(xx*xx + yy*yy)
+		xx /= l
+		yy /= l
 	}
 }

@@ -13,6 +13,12 @@ decceleration = 0.1;
 //For the point and click movement
 moving = false;
 
+// Camera
+/*halfViewWidth = camera_get_view_width(view_camera[0]) / 2;
+halfViewHeight = camera_get_view_height(view_camera[0]) / 2;*/
+
+
+
 TopDownMovement = function(){
 	// Input
 	rightKey = keyboard_check(ord("D")) || keyboard_check(vk_right)
@@ -66,24 +72,29 @@ TopDownMovement = function(){
 
 PointAndClickMovement = function(){
 	if(mouse_check_button_pressed(1)){
-		nextCheckPoint = new Position(mouse_x, mouse_y);
+		nextPoint = new Position(mouse_x - sprite_width/2, mouse_y - sprite_height/2);
 		
-		dx = nextCheckPoint.getX() - x
-		dy = nextCheckPoint.getY() - y
+		//get the difference(delta) on both axis
+		dx = nextPoint.getX() - x;
+		dy = nextPoint.getY() - y;
+		
+		//get a direction vector
+		directionToNextPoint = new Position(dx, dy)
+		directionToNextPoint.normalize()
 		
 		moving = true;
 	}
 	
 	if(moving){
-		x += dx / 50
-		y += dy / 50
+		
+		move_and_collide(directionToNextPoint.getX()*moveSpd, directionToNextPoint.getY()*moveSpd, other)
 	
 		//check if the player is close to the new position
-		if(point_distance(x, y, nextCheckPoint.getX(), nextCheckPoint.getY()) < 5){
+		if(point_distance(x, y, nextPoint.getX(), nextPoint.getY()) < 5){
 			moving = false
 			//make sure the player is EXACTLY at the new position
-			x = nextCheckPoint.getX();
-			y = nextCheckPoint.getY();
+			x = nextPoint.getX();
+			y = nextPoint.getY();
 		}
 	}
 }
