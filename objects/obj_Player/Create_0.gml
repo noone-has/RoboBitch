@@ -1,5 +1,5 @@
 // SFX
-snd_step = sfx_footstep_grass1;
+snd_step = sfx_GrassFootstep;
 step_snd_offset = 0;
 
 // Movement
