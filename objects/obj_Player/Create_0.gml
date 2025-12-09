@@ -76,6 +76,10 @@ PointAndClickMovement = function(){
 		
 		if(point_distance(nextPoint.getX(), nextPoint.getY(), x, y) < 5) { return; }
 		
+		moving = true;
+	}
+	
+	if(moving){
 		//get the difference(delta) on both axis
 		var dx = nextPoint.getX() - x;
 		var dy = nextPoint.getY() - y;
@@ -84,16 +88,12 @@ PointAndClickMovement = function(){
 		directionToNextPoint = new scr_Position(dx, dy)
 		directionToNextPoint.normalize()
 		
-		moving = true;
-	}
-	
-	if(moving){
-		var dx = directionToNextPoint.getX()*moveSpd
-		var dy = directionToNextPoint.getY()*moveSpd
+		var move_x = directionToNextPoint.getX()*moveSpd
+		var move_y = directionToNextPoint.getY()*moveSpd
 		
-		show_debug_message(string(dx) + ";" + string(dy))
+		show_debug_message(string(move_x) + ";" + string(move_y))
 		
-		move_and_collide(dx, dy, all)
+		move_and_collide(move_x, move_y, all)
 	
 		//check if the player is close to the new position
 		if(point_distance(x, y, nextPoint.getX(), nextPoint.getY()) < 5){

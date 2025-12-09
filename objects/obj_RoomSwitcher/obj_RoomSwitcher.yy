@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_WhiteMonster",
+  "%Name":"obj_RoomSwitcher",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_WhiteMonster",
+  "name":"obj_RoomSwitcher",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -26,13 +26,16 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"target_room","filters":[],"listItems":[],"multiselect":false,"name":"target_room","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"rm_Agartha","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"trigger_condition","filters":[],"listItems":[],"multiselect":false,"name":"trigger_condition","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"triggers.Radius","varType":4,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_WhiteMonster",
-    "path":"sprites/spr_WhiteMonster/spr_WhiteMonster.yy",
+    "name":"spr_Door",
+    "path":"sprites/spr_Door/spr_Door.yy",
   },
   "spriteMaskId":null,
   "visible":true,
