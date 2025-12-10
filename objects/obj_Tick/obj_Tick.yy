@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Tick",
-    "path":"sprites/spr_Tick/spr_Tick.yy",
+    "name":"spr_Check",
+    "path":"sprites/spr_Check/spr_Check.yy",
   },
   "spriteMaskId":null,
   "visible":true,
