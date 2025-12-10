@@ -113,6 +113,7 @@
     {"id":{"name":"spr_MainHall","path":"sprites/spr_MainHall/spr_MainHall.yy",},},
     {"id":{"name":"spr_MainMenu","path":"sprites/spr_MainMenu/spr_MainMenu.yy",},},
     {"id":{"name":"spr_NotARobot","path":"sprites/spr_NotARobot/spr_NotARobot.yy",},},
+    {"id":{"name":"spr_OVCardReader","path":"sprites/spr_OVCardReader/spr_OVCardReader.yy",},},
     {"id":{"name":"spr_PauseMenu","path":"sprites/spr_PauseMenu/spr_PauseMenu.yy",},},
     {"id":{"name":"spr_Phone","path":"sprites/spr_Phone/spr_Phone.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},

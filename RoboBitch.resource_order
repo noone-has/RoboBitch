@@ -67,6 +67,7 @@
     {"name":"spr_MainHall","order":6,"path":"sprites/spr_MainHall/spr_MainHall.yy",},
     {"name":"spr_MainMenu","order":12,"path":"sprites/spr_MainMenu/spr_MainMenu.yy",},
     {"name":"spr_NotARobot","order":5,"path":"sprites/spr_NotARobot/spr_NotARobot.yy",},
+    {"name":"spr_OVCardReader","order":32,"path":"sprites/spr_OVCardReader/spr_OVCardReader.yy",},
     {"name":"spr_PauseMenu","order":3,"path":"sprites/spr_PauseMenu/spr_PauseMenu.yy",},
     {"name":"spr_Phone","order":7,"path":"sprites/spr_Phone/spr_Phone.yy",},
     {"name":"spr_SliderBar","order":4,"path":"sprites/spr_SliderBar/spr_SliderBar.yy",},
