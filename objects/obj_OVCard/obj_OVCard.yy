@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_buscard",
-    "path":"sprites/spr_buscard/spr_buscard.yy",
+    "name":"spr_BusCard",
+    "path":"sprites/spr_BusCard/spr_BusCard.yy",
   },
   "spriteMaskId":null,
   "visible":true,

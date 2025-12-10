@@ -1,6 +1,8 @@
 var swipePointX = swipePosition.getX()
 var swipePointY = swipePosition.getY()
 
+//				convert to milli's
+busTimer -= delta_time/1000
 
 if(collision_circle(swipePointX, swipePointY, checkingRadius, obj_OVCard, false, true) && !swipeStarted){
 	swipeStarted = true
@@ -18,16 +20,13 @@ if(swipeStarted){
 		var slowEnough = (timeSinceFirstSwipe > targetSwipeTime - targetSwipeTimeThreshold)
 	
 		if(!fastEnough){
-			show_debug_message("TOO SLOW")
 			readerStatus = "TOO SLOW"
 		}
 		if(!slowEnough){
-			show_debug_message("TOO FAST")
 			readerStatus = "TOO FAST"
 		}
 		
 		if(fastEnough && slowEnough){
-			show_debug_message("YAYYY")
 			readerStatus = "YAY YOU DID IT :D !"
 		}
 	}
