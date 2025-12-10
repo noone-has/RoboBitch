@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_BusStopCM",
   "bboxMode":0,
-  "bbox_bottom":868,
+  "bbox_bottom":1079,
   "bbox_left":0,
   "bbox_right":1919,
   "bbox_top":0,
