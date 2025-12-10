@@ -33,13 +33,14 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"slider_id","filters":[],"listItems":[],"multiselect":false,"name":"slider_id","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"sprite_index","filters":[],"listItems":[],"multiselect":false,"name":"sprite_index","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sprite_index","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_SliderBar",
-    "path":"sprites/spr_SliderBar/spr_SliderBar.yy",
+    "name":"DEPspr_SliderBar",
+    "path":"sprites/DEPspr_SliderBar/DEPspr_SliderBar.yy",
   },
   "spriteMaskId":null,
   "visible":true,

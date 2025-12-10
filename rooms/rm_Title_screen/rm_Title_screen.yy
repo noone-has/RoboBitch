@@ -18,7 +18,7 @@
     {"name":"inst_4F3FE3E","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_71B9A8BB","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_7EE1F163","path":"roomui/RoomUI/RoomUI.yy",},
-    {"name":"inst_5A02FEF4","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_46BA02E7","path":"roomui/RoomUI/RoomUI.yy",},
   ],
   "isDnd":false,
   "layers":[

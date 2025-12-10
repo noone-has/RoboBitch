@@ -20,12 +20,6 @@ halfViewHeight = camera_get_view_height(view_camera[0]) / 2;*/
 
 
 TopDownMovement = function(){
-	// Input
-	rightKey = keyboard_check(ord("D")) || keyboard_check(vk_right)
-	leftKey =  keyboard_check(ord("A")) || keyboard_check(vk_left)
-	upKey =    keyboard_check(ord("W")) || keyboard_check(vk_up)
-	downKey =  keyboard_check(ord("S")) || keyboard_check(vk_down)
-
 	//Movement
 	var horInput = rightKey - leftKey;
 	var verInput = downKey - upKey;

@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_SliderKnob",
-    "path":"sprites/spr_SliderKnob/spr_SliderKnob.yy",
+    "name":"DEPspr_SliderKnob",
+    "path":"sprites/DEPspr_SliderKnob/DEPspr_SliderKnob.yy",
   },
   "spriteMaskId":null,
   "visible":true,
