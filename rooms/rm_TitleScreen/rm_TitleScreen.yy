@@ -1,12 +1,12 @@
 {
   "$GMRoom":"v1",
-  "%Name":"rm_Title_screen",
+  "%Name":"rm_TitleScreen",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_5DBABD67","path":"rooms/rm_Title_screen/rm_Title_screen.yy",},
+    {"name":"inst_5DBABD67","path":"rooms/rm_TitleScreen/rm_TitleScreen.yy",},
     {"name":"inst_70FC734F","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_6B17E170","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_63DE6D90","path":"roomui/RoomUI/RoomUI.yy",},
@@ -29,7 +29,7 @@
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[],"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_1","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4283190348,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"rm_Title_screen",
+  "name":"rm_TitleScreen",
   "parent":{
     "name":"Rooms",
     "path":"folders/Rooms.yy",

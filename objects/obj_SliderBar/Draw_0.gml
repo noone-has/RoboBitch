@@ -13,4 +13,4 @@ if(is_being_dragged)
 	slider_knob_frame_index = 2;
 }
 
-draw_sprite_stretched(spr_Check, slider_knob_frame_index, knob_position_x, y, sprite_height, sprite_height)
+draw_sprite_stretched(spr_Knob, slider_knob_frame_index, knob_position_x, y, sprite_height, sprite_height)

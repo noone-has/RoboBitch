@@ -1,19 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Camera",
+  "%Name":"cm_Bakerspace",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Camera",
+  "name":"cm_Bakerspace",
   "overriddenProperties":[],
   "parent":{
-    "name":"Systems",
-    "path":"folders/Objects/Systems.yy",
+    "name":"Collision Masks",
+    "path":"folders/Objects/Collision Masks.yy",
   },
   "parentObjectId":null,
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -30,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_BakerSpaceCM",
+    "path":"sprites/spr_BakerSpaceCM/spr_BakerSpaceCM.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
