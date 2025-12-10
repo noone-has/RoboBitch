@@ -5,7 +5,7 @@ if(should_show_dialog == false){
 		return
 	}
 	
-	if(collision_circle(x, y, trigger_radius, all, false, true)){
+	if(collision_circle(x, y, trigger_radius, obj_Player, false, true)){
 		current_dialog = dialog.pop()
 		should_show_dialog = true	
 	}

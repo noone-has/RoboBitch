@@ -1,11 +1,11 @@
 
 
 if(should_show_dialog == true){
-	var text_x = 30
-	var text_y = 18
+	var text_x = 0
+	var text_y = 65
 	var height = 32
 	var border = 5
-	var padding = 16
+	var padding = 80
 	
 	height = string_height(current_dialog.message)
 	
