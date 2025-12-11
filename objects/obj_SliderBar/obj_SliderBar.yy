@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"DEPspr_SliderBar",
-    "path":"sprites/DEPspr_SliderBar/DEPspr_SliderBar.yy",
+    "name":"spr_SliderBar",
+    "path":"sprites/spr_SliderBar/spr_SliderBar.yy",
   },
   "spriteMaskId":null,
   "visible":true,
