@@ -6,6 +6,7 @@ busTimer = 60000
 swipeStarted = false
 swipeStartedTimeStamp = 0
 readerStatus = "Swipe to scan card."
+done = false;
 
 checkingRadius = 140
 

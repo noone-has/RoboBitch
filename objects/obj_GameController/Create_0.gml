@@ -16,3 +16,9 @@ global.MusicVolume = 1;
 global.paused = false;
 scr_Pause();
 
+enum SequenceStates{
+	BusArriving,
+	BusLeaving
+}
+
+global.SequenceState = SequenceStates.BusArriving;

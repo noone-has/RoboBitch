@@ -27,7 +27,7 @@ function scr_Dialogue() constructor{
 	
 	is_finished = function(){
 		//if count = 0, the dialog is finished
-		return count() <= 0;
+		return (count() <= 0);
 	}
 	
 	add_branch = function(_dialog){
@@ -38,5 +38,9 @@ function scr_Dialogue() constructor{
 	
 	set_dead_end = function(value){
 		dead_end = value
+	}
+	
+	get_next_branch = function(){
+		return array_first(_branches); //TODO: make this have logic
 	}
 }
