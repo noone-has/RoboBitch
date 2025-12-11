@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"Deprecated","order":7,"path":"folders/Deprecated.yy",},
+    {"name":"Sequences","order":8,"path":"folders/Sequences.yy",},
     {"name":"Objects","order":3,"path":"folders/Objects.yy",},
     {"name":"Collision Masks","order":5,"path":"folders/Objects/Collision Masks.yy",},
     {"name":"Systems","order":2,"path":"folders/Objects/Systems.yy",},
@@ -72,6 +73,7 @@
     {"name":"spr_OVCardReader","order":6,"path":"sprites/spr_OVCardReader/spr_OVCardReader.yy",},
     {"name":"spr_PauseMenu","order":5,"path":"sprites/spr_PauseMenu/spr_PauseMenu.yy",},
     {"name":"spr_Phone","order":3,"path":"sprites/spr_Phone/spr_Phone.yy",},
+    {"name":"spr_PlayerTemp","order":32,"path":"sprites/spr_PlayerTemp/spr_PlayerTemp.yy",},
     {"name":"spr_WhiteMonster","order":18,"path":"sprites/spr_WhiteMonster/spr_WhiteMonster.yy",},
     {"name":"spr_XButton","order":2,"path":"sprites/spr_XButton/spr_XButton.yy",},
   ],
