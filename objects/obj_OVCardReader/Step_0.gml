@@ -29,10 +29,13 @@ if(swipeStarted){
 		if(fastEnough && slowEnough){
 			readerStatus = "YAY YOU DID IT :D !"
 			done = true;
+			doneTimeStamp = current_time
 		}
 	}
 }
 
 if(done){
-	global.SequenceState = SequenceStates.BusLeaving;
+	if(current_time - doneTimeStamp > transitioningTime){
+		global.SequenceState = SequenceStates.BusLeaving;
+	}
 }
