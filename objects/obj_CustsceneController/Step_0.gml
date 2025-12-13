@@ -1,15 +1,21 @@
-
+show_debug_message(global.SequenceState)
+if(lastState == global.SequenceState)
+{
+	return;
+}
+//ELSE
+lastState = global.SequenceState
+show_debug_message("I TRIGGERED")
 switch (global.SequenceState)
 {
-	case 0: 
-		if(room ==  rm_BusStop)
+	case SequenceStates.BusArriving: 
+		show_debug_message("im 0")
 		layer_sequence_create("Sequences", 1184, 704, sq_Bus1)
 		break;	
 
-	case 1: 
-		if(room ==  rm_CardSwipeMG)
-		room_goto(rm_BusStop) 
-		layer_sequence_create("Sequences", -384, 704, sq_Bus2) 
+	case SequenceStates.BusLeaving:
+		
+		layer_sequence_create("Sequences", -384, 704, sq_Bus2)
 		instance_create_layer(1600, 900, "Instances", obj_Player) 
 		break;
 

@@ -35,6 +35,7 @@ if(swipeStarted){
 }
 if(done){
 	if(current_time - doneTimeStamp > transitioningTime){
+		room_goto(rm_BusStop)
 		global.SequenceState = SequenceStates.BusLeaving;
 	}
 }
