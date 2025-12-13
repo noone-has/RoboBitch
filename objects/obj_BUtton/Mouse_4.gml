@@ -1,7 +1,10 @@
 switch (button_id) 
 { 
 	// Start game
-	case 0: room_goto_next() layer_set_visible("MainMenuLayer", false) break;
+	case 0:	
+		room_goto_next() layer_set_visible("MainMenuLayer", false)
+		global.SequenceState = SequenceStates.BusArriving;
+	break;
 	// Settings 
 	case 1: layer_set_visible("MainMenuLayer", false) 
 			layer_set_visible("PauseLayer", false); 
