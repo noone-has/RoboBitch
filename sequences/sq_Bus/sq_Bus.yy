@@ -13,15 +13,23 @@
     "Keyframes":[
       {"$Keyframe<MessageEventKeyframe>":"","Channels":{
           "0":{"$MessageEventKeyframe":"","Events":[
-              "BUS_FINISHED",
+              "bus1",
             ],"resourceType":"MessageEventKeyframe","resourceVersion":"2.0",},
-        },"Disabled":false,"id":"bdf18bb5-eb7c-40af-94c2-4929193b5234","IsCreationKey":false,"Key":59.9998,"Length":1.0,"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"2.0","Stretch":false,},
+        },"Disabled":false,"id":"6b034fbf-dd7c-4766-b3dc-12a287fb28c8","IsCreationKey":false,"Key":60.0,"Length":1.0,"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"2.0","Stretch":false,},
     ],
     "resourceType":"KeyframeStore<MessageEventKeyframe>",
     "resourceVersion":"2.0",
   },
   "eventStubScript":null,
-  "eventToFunction":{},
+  "eventToFunction":{
+    "0":"",
+    "1":"",
+    "2":"",
+    "3":"",
+    "4":"",
+    "5":"",
+    "6":"",
+  },
   "length":60.0,
   "lockOrigin":false,
   "moments":{
@@ -90,7 +98,7 @@
       ],"traits":0,},
   ],
   "visibleRange":{
-    "x":0.0,
+    "x":58.9998,
     "y":59.9999,
   },
   "volume":1.0,

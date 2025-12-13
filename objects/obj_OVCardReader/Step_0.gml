@@ -33,7 +33,6 @@ if(swipeStarted){
 		}
 	}
 }
-
 if(done){
 	if(current_time - doneTimeStamp > transitioningTime){
 		global.SequenceState = SequenceStates.BusLeaving;

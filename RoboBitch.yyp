@@ -15,7 +15,6 @@
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Collision Masks","folderPath":"folders/Objects/Collision Masks.yy","name":"Collision Masks","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Systems","folderPath":"folders/Objects/Systems.yy","name":"Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"UI","folderPath":"folders/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sequences","folderPath":"folders/Sequences.yy","name":"Sequences","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -25,6 +24,7 @@
     {"$GMFolder":"","%Name":"Collision Masks","folderPath":"folders/Sprites/BGs/Collision Masks.yy","name":"Collision Masks","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"UI","folderPath":"folders/Sprites/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Phone","folderPath":"folders/Sprites/UI/Phone.yy","name":"Phone","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"UI","folderPath":"folders/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
@@ -147,8 +147,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_TitleScreen","path":"rooms/rm_TitleScreen/rm_TitleScreen.yy",},},
-    {"roomId":{"name":"rm_CardSwipeMG","path":"rooms/rm_CardSwipeMG/rm_CardSwipeMG.yy",},},
     {"roomId":{"name":"rm_BusStop","path":"rooms/rm_BusStop/rm_BusStop.yy",},},
+    {"roomId":{"name":"rm_CardSwipeMG","path":"rooms/rm_CardSwipeMG/rm_CardSwipeMG.yy",},},
     {"roomId":{"name":"rm_outside","path":"rooms/rm_outside/rm_outside.yy",},},
     {"roomId":{"name":"rm_inside","path":"rooms/rm_inside/rm_inside.yy",},},
     {"roomId":{"name":"rm_DenizMaria","path":"rooms/rm_DenizMaria/rm_DenizMaria.yy",},},

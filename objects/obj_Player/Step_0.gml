@@ -8,7 +8,7 @@ downKey =  keyboard_check(ord("S")) || keyboard_check(vk_down)
 movement()
 
 //TESTING ROOM INFO OBJECT
-oRoomInfo = instance_id_get(obj_RoomInfoParent)
+/*oRoomInfo = instance_id_get(obj_RoomInfoParent)
 with(oRoomInfo){
 	show_debug_message(roomName)
-}
+}*/

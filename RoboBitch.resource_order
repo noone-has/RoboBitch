@@ -2,12 +2,12 @@
   "FolderOrderSettings":[
     {"name":"Fonts","order":1,"path":"folders/Fonts.yy",},
     {"name":"Objects","order":2,"path":"folders/Objects.yy",},
-    {"name":"UI","order":26,"path":"folders/UI.yy",},
     {"name":"Rooms","order":3,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
     {"name":"Sequences","order":5,"path":"folders/Sequences.yy",},
     {"name":"SFX","order":6,"path":"folders/SFX.yy",},
     {"name":"Sprites","order":7,"path":"folders/Sprites.yy",},
+    {"name":"UI","order":26,"path":"folders/UI.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"DEPfnt_MeatMadness","order":8,"path":"fonts/DEPfnt_MeatMadness/DEPfnt_MeatMadness.yy",},

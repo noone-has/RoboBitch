@@ -18,7 +18,8 @@ scr_Pause();
 
 enum SequenceStates{
 	BusArriving,
-	BusLeaving
+	BusLeaving,
+	Cutscene3,
 }
 
 global.SequenceState = SequenceStates.BusArriving;
