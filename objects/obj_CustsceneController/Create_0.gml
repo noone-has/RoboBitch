@@ -1,3 +1,3 @@
 //The switch in step should always run at the beginning.
-//Setting this to -1 makes it not be equal to any SequenceState
+//Setting this to -1 makes it so this is not equal to any SequenceState
 lastState = -1

@@ -2,8 +2,9 @@ function scr_Dialogue() constructor{
 	
 	_dialogs = [];
 	_branches = [];
+	_fallback_branch = 0;
 	//dead end means there are no connecting branches
-	dead_end = false;
+	_dead_end = false;
 	
 	add = function(_sprite, _message){
 		//add a struct to the dialogs array with a sprite and the message
@@ -26,21 +27,24 @@ function scr_Dialogue() constructor{
 	}
 	
 	is_finished = function(){
-		//if count = 0, the dialog is finished
+		//return bool thats true when count <= 0
 		return (count() <= 0);
 	}
 	
 	add_branch = function(_dialog){
-		array_push(_branches, {
-			dialogue: _dialog
-		})
+		array_push(_branches, _dialog)
 	}
 	
 	set_dead_end = function(value){
-		dead_end = value
+		_dead_end = value
 	}
 	
-	get_next_branch = function(){
-		return array_first(_branches); //TODO: make this have logic
+	is_dead_end = function(){
+		var has_branches = (array_length(_branches) == 0)
+		return has_branches || _dead_end
+	}
+	
+	get_branch = function(){
+		return array_get(_branches, _fallback_branch); //TODO: make this have logic
 	}
 }
