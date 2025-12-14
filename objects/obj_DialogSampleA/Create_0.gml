@@ -24,15 +24,15 @@ dialog3_2 = new scr_Dialogue()
 
 dialog3_1.add(spr_Player, "welcome to branch 1 of branch 2")
 dialog3_1.add(spr_Player, "i hope this works")
-dialog3_1.add(spr_Player, "now i have to code choices....")
+dialog3_1.add(spr_Player, "if u see this it means the choices are working")
 
 dialog3_2.add(spr_Player, "salute to branch 2 of branch 2")
 dialog3_2.add(spr_Player, ".....")
 
-dialog3.add_branch(dialog3_1)
-dialog3.add_branch(dialog3_2)
+dialog3.add_branch(dialog3_1, "go to branch 1")
+dialog3.add_branch(dialog3_2, "go to branch 2")
 dialog3._fallback_branch = 0;
 
-dialog.add_branch(dialog2)
-dialog.add_branch(dialog3)
+dialog.add_branch(dialog2, "go to branch 1")
+dialog.add_branch(dialog3, "go to branch 2")
 dialog._fallback_branch = 1;

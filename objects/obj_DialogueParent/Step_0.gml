@@ -1,16 +1,28 @@
 if(should_show_dialog == false){
-	layer_set_visible("DialogueLayer", false)
 	
 	if(dialog.is_finished()){
-		
+		//if the dialog is finished and no branches just destroy it
 		if(dialog.is_dead_end()){
+			layer_set_visible("DialogueLayer", false)
 			instance_destroy()
-			return
 		}
 		
-		else{
-			dialog = dialog.get_branch()
+		//if its not a dead end determine which branch to pick
+		else{ //now we are waiting for the player to make a choice in the dialogue
+			is_making_choice = true
+			//check if the pressed key is a number from 0-9
+			if(struct_exists(choice_keys, keyboard_lastchar)){
+				
+				var branch_index = struct_get(choice_keys, keyboard_lastchar)
+				
+				if(dialog.get_branch(branch_index) != false){//the requested branch exists
+					dialog = dialog.get_branch(branch_index)
+					is_making_choice = false
+				}
+			}
 		}
+		
+		return;
 	}
 	
 	if(collision_circle(x, y, trigger_radius, obj_Player, false, true)){
