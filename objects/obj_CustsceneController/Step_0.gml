@@ -13,7 +13,7 @@ switch (global.SequenceState)
 
 	case SequenceStates.BusLeaving:
 		layer_sequence_create("Sequences", -384, 704, sq_Bus2)
-		instance_create_layer(1600, 900, "Instances", obj_Player) 
+		instance_create_layer(1400, 700, "Instances", obj_Player) 
 		break;
 
 	case 2: break;
