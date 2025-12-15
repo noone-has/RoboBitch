@@ -4,6 +4,7 @@ if(should_show_dialog == false){
 		//if the dialog is finished and no branches just destroy it
 		if(dialog.is_dead_end()){
 			layer_set_visible("DialogueLayer", false)
+			on_dialog_end(dialog.descriptor)
 			instance_destroy()
 		}
 		
@@ -17,6 +18,7 @@ if(should_show_dialog == false){
 				
 				if(dialog.get_branch(branch_index) != false){//the requested branch exists
 					dialog = dialog.get_branch(branch_index)
+					on_branch_select(dialog.descriptor)
 					is_making_choice = false
 				}
 			}

@@ -28,6 +28,15 @@ choice_keys = {
 	"0": 9,
 }
 
+//used to execute logic when a branch gets selected
+on_branch_select = function(descriptor){
+	return;
+}
+
+on_dialog_end = function(descriptor){
+	return;
+}
+
 show_dialog = function(character_sprite, text){
 	var text_x = 0
 	var text_y = 65

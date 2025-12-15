@@ -3,6 +3,7 @@ function scr_Dialogue() constructor{
 	_dialogs = [];
 	_branches = [];
 	_fallback_branch = 0;
+	descriptor = 0;
 	choice_context = [];
 	
 	add = function(_sprite, _message){
