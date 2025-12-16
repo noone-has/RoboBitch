@@ -21,9 +21,11 @@ if(swipeStarted){
 	
 		if(!fastEnough){
 			readerStatus = "TOO SLOW"
+			targetSwipeTimeThreshold += 5
 		}
 		if(!slowEnough){
 			readerStatus = "TOO FAST"
+			targetSwipeTimeThreshold += 5
 		}
 		
 		if(fastEnough && slowEnough){
