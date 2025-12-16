@@ -9,6 +9,7 @@
     {"name":"inst_617183F3","path":"rooms/rm_inside/rm_inside.yy",},
     {"name":"inst_18B34262","path":"rooms/rm_inside/rm_inside.yy",},
     {"name":"inst_1C3AC80A","path":"rooms/rm_inside/rm_inside.yy",},
+    {"name":"inst_4BA06C7C","path":"rooms/rm_inside/rm_inside.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -21,6 +22,7 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.52,"scaleY":0.52,"x":1120.0,"y":288.0,},
         {"$GMRInstance":"v4","%Name":"inst_18B34262","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_18B34262","objectId":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":704.0,},
         {"$GMRInstance":"v4","%Name":"inst_1C3AC80A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1C3AC80A","objectId":{"name":"obj_RoomInfoInside","path":"objects/obj_RoomInfoInside/obj_RoomInfoInside.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":576.0,},
+        {"$GMRInstance":"v4","%Name":"inst_4BA06C7C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4BA06C7C","objectId":{"name":"obj_CollisionPlant","path":"objects/obj_CollisionPlant/obj_CollisionPlant.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0666666,"scaleY":1.0,"x":31.999998,"y":64.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_MainHall","path":"sprites/spr_MainHall/spr_MainHall.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
