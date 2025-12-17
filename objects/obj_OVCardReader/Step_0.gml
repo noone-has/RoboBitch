@@ -1,7 +1,7 @@
 var swipePointX = swipePosition.getX()
 var swipePointY = swipePosition.getY()
 
-//				convert to milli's
+//			convert to milli's
 busTimer -= delta_time/1000
 
 if(collision_circle(swipePointX, swipePointY, checkingRadius, obj_OVCard, false, true) && !swipeStarted){
@@ -15,15 +15,15 @@ if(swipeStarted){
 		
 		if(guaranteedFails > 0){
 			guaranteedFails--;
-			var i = irandom(array_length(failMessages)-1)
-			show_debug_message(i)
+			
+			//get a random index in the array, get the message and delete it at that index
+			var i = irandom(array_length(failMessages)-1) //-1 because irandom is maxInclusive
 			var msg = array_get(failMessages, i)
-			show_debug_message(msg)
 			array_delete(failMessages, i, 1)
 			
-			readerStatus = msg
+			readerStatus = msg //display on the scanner
 			
-			return;
+			return; //so the rest of the code doesn't run
 		}
 		
 		var timeSinceFirstSwipe = (current_time - swipeStartedTimeStamp)
