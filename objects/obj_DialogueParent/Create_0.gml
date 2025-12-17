@@ -4,7 +4,7 @@ dialog = new scr_Dialogue()
 
 key_next = vk_enter
 
-should_show_dialog = false
+global.should_show_dialog = false
 
 //this is for the dialogue drawer/renderer
 is_making_choice = false

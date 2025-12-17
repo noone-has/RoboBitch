@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"CoffeeMG",
+    "path":"folders/Sprites/Minigames/CoffeeMG.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
