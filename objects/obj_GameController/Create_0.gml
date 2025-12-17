@@ -1,3 +1,6 @@
+//Randomize the fucking randomizer because gamemaker doesnt fucking do it itself >:(((
+randomise()
+
 // Menu Visibility
 layer_set_visible("MainMenuLayer", true) 
 layer_set_visible("SettingsLayer", false)

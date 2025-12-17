@@ -13,6 +13,19 @@ if(swipeStarted){
 	if(!collision_circle(swipePointX, swipePointY, checkingRadius, obj_OVCard, false, true)){
 		swipeStarted = false
 		
+		if(guaranteedFails > 0){
+			guaranteedFails--;
+			var i = irandom(array_length(failMessages)-1)
+			show_debug_message(i)
+			var msg = array_get(failMessages, i)
+			show_debug_message(msg)
+			array_delete(failMessages, i, 1)
+			
+			readerStatus = msg
+			
+			return;
+		}
+		
 		var timeSinceFirstSwipe = (current_time - swipeStartedTimeStamp)
 		show_debug_message(timeSinceFirstSwipe)
 	
