@@ -1,10 +1,9 @@
-
-
 dialog = new scr_Dialogue()
 
-key_next = vk_enter
+key_next = vk_enter || vk_space;
 
 global.should_show_dialog = false
+global.is_making_choice = false
 
 //this is for the dialogue drawer/renderer
 is_making_choice = false
@@ -15,19 +14,6 @@ alpha = 0
 
 trigger_radius = 20
 
-choice_keys = {
-	"1": 0,
-	"2": 1,
-	"3": 2,
-	"4": 3,
-	"5": 4,
-	"6": 5,
-	"7": 6,
-	"8": 7,
-	"9": 8,
-	"0": 9,
-}
-
 //used to execute logic when a branch gets selected
 on_branch_select = function(descriptor){
 	return;
@@ -37,6 +23,17 @@ on_dialog_end = function(descriptor){
 	return;
 }
 
+show_dialog = function(character_sprite, text)
+{
+	layer_set_visible("DialogueLayer", true)
+	var textID = layer_text_get_id("DialogueLayer", "DialogueText");
+	layer_text_text(textID, text)
+	alpha = lerp(alpha, 1, 0.06)
+	image_alpha = alpha
+}
+
+
+/*
 show_dialog = function(character_sprite, text){
 	var text_x = 0
 	var text_y = 65
@@ -69,3 +66,9 @@ show_dialog = function(character_sprite, text){
 	
 	alpha = lerp(alpha, 1, 0.06)
 }
+*/
+
+
+	
+	
+	

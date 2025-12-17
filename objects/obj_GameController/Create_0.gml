@@ -1,10 +1,12 @@
 //Randomize the fucking randomizer because gamemaker doesnt fucking do it itself >:(((
+//faking faking fak u blady no fak u blady
 randomise()
 
 // Menu Visibility
 layer_set_visible("MainMenuLayer", true) 
 layer_set_visible("SettingsLayer", false)
 layer_set_visible("DialogueLayer", false)
+layer_set_visible("DialogueOptionsLayer", false)
 
 // Cursor
 window_set_cursor(cr_none);

@@ -20,6 +20,8 @@
     {"name":"inst_46BA02E7","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_F7CF143","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_1A7C2B75","path":"rooms/rm_TitleScreen/rm_TitleScreen.yy",},
+    {"name":"DialogueOption1Button","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"DialogueOption2Button","path":"roomui/RoomUI/RoomUI.yy",},
   ],
   "isDnd":false,
   "layers":[

@@ -1,39 +1,46 @@
 switch (button_id) 
 { 
-	// Start game
-	case 0:	
+	case Buttons.Start:	
 		room_goto_next() layer_set_visible("MainMenuLayer", false)
 		global.SequenceState = SequenceStates.BusArriving;
+	break; 
+	
+	case Buttons.Settings:
+		layer_set_visible("MainMenuLayer", false) 
+		layer_set_visible("PauseLayer", false); 
+		layer_set_visible("SettingsLayer", true)
 	break;
-	// Settings 
-	case 1: layer_set_visible("MainMenuLayer", false) 
-			layer_set_visible("PauseLayer", false); 
-			layer_set_visible("SettingsLayer", true) break;
-	// Quit game
-	case 2: game_end();
-	// Fullscreen Checkbox
-	case 3: global.isFullscreen = !global.isFullscreen; break;
-	// Resume game
-	case 4: 
-	layer_set_visible("PauseLayer", false);
-	global.paused = !global.paused 
-	with (obj_GameController)
-	{
-	  scr_Pause();
-	}
+	
+	case Buttons.Quit:
+		game_end();
 	break;
-	case 5: 
-	// Back 
-	case 6: 
+	
+	case
+		Buttons.Fullscreen: global.isFullscreen = !global.isFullscreen;
+	break;
+	
+	case Buttons.Resume: 
+		layer_set_visible("PauseLayer", false);
+		global.paused = !global.paused 
+		with (obj_GameController)
+		{
+		  scr_Pause();
+		}
+	break;
+	
+	case Buttons.Empty: 
+	break; 
+	
+	case Buttons.Back: 
 		if (room == rm_TitleScreen)
 		{
-		layer_set_visible("MainMenuLayer", true);
-		layer_set_visible("SettingsLayer", false);
+			layer_set_visible("MainMenuLayer", true);
+			layer_set_visible("SettingsLayer", false);
 		} 
 		else 
 		{
-		layer_set_visible("PauseLayer", true);
-		layer_set_visible("SettingsLayer", false);
+			layer_set_visible("PauseLayer", true);
+			layer_set_visible("SettingsLayer", false);
 		} 
 	break; 
 }

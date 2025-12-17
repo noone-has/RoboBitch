@@ -1,3 +1,5 @@
+
+
 // SFX
 snd_step = sfx_GrassFootstep;
 step_snd_offset = 0;
@@ -9,6 +11,10 @@ ySpd = 0
 maxSpd = 8;
 acceleration = 0.1;
 decceleration = 0.1;
+
+//Room switching logic
+targetX = 0;
+targetY = 0;
 
 //For the point and click movement
 moving = false;
