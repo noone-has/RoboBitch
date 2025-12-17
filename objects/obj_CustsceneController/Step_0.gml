@@ -15,8 +15,4 @@ switch (global.SequenceState)
 		layer_sequence_create("Sequences", -384, 704, sq_Bus2)
 		instance_create_layer(1400, 700, "Instances", obj_Player) 
 		break;
-
-	case 2: break;
-
-	case 3: break;
 }
