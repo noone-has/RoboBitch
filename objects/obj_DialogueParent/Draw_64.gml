@@ -7,5 +7,5 @@ if(is_making_choice){
 	for(i = 0; i < array_length(dialog.choice_context); i++){
 		text += string(i+1) + ": " + dialog.choice_context[i] + "\n"
 	}
-	show_dialog(spr_Player, text)
+	show_dialog(DEPspr_Player, text)
 }
