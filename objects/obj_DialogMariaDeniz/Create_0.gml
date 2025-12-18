@@ -26,7 +26,8 @@ dialog.add_branch(dialog_SmokingNo, "Don't take a hit")
 on_dialog_end = function(descriptor){
 	if(descriptor == "smoking_no"){
 		room_goto(rm_outside)
-		with (obj_Player) {x=450; y=320;}
+		global.NewPlayerX = 450;
+		global.NewPlayerY = 320;
 	}
 }
 

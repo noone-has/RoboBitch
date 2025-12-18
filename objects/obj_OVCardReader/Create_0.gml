@@ -10,7 +10,7 @@ swipeStartedTimeStamp = 0
 readerStatus = "Swipe to scan card."
 done = false;
 transitioningTime = 1000
-
+layer_set_visible("CardSwipeLayer", true)
 checkingRadius = 140
 
 swipePosition = new scr_Position(x, y)

@@ -21,7 +21,7 @@ if(global.should_show_dialog == false){
 				// i cant instantiate an int without giving it a value so ill just set this to 99 ://
 				global.DialogueChoice = 99;
 				global.is_making_choice = false
-			
+				
 			// moved this to obj_DialogueButton
 			//check if the pressed key is a number from 0-9
 			/*if(struct_exists(choice_keys, keyboard_lastchar)){

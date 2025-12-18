@@ -2,6 +2,11 @@
   "$GMRoomUI":"",
   "%Name":"RoomUI",
   "children":[
+    {"$GMRUILayer":"v1","%Name":"CardSwipeLayer","alignItems":2,"children":[
+        {"$GMRFlexPanel":"","%Name":"CardSwipe","alignItems":2,"children":[
+            {"$GMRTextItem":"v3","%Name":"CardSwipeText","alignment":1,"charSpacing":0.0,"colour":4278190080,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"fontId":{"name":"fnt_NersansThree","path":"fonts/fnt_NersansThree/fnt_NersansThree.yy",},"frameH":191.51071,"frameW":595.2816,"frozen":false,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"lineSpacing":0.0,"name":"CardSwipeText","origin":4,"paragraphSpacing":0.0,"resourceType":"GMRTextItem","resourceVersion":"2.0","rotation":0.0,"scaleX":0.7353621,"scaleY":0.7353622,"text":"Lorem Ipsum","wrap":true,"wrapMode":1,"x":154.0,"y":-164.52324,},
+          ],"flexDirection":0,"height":{"unit":3,"value":72.0,},"justifyContent":1,"marginLeft":{"unit":1,"value":60.0,},"name":"CardSwipe","nodeColour":4293849672,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":417.0,},},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"CardSwipeLayer","nodeColour":4282970771,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
     {"$GMRUIFolder":"","%Name":"Phone","children":[
         {"$GMRUILayer":"v1","%Name":"UILayer_1","alignItems":2,"children":[
             {"$GMRFlexPanel":"","%Name":"FlexPanel_5","alignItems":2,"children":[
@@ -58,7 +63,7 @@
                 {"$GMRFlexPanel":"","%Name":"FlexPanel_11","alignItems":2,"children":[],"flexDirection":0,"height":{"unit":3,"value":1080.0,},"justifyContent":1,"name":"FlexPanel_11","nodeColour":4287033928,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":1920.0,},},
               ],"flexDirection":0,"height":{"unit":3,"value":72.0,},"justifyContent":1,"name":"TextPanel","nodeColour":4282970726,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":417.0,},},
           ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"ChatBoxLayer","nodeColour":4294101320,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
-      ],"locked":false,"name":"Dialogue","nodeColour":4294073672,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":true,},
+      ],"locked":false,"name":"Dialogue","nodeColour":4294073672,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":false,},
     {"$GMRUIFolder":"","%Name":"MainUI","children":[
         {"$GMRUILayer":"v1","%Name":"PauseLayer","alignItems":2,"children":[
             {"$GMRFlexPanel":"","%Name":"PauseMenu","alignItems":2,"children":[
