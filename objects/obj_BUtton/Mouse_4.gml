@@ -16,7 +16,8 @@ switch (button_id)
 	break;
 	
 	case
-		Buttons.Fullscreen: global.isFullscreen = !global.isFullscreen;
+		Buttons.Fullscreen: 
+		global.isFullscreen = !global.isFullscreen;
 	break;
 	
 	case Buttons.Resume: 

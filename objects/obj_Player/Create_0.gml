@@ -1,4 +1,8 @@
-
+/* fyi all object rerun create code when you enter a new room
+thats why this code works :p*/
+// Room location
+x = global.NewPlayerX;
+y = global.NewPlayerY;
 
 // SFX
 snd_step = sfx_GrassFootstep;
@@ -19,14 +23,11 @@ targetY = 0;
 //For the point and click movement
 moving = false;
 
-// Camera
-/*halfViewWidth = camera_get_view_width(view_camera[0]) / 2;
-halfViewHeight = camera_get_view_height(view_camera[0]) / 2;*/
-
 TopDownMovement = function(){
-	//Movement
+	//Get inputs 
 	var horInput = rightKey - leftKey;
 	var verInput = downKey - upKey;
+	//Get the vector made from the two inputs
 	moveDir = point_direction(0, 0, horInput, verInput);
 
 	var Spd = 0;
