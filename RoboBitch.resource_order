@@ -11,10 +11,15 @@
     {"name":"Sequences","order":5,"path":"folders/Sequences.yy",},
     {"name":"SFX","order":6,"path":"folders/SFX.yy",},
     {"name":"Sprites","order":7,"path":"folders/Sprites.yy",},
+
     {"name":"Minigames","order":45,"path":"folders/Sprites/Minigames.yy",},
     {"name":"CardMG","order":2,"path":"folders/Sprites/Minigames/CardMG.yy",},
     {"name":"CoffeeMG","order":1,"path":"folders/Sprites/Minigames/CoffeeMG.yy",},
     {"name":"Player","order":44,"path":"folders/Sprites/Player.yy",},
+
+    {"name":"Collision Masks","order":1,"path":"folders/Sprites/BGs/Collision Masks.yy",},
+    {"name":"UI","order":26,"path":"folders/UI.yy",},
+
   ],
   "ResourceOrderSettings":[
     {"name":"DEPfnt_MeatMadness","order":8,"path":"fonts/DEPfnt_MeatMadness/DEPfnt_MeatMadness.yy",},
@@ -29,6 +34,8 @@
     {"name":"obj_Button","order":1,"path":"objects/obj_Button/obj_Button.yy",},
     {"name":"obj_Camera","order":6,"path":"objects/obj_Camera/obj_Camera.yy",},
     {"name":"obj_Checkbox","order":2,"path":"objects/obj_Checkbox/obj_Checkbox.yy",},
+    {"name":"obj_Coffee","order":10,"path":"objects/obj_Coffee/obj_Coffee.yy",},
+    {"name":"obj_CoffeeDropper","order":9,"path":"objects/obj_CoffeeDropper/obj_CoffeeDropper.yy",},
     {"name":"obj_CustsceneController","order":7,"path":"objects/obj_CustsceneController/obj_CustsceneController.yy",},
     {"name":"obj_DialogMariaDeniz","order":2,"path":"objects/obj_DialogMariaDeniz/obj_DialogMariaDeniz.yy",},
     {"name":"obj_DialogMicheal","order":1,"path":"objects/obj_DialogMicheal/obj_DialogMicheal.yy",},
@@ -53,6 +60,7 @@
     {"name":"rm_DenizMaria","order":4,"path":"rooms/rm_DenizMaria/rm_DenizMaria.yy",},
     {"name":"rm_inside","order":2,"path":"rooms/rm_inside/rm_inside.yy",},
     {"name":"rm_TitleScreen","order":1,"path":"rooms/rm_TitleScreen/rm_TitleScreen.yy",},
+    {"name":"rm_VdendingmachineMinigame","order":8,"path":"rooms/rm_VdendingmachineMinigame/rm_VdendingmachineMinigame.yy",},
     {"name":"RoomUI","order":25,"path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"scr_Pause","order":1,"path":"scripts/scr_Pause/scr_Pause.yy",},
     {"name":"scr_Position","order":2,"path":"scripts/scr_Position/scr_Position.yy",},
@@ -73,8 +81,13 @@
     {"name":"spr_Bakerspace","order":7,"path":"sprites/spr_Bakerspace/spr_Bakerspace.yy",},
     {"name":"spr_BakerSpaceCM","order":3,"path":"sprites/spr_BakerSpaceCM/spr_BakerSpaceCM.yy",},
     {"name":"spr_Bus","order":7,"path":"sprites/spr_Bus/spr_Bus.yy",},
+
     {"name":"spr_BusCardGif","order":1,"path":"sprites/spr_BusCardGif/spr_BusCardGif.yy",},
     {"name":"spr_BusStop","order":2,"path":"sprites/spr_BusStop/spr_BusStop.yy",},
+
+    {"name":"spr_BusCard","order":1,"path":"sprites/spr_BusCard/spr_BusCard.yy",},
+    {"name":"spr_BusStop","order":3,"path":"sprites/spr_BusStop/spr_BusStop.yy",},
+
     {"name":"spr_Captcha","order":4,"path":"sprites/spr_Captcha/spr_Captcha.yy",},
     {"name":"spr_Chatbox","order":5,"path":"sprites/spr_Chatbox/spr_Chatbox.yy",},
     {"name":"spr_Cocotier","order":3,"path":"sprites/spr_Cocotier/spr_Cocotier.yy",},
@@ -86,19 +99,28 @@
     {"name":"spr_Dead","order":2,"path":"sprites/spr_Dead/spr_Dead.yy",},
     {"name":"spr_Deregister","order":2,"path":"sprites/spr_Deregister/spr_Deregister.yy",},
     {"name":"spr_Dialogue","order":7,"path":"sprites/spr_Dialogue/spr_Dialogue.yy",},
+
     {"name":"spr_DialogueChoice","order":14,"path":"sprites/spr_DialogueChoice/spr_DialogueChoice.yy",},
     {"name":"spr_Distraught","order":1,"path":"sprites/spr_Distraught/spr_Distraught.yy",},
     {"name":"spr_DMDialogueBG","order":3,"path":"sprites/spr_DMDialogueBG/spr_DMDialogueBG.yy",},
+
+    {"name":"spr_DMDialogueBG","order":4,"path":"sprites/spr_DMDialogueBG/spr_DMDialogueBG.yy",},
+
     {"name":"spr_Door","order":10,"path":"sprites/spr_Door/spr_Door.yy",},
     {"name":"spr_Drop","order":2,"path":"sprites/spr_Drop/spr_Drop.yy",},
     {"name":"spr_Frame","order":11,"path":"sprites/spr_Frame/spr_Frame.yy",},
     {"name":"spr_GameMaker","order":5,"path":"sprites/spr_GameMaker/spr_GameMaker.yy",},
-    {"name":"spr_HanzeOutside","order":1,"path":"sprites/spr_HanzeOutside/spr_HanzeOutside.yy",},
+    {"name":"spr_HanzeOutside","order":2,"path":"sprites/spr_HanzeOutside/spr_HanzeOutside.yy",},
     {"name":"spr_HanzeOutsideCM","order":1,"path":"sprites/spr_HanzeOutsideCM/spr_HanzeOutsideCM.yy",},
     {"name":"spr_Happy","order":3,"path":"sprites/spr_Happy/spr_Happy.yy",},
     {"name":"spr_Knob","order":13,"path":"sprites/spr_Knob/spr_Knob.yy",},
+
     {"name":"spr_MainHall","order":4,"path":"sprites/spr_MainHall/spr_MainHall.yy",},
     {"name":"spr_MainHallCM","order":5,"path":"sprites/spr_MainHallCM/spr_MainHallCM.yy",},
+
+    {"name":"spr_machiene","order":10,"path":"sprites/spr_machiene/spr_machiene.yy",},
+    {"name":"spr_MainHall","order":5,"path":"sprites/spr_MainHall/spr_MainHall.yy",},
+
     {"name":"spr_MainMenu","order":9,"path":"sprites/spr_MainMenu/spr_MainMenu.yy",},
     {"name":"spr_Micheal","order":33,"path":"sprites/spr_Micheal/spr_Micheal.yy",},
     {"name":"spr_NotARobot","order":1,"path":"sprites/spr_NotARobot/spr_NotARobot.yy",},

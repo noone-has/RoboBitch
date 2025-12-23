@@ -71,6 +71,8 @@
     {"id":{"name":"obj_Button","path":"objects/obj_Button/obj_Button.yy",},},
     {"id":{"name":"obj_Camera","path":"objects/obj_Camera/obj_Camera.yy",},},
     {"id":{"name":"obj_Checkbox","path":"objects/obj_Checkbox/obj_Checkbox.yy",},},
+    {"id":{"name":"obj_Coffee","path":"objects/obj_Coffee/obj_Coffee.yy",},},
+    {"id":{"name":"obj_CoffeeDropper","path":"objects/obj_CoffeeDropper/obj_CoffeeDropper.yy",},},
     {"id":{"name":"obj_CustsceneController","path":"objects/obj_CustsceneController/obj_CustsceneController.yy",},},
     {"id":{"name":"obj_DialogMariaDeniz","path":"objects/obj_DialogMariaDeniz/obj_DialogMariaDeniz.yy",},},
     {"id":{"name":"obj_DialogMicheal","path":"objects/obj_DialogMicheal/obj_DialogMicheal.yy",},},
@@ -98,6 +100,7 @@
     {"id":{"name":"rm_inside","path":"rooms/rm_inside/rm_inside.yy",},},
     {"id":{"name":"rm_outside","path":"rooms/rm_outside/rm_outside.yy",},},
     {"id":{"name":"rm_TitleScreen","path":"rooms/rm_TitleScreen/rm_TitleScreen.yy",},},
+    {"id":{"name":"rm_VdendingmachineMinigame","path":"rooms/rm_VdendingmachineMinigame/rm_VdendingmachineMinigame.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"scr_Dialogue","path":"scripts/scr_Dialogue/scr_Dialogue.yy",},},
     {"id":{"name":"scr_Pause","path":"scripts/scr_Pause/scr_Pause.yy",},},
@@ -153,6 +156,7 @@
     {"id":{"name":"spr_HanzeOutsideCM","path":"sprites/spr_HanzeOutsideCM/spr_HanzeOutsideCM.yy",},},
     {"id":{"name":"spr_Happy","path":"sprites/spr_Happy/spr_Happy.yy",},},
     {"id":{"name":"spr_Knob","path":"sprites/spr_Knob/spr_Knob.yy",},},
+    {"id":{"name":"spr_machiene","path":"sprites/spr_machiene/spr_machiene.yy",},},
     {"id":{"name":"spr_MainHall","path":"sprites/spr_MainHall/spr_MainHall.yy",},},
     {"id":{"name":"spr_MainHallCM","path":"sprites/spr_MainHallCM/spr_MainHallCM.yy",},},
     {"id":{"name":"spr_MainMenu","path":"sprites/spr_MainMenu/spr_MainMenu.yy",},},
@@ -183,9 +187,13 @@
     {"roomId":{"name":"rm_DenizMaria","path":"rooms/rm_DenizMaria/rm_DenizMaria.yy",},},
     {"roomId":{"name":"rm_inside","path":"rooms/rm_inside/rm_inside.yy",},},
     {"roomId":{"name":"rm_Appie","path":"rooms/rm_Appie/rm_Appie.yy",},},
+
     {"roomId":{"name":"rm_BakerSpace","path":"rooms/rm_BakerSpace/rm_BakerSpace.yy",},},
     {"roomId":{"name":"rm_CoffeeMachine","path":"rooms/rm_CoffeeMachine/rm_CoffeeMachine.yy",},},
     {"roomId":{"name":"rm_Agartha","path":"rooms/rm_Agartha/rm_Agartha.yy",},},
+
+    {"roomId":{"name":"rm_VdendingmachineMinigame","path":"rooms/rm_VdendingmachineMinigame/rm_VdendingmachineMinigame.yy",},},
+
   ],
   "templateType":"game",
   "TextureGroups":[
