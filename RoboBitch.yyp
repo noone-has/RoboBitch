@@ -188,12 +188,15 @@
     {"roomId":{"name":"rm_inside","path":"rooms/rm_inside/rm_inside.yy",},},
     {"roomId":{"name":"rm_Appie","path":"rooms/rm_Appie/rm_Appie.yy",},},
 
+
     {"roomId":{"name":"rm_BakerSpace","path":"rooms/rm_BakerSpace/rm_BakerSpace.yy",},},
     {"roomId":{"name":"rm_CoffeeMachine","path":"rooms/rm_CoffeeMachine/rm_CoffeeMachine.yy",},},
     {"roomId":{"name":"rm_Agartha","path":"rooms/rm_Agartha/rm_Agartha.yy",},},
 
     {"roomId":{"name":"rm_VdendingmachineMinigame","path":"rooms/rm_VdendingmachineMinigame/rm_VdendingmachineMinigame.yy",},},
 
+
+    {"roomId":{"name":"rm_VdendingmachineMinigame","path":"rooms/rm_VdendingmachineMinigame/rm_Vdendingmac
   ],
   "templateType":"game",
   "TextureGroups":[

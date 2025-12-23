@@ -12,10 +12,12 @@
     {"name":"SFX","order":6,"path":"folders/SFX.yy",},
     {"name":"Sprites","order":7,"path":"folders/Sprites.yy",},
 
+
     {"name":"Minigames","order":45,"path":"folders/Sprites/Minigames.yy",},
     {"name":"CardMG","order":2,"path":"folders/Sprites/Minigames/CardMG.yy",},
     {"name":"CoffeeMG","order":1,"path":"folders/Sprites/Minigames/CoffeeMG.yy",},
     {"name":"Player","order":44,"path":"folders/Sprites/Player.yy",},
+
 
     {"name":"Collision Masks","order":1,"path":"folders/Sprites/BGs/Collision Masks.yy",},
     {"name":"UI","order":26,"path":"folders/UI.yy",},
@@ -82,8 +84,13 @@
     {"name":"spr_BakerSpaceCM","order":3,"path":"sprites/spr_BakerSpaceCM/spr_BakerSpaceCM.yy",},
     {"name":"spr_Bus","order":7,"path":"sprites/spr_Bus/spr_Bus.yy",},
 
+
     {"name":"spr_BusCardGif","order":1,"path":"sprites/spr_BusCardGif/spr_BusCardGif.yy",},
     {"name":"spr_BusStop","order":2,"path":"sprites/spr_BusStop/spr_BusStop.yy",},
+
+    {"name":"spr_BusCard","order":1,"path":"sprites/spr_BusCard/spr_BusCard.yy",},
+    {"name":"spr_BusStop","order":3,"path":"sprites/spr_BusStop/spr_BusStop.yy",},
+
 
     {"name":"spr_BusCard","order":1,"path":"sprites/spr_BusCard/spr_BusCard.yy",},
     {"name":"spr_BusStop","order":3,"path":"sprites/spr_BusStop/spr_BusStop.yy",},
@@ -100,9 +107,13 @@
     {"name":"spr_Deregister","order":2,"path":"sprites/spr_Deregister/spr_Deregister.yy",},
     {"name":"spr_Dialogue","order":7,"path":"sprites/spr_Dialogue/spr_Dialogue.yy",},
 
+
     {"name":"spr_DialogueChoice","order":14,"path":"sprites/spr_DialogueChoice/spr_DialogueChoice.yy",},
     {"name":"spr_Distraught","order":1,"path":"sprites/spr_Distraught/spr_Distraught.yy",},
     {"name":"spr_DMDialogueBG","order":3,"path":"sprites/spr_DMDialogueBG/spr_DMDialogueBG.yy",},
+
+    {"name":"spr_DMDialogueBG","order":4,"path":"sprites/spr_DMDialogueBG/spr_DMDialogueBG.yy",},
+
 
     {"name":"spr_DMDialogueBG","order":4,"path":"sprites/spr_DMDialogueBG/spr_DMDialogueBG.yy",},
 
@@ -115,8 +126,13 @@
     {"name":"spr_Happy","order":3,"path":"sprites/spr_Happy/spr_Happy.yy",},
     {"name":"spr_Knob","order":13,"path":"sprites/spr_Knob/spr_Knob.yy",},
 
+
     {"name":"spr_MainHall","order":4,"path":"sprites/spr_MainHall/spr_MainHall.yy",},
     {"name":"spr_MainHallCM","order":5,"path":"sprites/spr_MainHallCM/spr_MainHallCM.yy",},
+
+    {"name":"spr_machiene","order":10,"path":"sprites/spr_machiene/spr_machiene.yy",},
+    {"name":"spr_MainHall","order":5,"path":"sprites/spr_MainHall/spr_MainHall.yy",},
+
 
     {"name":"spr_machiene","order":10,"path":"sprites/spr_machiene/spr_machiene.yy",},
     {"name":"spr_MainHall","order":5,"path":"sprites/spr_MainHall/spr_MainHall.yy",},
