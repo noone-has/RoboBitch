@@ -1,6 +1,6 @@
 dialog = new scr_Dialogue()
 
-key_next = vk_enter || vk_space;
+key_next = vk_enter  || vk_space;
 
 global.should_show_dialog = false
 global.is_making_choice = false

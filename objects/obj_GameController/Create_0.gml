@@ -7,6 +7,8 @@ layer_set_visible("MainMenuLayer", true)
 layer_set_visible("SettingsLayer", false)
 layer_set_visible("DialogueLayer", false)
 layer_set_visible("DialogueOptionsLayer", false)
+layer_set_visible("CardSwipeLayer", false)
+
 
 // Cursor
 window_set_cursor(cr_none);
