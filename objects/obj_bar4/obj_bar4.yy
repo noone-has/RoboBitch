@@ -1,27 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Coffee",
-<<<<<<< Updated upstream
-  "eventList":[],
-=======
+  "%Name":"obj_bar4",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
->>>>>>> Stashed changes
   "managed":true,
-  "name":"obj_Coffee",
+  "name":"obj_bar4",
   "overriddenProperties":[],
   "parent":{
-<<<<<<< Updated upstream
-    "name":"Objects",
-    "path":"folders/Objects.yy",
-=======
     "name":"CupGame",
     "path":"folders/Objects/CupGame.yy",
->>>>>>> Stashed changes
   },
   "parentObjectId":null,
   "persistent":false,
@@ -42,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Coffee",
-    "path":"sprites/spr_Coffee/spr_Coffee.yy",
+    "name":"spr_bar4",
+    "path":"sprites/spr_bar4/spr_bar4.yy",
   },
   "spriteMaskId":null,
   "visible":true,

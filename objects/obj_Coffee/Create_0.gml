@@ -1,0 +1,1 @@
+global.CupGameScore = 0;
