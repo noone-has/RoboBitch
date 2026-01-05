@@ -1,27 +1,13 @@
 {
   "$GMObject":"",
   "%Name":"obj_Coffee",
-<<<<<<< Updated upstream
   "eventList":[],
-=======
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
->>>>>>> Stashed changes
   "managed":true,
   "name":"obj_Coffee",
   "overriddenProperties":[],
   "parent":{
-<<<<<<< Updated upstream
     "name":"Objects",
     "path":"folders/Objects.yy",
-=======
-    "name":"CupGame",
-    "path":"folders/Objects/CupGame.yy",
->>>>>>> Stashed changes
   },
   "parentObjectId":null,
   "persistent":false,

@@ -209,8 +209,8 @@
   "locked":false,
   "name":"RoomUI",
   "parent":{
-    "name":"coffetest",
-    "path":"coffetest.yyp",
+    "name":"RoboBitch",
+    "path":"RoboBitch.yyp",
   },
   "resourceType":"GMRoomUI",
   "resourceVersion":"2.0",

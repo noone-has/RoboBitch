@@ -2,21 +2,15 @@
   "FolderOrderSettings":[
     {"name":"Fonts","order":1,"path":"folders/Fonts.yy",},
     {"name":"Objects","order":2,"path":"folders/Objects.yy",},
-<<<<<<< Updated upstream
     {"name":"Collision Masks","order":1,"path":"folders/Objects/Collision Masks.yy",},
     {"name":"Dialogs","order":6,"path":"folders/Objects/Dialogs.yy",},
     {"name":"Systems","order":2,"path":"folders/Objects/Systems.yy",},
     {"name":"UI","order":7,"path":"folders/Objects/UI.yy",},
-=======
-    {"name":"CupGame","order":12,"path":"folders/Objects/CupGame.yy",},
-    {"name":"Dialogs","order":8,"path":"folders/Objects/Dialogs.yy",},
->>>>>>> Stashed changes
     {"name":"Rooms","order":3,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
     {"name":"Sequences","order":5,"path":"folders/Sequences.yy",},
     {"name":"SFX","order":6,"path":"folders/SFX.yy",},
     {"name":"Sprites","order":7,"path":"folders/Sprites.yy",},
-<<<<<<< Updated upstream
 
 
     {"name":"Minigames","order":45,"path":"folders/Sprites/Minigames.yy",},
@@ -26,11 +20,6 @@
 
 
     {"name":"Collision Masks","order":1,"path":"folders/Sprites/BGs/Collision Masks.yy",},
-=======
-    {"name":"BGs","order":1,"path":"folders/Sprites/BGs.yy",},
-    {"name":"Coffeebar","order":18,"path":"folders/Sprites/Coffeebar.yy",},
-    {"name":"UI","order":2,"path":"folders/Sprites/UI.yy",},
->>>>>>> Stashed changes
     {"name":"UI","order":26,"path":"folders/UI.yy",},
 
   ],
@@ -40,40 +29,20 @@
     {"name":"BaseCollisionMaskObj","order":6,"path":"objects/BaseCollisionMaskObj/BaseCollisionMaskObj.yy",},
     {"name":"cm_Appie","order":3,"path":"objects/cm_Appie/cm_Appie.yy",},
     {"name":"cm_Bakerspace","order":2,"path":"objects/cm_Bakerspace/cm_Bakerspace.yy",},
-<<<<<<< Updated upstream
     {"name":"cm_MainHall","order":5,"path":"objects/cm_MainHall/cm_MainHall.yy",},
-=======
-    {"name":"cm_CoffeeCollision","order":5,"path":"objects/cm_CoffeeCollision/cm_CoffeeCollision.yy",},
->>>>>>> Stashed changes
     {"name":"cm_Outside","order":1,"path":"objects/cm_Outside/cm_Outside.yy",},
     {"name":"cm_Plant","order":4,"path":"objects/cm_Plant/cm_Plant.yy",},
     {"name":"DEPMenu","order":7,"path":"objects/DEPMenu/DEPMenu.yy",},
-    {"name":"obj_bar1","order":1,"path":"objects/obj_bar1/obj_bar1.yy",},
-    {"name":"obj_bar10","order":10,"path":"objects/obj_bar10/obj_bar10.yy",},
-    {"name":"obj_bar2","order":2,"path":"objects/obj_bar2/obj_bar2.yy",},
-    {"name":"obj_bar3","order":3,"path":"objects/obj_bar3/obj_bar3.yy",},
-    {"name":"obj_bar4","order":4,"path":"objects/obj_bar4/obj_bar4.yy",},
-    {"name":"obj_bar5","order":5,"path":"objects/obj_bar5/obj_bar5.yy",},
-    {"name":"obj_bar6","order":6,"path":"objects/obj_bar6/obj_bar6.yy",},
-    {"name":"obj_bar7","order":7,"path":"objects/obj_bar7/obj_bar7.yy",},
-    {"name":"obj_bar8","order":8,"path":"objects/obj_bar8/obj_bar8.yy",},
-    {"name":"obj_bar9","order":9,"path":"objects/obj_bar9/obj_bar9.yy",},
     {"name":"obj_Button","order":1,"path":"objects/obj_Button/obj_Button.yy",},
     {"name":"obj_Camera","order":6,"path":"objects/obj_Camera/obj_Camera.yy",},
     {"name":"obj_Checkbox","order":2,"path":"objects/obj_Checkbox/obj_Checkbox.yy",},
-<<<<<<< Updated upstream
     {"name":"obj_Coffee","order":10,"path":"objects/obj_Coffee/obj_Coffee.yy",},
     {"name":"obj_CoffeeDropper","order":9,"path":"objects/obj_CoffeeDropper/obj_CoffeeDropper.yy",},
-=======
-    {"name":"obj_Coffee","order":11,"path":"objects/obj_Coffee/obj_Coffee.yy",},
-    {"name":"obj_CollisionPlant","order":4,"path":"objects/obj_CollisionPlant/obj_CollisionPlant.yy",},
->>>>>>> Stashed changes
     {"name":"obj_CustsceneController","order":7,"path":"objects/obj_CustsceneController/obj_CustsceneController.yy",},
     {"name":"obj_DialogMariaDeniz","order":2,"path":"objects/obj_DialogMariaDeniz/obj_DialogMariaDeniz.yy",},
     {"name":"obj_DialogMicheal","order":1,"path":"objects/obj_DialogMicheal/obj_DialogMicheal.yy",},
     {"name":"obj_DialogueButton","order":6,"path":"objects/obj_DialogueButton/obj_DialogueButton.yy",},
     {"name":"obj_DialogueParent","order":1,"path":"objects/obj_DialogueParent/obj_DialogueParent.yy",},
-    {"name":"obj_Drop","order":12,"path":"objects/obj_Drop/obj_Drop.yy",},
     {"name":"obj_GameController","order":2,"path":"objects/obj_GameController/obj_GameController.yy",},
     {"name":"obj_OVCard","order":4,"path":"objects/obj_OVCard/obj_OVCard.yy",},
     {"name":"obj_OVCardReader","order":5,"path":"objects/obj_OVCardReader/obj_OVCardReader.yy",},
@@ -89,11 +58,7 @@
     {"name":"rm_BakerSpace","order":9,"path":"rooms/rm_BakerSpace/rm_BakerSpace.yy",},
     {"name":"rm_BusStop","order":5,"path":"rooms/rm_BusStop/rm_BusStop.yy",},
     {"name":"rm_CardSwipeMG","order":6,"path":"rooms/rm_CardSwipeMG/rm_CardSwipeMG.yy",},
-<<<<<<< Updated upstream
     {"name":"rm_CoffeeMachine","order":8,"path":"rooms/rm_CoffeeMachine/rm_CoffeeMachine.yy",},
-=======
-    {"name":"rm_CupGame","order":8,"path":"rooms/rm_CupGame/rm_CupGame.yy",},
->>>>>>> Stashed changes
     {"name":"rm_DenizMaria","order":4,"path":"rooms/rm_DenizMaria/rm_DenizMaria.yy",},
     {"name":"rm_inside","order":2,"path":"rooms/rm_inside/rm_inside.yy",},
     {"name":"rm_TitleScreen","order":1,"path":"rooms/rm_TitleScreen/rm_TitleScreen.yy",},
@@ -113,35 +78,14 @@
     {"name":"DEPspr_MainMenu","order":4,"path":"sprites/DEPspr_MainMenu/DEPspr_MainMenu.yy",},
     {"name":"DEPspr_Player","order":10,"path":"sprites/DEPspr_Player/DEPspr_Player.yy",},
     {"name":"DEPspr_SliderBar","order":1,"path":"sprites/DEPspr_SliderBar/DEPspr_SliderBar.yy",},
-<<<<<<< Updated upstream
-=======
-    {"name":"spr_ANGRY","order":6,"path":"sprites/spr_ANGRY/spr_ANGRY.yy",},
->>>>>>> Stashed changes
     {"name":"spr_Appie","order":8,"path":"sprites/spr_Appie/spr_Appie.yy",},
     {"name":"spr_AppieCM","order":2,"path":"sprites/spr_AppieCM/spr_AppieCM.yy",},
     {"name":"spr_Bakerspace","order":7,"path":"sprites/spr_Bakerspace/spr_Bakerspace.yy",},
-<<<<<<< Updated upstream
     {"name":"spr_BakerSpaceCM","order":3,"path":"sprites/spr_BakerSpaceCM/spr_BakerSpaceCM.yy",},
     {"name":"spr_Bus","order":7,"path":"sprites/spr_Bus/spr_Bus.yy",},
 
 
     {"name":"spr_BusCardGif","order":1,"path":"sprites/spr_BusCardGif/spr_BusCardGif.yy",},
-=======
-    {"name":"spr_BakerSpaceCM","order":5,"path":"sprites/spr_BakerSpaceCM/spr_BakerSpaceCM.yy",},
-    {"name":"spr_bar0","order":10,"path":"sprites/spr_bar0/spr_bar0.yy",},
-    {"name":"spr_bar10","order":1,"path":"sprites/spr_bar10/spr_bar10.yy",},
-    {"name":"spr_bar2","order":2,"path":"sprites/spr_bar2/spr_bar2.yy",},
-    {"name":"spr_bar3","order":3,"path":"sprites/spr_bar3/spr_bar3.yy",},
-    {"name":"spr_bar4","order":4,"path":"sprites/spr_bar4/spr_bar4.yy",},
-    {"name":"spr_bar5","order":5,"path":"sprites/spr_bar5/spr_bar5.yy",},
-    {"name":"spr_bar6","order":6,"path":"sprites/spr_bar6/spr_bar6.yy",},
-    {"name":"spr_bar7","order":7,"path":"sprites/spr_bar7/spr_bar7.yy",},
-    {"name":"spr_bar8","order":8,"path":"sprites/spr_bar8/spr_bar8.yy",},
-    {"name":"spr_bar9","order":9,"path":"sprites/spr_bar9/spr_bar9.yy",},
-    {"name":"spr_Bus","order":8,"path":"sprites/spr_Bus/spr_Bus.yy",},
-    {"name":"spr_BusCard","order":16,"path":"sprites/spr_BusCard/spr_BusCard.yy",},
-    {"name":"spr_BusCardGif","order":3,"path":"sprites/spr_BusCardGif/spr_BusCardGif.yy",},
->>>>>>> Stashed changes
     {"name":"spr_BusStop","order":2,"path":"sprites/spr_BusStop/spr_BusStop.yy",},
 
     {"name":"spr_BusCard","order":1,"path":"sprites/spr_BusCard/spr_BusCard.yy",},
@@ -153,20 +97,11 @@
 
     {"name":"spr_Captcha","order":4,"path":"sprites/spr_Captcha/spr_Captcha.yy",},
     {"name":"spr_Chatbox","order":5,"path":"sprites/spr_Chatbox/spr_Chatbox.yy",},
-<<<<<<< Updated upstream
     {"name":"spr_Cocotier","order":3,"path":"sprites/spr_Cocotier/spr_Cocotier.yy",},
     {"name":"spr_CoffeeBar","order":14,"path":"sprites/spr_CoffeeBar/spr_CoffeeBar.yy",},
     {"name":"spr_CoffeeDropper","order":1,"path":"sprites/spr_CoffeeDropper/spr_CoffeeDropper.yy",},
     {"name":"spr_CoffeeMachine","order":9,"path":"sprites/spr_CoffeeMachine/spr_CoffeeMachine.yy",},
     {"name":"spr_CollisionPlant","order":4,"path":"sprites/spr_CollisionPlant/spr_CollisionPlant.yy",},
-=======
-    {"name":"spr_Cocotier","order":5,"path":"sprites/spr_Cocotier/spr_Cocotier.yy",},
-    {"name":"spr_Coffee","order":12,"path":"sprites/spr_Coffee/spr_Coffee.yy",},
-    {"name":"spr_CoffeeCollision","order":6,"path":"sprites/spr_CoffeeCollision/spr_CoffeeCollision.yy",},
-    {"name":"spr_CoffeeDropper","order":11,"path":"sprites/spr_CoffeeDropper/spr_CoffeeDropper.yy",},
-    {"name":"spr_CoffeeMachine","order":9,"path":"sprites/spr_CoffeeMachine/spr_CoffeeMachine.yy",},
-    {"name":"spr_CollisionPlant","order":17,"path":"sprites/spr_CollisionPlant/spr_CollisionPlant.yy",},
->>>>>>> Stashed changes
     {"name":"spr_Cursor","order":4,"path":"sprites/spr_Cursor/spr_Cursor.yy",},
     {"name":"spr_Dead","order":2,"path":"sprites/spr_Dead/spr_Dead.yy",},
     {"name":"spr_Deregister","order":2,"path":"sprites/spr_Deregister/spr_Deregister.yy",},
@@ -176,7 +111,6 @@
     {"name":"spr_DialogueChoice","order":14,"path":"sprites/spr_DialogueChoice/spr_DialogueChoice.yy",},
     {"name":"spr_Distraught","order":1,"path":"sprites/spr_Distraught/spr_Distraught.yy",},
     {"name":"spr_DMDialogueBG","order":3,"path":"sprites/spr_DMDialogueBG/spr_DMDialogueBG.yy",},
-<<<<<<< Updated upstream
 
     {"name":"spr_DMDialogueBG","order":4,"path":"sprites/spr_DMDialogueBG/spr_DMDialogueBG.yy",},
 
@@ -188,13 +122,6 @@
     {"name":"spr_Frame","order":11,"path":"sprites/spr_Frame/spr_Frame.yy",},
     {"name":"spr_GameMaker","order":5,"path":"sprites/spr_GameMaker/spr_GameMaker.yy",},
     {"name":"spr_HanzeOutside","order":2,"path":"sprites/spr_HanzeOutside/spr_HanzeOutside.yy",},
-=======
-    {"name":"spr_Door","order":9,"path":"sprites/spr_Door/spr_Door.yy",},
-    {"name":"spr_Drop","order":13,"path":"sprites/spr_Drop/spr_Drop.yy",},
-    {"name":"spr_Frame","order":11,"path":"sprites/spr_Frame/spr_Frame.yy",},
-    {"name":"spr_GameMaker","order":7,"path":"sprites/spr_GameMaker/spr_GameMaker.yy",},
-    {"name":"spr_HanzeOutside","order":1,"path":"sprites/spr_HanzeOutside/spr_HanzeOutside.yy",},
->>>>>>> Stashed changes
     {"name":"spr_HanzeOutsideCM","order":1,"path":"sprites/spr_HanzeOutsideCM/spr_HanzeOutsideCM.yy",},
     {"name":"spr_Happy","order":3,"path":"sprites/spr_Happy/spr_Happy.yy",},
     {"name":"spr_Knob","order":13,"path":"sprites/spr_Knob/spr_Knob.yy",},
@@ -211,23 +138,18 @@
     {"name":"spr_MainHall","order":5,"path":"sprites/spr_MainHall/spr_MainHall.yy",},
 
     {"name":"spr_MainMenu","order":9,"path":"sprites/spr_MainMenu/spr_MainMenu.yy",},
-    {"name":"spr_Micheal","order":15,"path":"sprites/spr_Micheal/spr_Micheal.yy",},
+    {"name":"spr_Micheal","order":33,"path":"sprites/spr_Micheal/spr_Micheal.yy",},
     {"name":"spr_NotARobot","order":1,"path":"sprites/spr_NotARobot/spr_NotARobot.yy",},
     {"name":"spr_OVCardReader","order":6,"path":"sprites/spr_OVCardReader/spr_OVCardReader.yy",},
     {"name":"spr_PauseMenu","order":6,"path":"sprites/spr_PauseMenu/spr_PauseMenu.yy",},
     {"name":"spr_Phone","order":3,"path":"sprites/spr_Phone/spr_Phone.yy",},
-<<<<<<< Updated upstream
     {"name":"spr_PlayerTemp","order":7,"path":"sprites/spr_PlayerTemp/spr_PlayerTemp.yy",},
     {"name":"spr_Portrait","order":46,"path":"sprites/spr_Portrait/spr_Portrait.yy",},
     {"name":"spr_Robot","order":8,"path":"sprites/spr_Robot/spr_Robot.yy",},
     {"name":"spr_Sad","order":4,"path":"sprites/spr_Sad/spr_Sad.yy",},
     {"name":"spr_Shock","order":5,"path":"sprites/spr_Shock/spr_Shock.yy",},
-=======
-    {"name":"spr_PlayerTemp","order":14,"path":"sprites/spr_PlayerTemp/spr_PlayerTemp.yy",},
-    {"name":"spr_Robot","order":10,"path":"sprites/spr_Robot/spr_Robot.yy",},
->>>>>>> Stashed changes
     {"name":"spr_SliderBar","order":2,"path":"sprites/spr_SliderBar/spr_SliderBar.yy",},
-    {"name":"spr_TalkingBubble","order":4,"path":"sprites/spr_TalkingBubble/spr_TalkingBubble.yy",},
+    {"name":"spr_TalkingBubble","order":2,"path":"sprites/spr_TalkingBubble/spr_TalkingBubble.yy",},
     {"name":"spr_TickFrame","order":1,"path":"sprites/spr_TickFrame/spr_TickFrame.yy",},
     {"name":"spr_Unamused","order":6,"path":"sprites/spr_Unamused/spr_Unamused.yy",},
     {"name":"spr_VerifyButton","order":5,"path":"sprites/spr_VerifyButton/spr_VerifyButton.yy",},
