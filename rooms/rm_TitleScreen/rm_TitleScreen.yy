@@ -19,6 +19,9 @@
     {"name":"inst_1A7C2B75","path":"rooms/rm_TitleScreen/rm_TitleScreen.yy",},
     {"name":"DialogueOption1Button","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"DialogueOption2Button","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_5D5CE36B","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_7395C5CB","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_3F16CDCD","path":"roomui/RoomUI/RoomUI.yy",},
   ],
   "isDnd":false,
   "layers":[
