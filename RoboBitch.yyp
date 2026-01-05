@@ -1,205 +1,1306 @@
 {
-  "$GMProject":"v1",
-  "%Name":"RoboBitch",
-  "AudioGroups":[
-    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+  resources: [
+    {
+      id: {
+        name: "DEPfnt_MeatMadness",
+        path: "fonts/DEPfnt_MeatMadness/DEPfnt_MeatMadness.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "fnt_NersansThree",
+        path: "fonts/fnt_NersansThree/fnt_NersansThree.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "BaseCollisionMaskObj",
+        path: "objects/BaseCollisionMaskObj/BaseCollisionMaskObj.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "cm_Appie",
+        path: "objects/cm_Appie/cm_Appie.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "cm_Bakerspace",
+        path: "objects/cm_Bakerspace/cm_Bakerspace.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "cm_BusStop",
+        path: "objects/cm_BusStop/cm_BusStop.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "cm_MainHall",
+        path: "objects/cm_MainHall/cm_MainHall.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "cm_Outside",
+        path: "objects/cm_Outside/cm_Outside.yy",
+      },
+      order: 5,
+    },
+    {
+      id: {
+        name: "cm_Plant",
+        path: "objects/cm_Plant/cm_Plant.yy",
+      },
+      order: 6,
+    },
+    {
+      id: {
+        name: "DEPMenu",
+        path: "objects/DEPMenu/DEPMenu.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "obj_Button",
+        path: "objects/obj_BUtton/obj_BUtton.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_Camera",
+        path: "objects/obj_Camera/obj_Camera.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_Checkbox",
+        path: "objects/obj_Checkbox/obj_Checkbox.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "obj_Coffee",
+        path: "objects/obj_Coffee/obj_Coffee.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "obj_CoffeeDropper",
+        path: "objects/obj_CoffeeDropper/obj_CoffeeDropper.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "obj_CustsceneController",
+        path: "objects/obj_CustsceneController/obj_CustsceneController.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "obj_DialogMariaDeniz",
+        path: "objects/obj_DialogMariaDeniz/obj_DialogMariaDeniz.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "obj_DialogMicheal",
+        path: "objects/obj_DialogMicheal/obj_DialogMicheal.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "obj_DialogSampleA",
+        path: "objects/obj_DialogSampleA/obj_DialogSampleA.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "obj_DialogueButton",
+        path: "objects/obj_DialogueButton/obj_DialogueButton.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "obj_DialogueParent",
+        path: "objects/obj_DialogueParent/obj_DialogueParent.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "obj_GameController",
+        path: "objects/obj_GameController/obj_GameController.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "obj_OVCard",
+        path: "objects/obj_OVCard/obj_OVCard.yy",
+      },
+      order: 6,
+    },
+    {
+      id: {
+        name: "obj_OVCardReader",
+        path: "objects/obj_OVCardReader/obj_OVCardReader.yy",
+      },
+      order: 7,
+    },
+    {
+      id: {
+        name: "obj_Player",
+        path: "objects/obj_Player/obj_Player.yy",
+      },
+      order: 8,
+    },
+    {
+      id: {
+        name: "obj_RoomInfoInside",
+        path: "objects/obj_RoomInfoInside/obj_RoomInfoInside.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "obj_RoomInfoOutside",
+        path: "objects/obj_RoomInfoOutside/obj_RoomInfoOutside.yy",
+      },
+      order: 5,
+    },
+    {
+      id: {
+        name: "obj_RoomInfoParent",
+        path: "objects/obj_RoomInfoParent/obj_RoomInfoParent.yy",
+      },
+      order: 6,
+    },
+    {
+      id: {
+        name: "obj_RoomSwitcher",
+        path: "objects/obj_RoomSwitcher/obj_RoomSwitcher.yy",
+      },
+      order: 9,
+    },
+    {
+      id: {
+        name: "obj_SliderBar",
+        path: "objects/obj_SliderBar/obj_SliderBar.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "obj_SliderKnob",
+        path: "objects/obj_SliderKnob/obj_SliderKnob.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "obj_Tick",
+        path: "objects/obj_Tick/obj_Tick.yy",
+      },
+      order: 5,
+    },
+    {
+      id: {
+        name: "rm_Agartha",
+        path: "rooms/rm_Agartha/rm_Agartha.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "rm_Appie",
+        path: "rooms/rm_Appie/rm_Appie.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "rm_BakerSpace",
+        path: "rooms/rm_BakerSpace/rm_BakerSpace.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "rm_BusStop",
+        path: "rooms/rm_BusStop/rm_BusStop.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "rm_CardReaderMG",
+        path: "rooms/rm_CardReaderMG/rm_CardReaderMG.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "rm_CardSwipeMG",
+        path: "rooms/rm_CardSwipeMG/rm_CardSwipeMG.yy",
+      },
+      order: 5,
+    },
+    {
+      id: {
+        name: "rm_CoffeeMachine",
+        path: "rooms/rm_CoffeeMachine/rm_CoffeeMachine.yy",
+      },
+      order: 6,
+    },
+    {
+      id: {
+        name: "rm_DenizMaria",
+        path: "rooms/rm_DenizMaria/rm_DenizMaria.yy",
+      },
+      order: 7,
+    },
+    {
+      id: {
+        name: "rm_inside",
+        path: "rooms/rm_inside/rm_inside.yy",
+      },
+      order: 8,
+    },
+    {
+      id: {
+        name: "rm_outside",
+        path: "rooms/rm_outside/rm_outside.yy",
+      },
+      order: 9,
+    },
+    {
+      id: {
+        name: "rm_TitleScreen",
+        path: "rooms/rm_TitleScreen/rm_TitleScreen.yy",
+      },
+      order: 10,
+    },
+    {
+      id: {
+        name: "rm_VdendingmachineMinigame",
+        path: "rooms/rm_VdendingmachineMinigame/rm_VdendingmachineMinigame.yy",
+      },
+      order: 11,
+    },
+    {
+      id: {
+        name: "scr_Dialogue",
+        path: "scripts/scr_Dialogue/scr_Dialogue.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "scr_Pause",
+        path: "scripts/scr_Pause/scr_Pause.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "scr_Position",
+        path: "scripts/scr_Position/scr_Position.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "sq_Bus1",
+        path: "sequences/sq_Bus1/sq_Bus1.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "sq_Bus2",
+        path: "sequences/sq_Bus2/sq_Bus2.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "msc_bird1",
+        path: "sounds/msc_bird1/msc_bird1.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "sfx_GrassFootstep",
+        path: "sounds/sfx_GrassFootstep/sfx_GrassFootstep.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "sfx_MariaVoice",
+        path: "sounds/sfx_MariaVoice/sfx_MariaVoice.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "BaseCollisionMaskSprite",
+        path: "sprites/BaseCollisionMaskSprite/BaseCollisionMaskSprite.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "DEP1spr_MainMenu",
+        path: "sprites/DEP1spr_MainMenu/DEP1spr_MainMenu.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "DEP1spr_menu",
+        path: "sprites/DEP1spr_menu/DEP1spr_menu.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "DEPspr_ANGRY",
+        path: "sprites/DEPspr_ANGRY/DEPspr_ANGRY.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "DEPspr_Button",
+        path: "sprites/DEPspr_Button/DEPspr_Button.yy",
+      },
+      order: 5,
+    },
+    {
+      id: {
+        name: "DEPspr_Dialogue_body_after",
+        path: "sprites/DEPspr_Dialogue_body_after/DEPspr_Dialogue_body_after.yy",
+      },
+      order: 6,
+    },
+    {
+      id: {
+        name: "DEPspr_Dialogue_frame_after",
+        path: "sprites/DEPspr_Dialogue_frame_after/DEPspr_Dialogue_frame_after.yy",
+      },
+      order: 7,
+    },
+    {
+      id: {
+        name: "DEPspr_MainMenu",
+        path: "sprites/DEPspr_MainMenu/DEPspr_MainMenu.yy",
+      },
+      order: 8,
+    },
+    {
+      id: {
+        name: "DEPspr_Player",
+        path: "sprites/DEPspr_Player/DEPspr_Player.yy",
+      },
+      order: 9,
+    },
+    {
+      id: {
+        name: "DEPspr_SliderBar",
+        path: "sprites/DEPspr_SliderBar/DEPspr_SliderBar.yy",
+      },
+      order: 10,
+    },
+    {
+      id: {
+        name: "DEPspr_SliderKnob",
+        path: "sprites/DEPspr_SliderKnob/DEPspr_SliderKnob.yy",
+      },
+      order: 11,
+    },
+    {
+      id: {
+        name: "MakerspaceINSIDE_mask42",
+        path: "sprites/MakerspaceINSIDE_mask42/MakerspaceINSIDE_mask42.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "MakerspaceINSIDE_mask47",
+        path: "sprites/MakerspaceINSIDE_mask47/MakerspaceINSIDE_mask47.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "Sprite46",
+        path: "sprites/Sprite46/Sprite46.yy",
+      },
+      order: 8,
+    },
+    {
+      id: {
+        name: "spr_Agartha",
+        path: "sprites/spr_Agartha/spr_Agartha.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_Angry",
+        path: "sprites/spr_ANGRY/spr_ANGRY.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "spr_Appie",
+        path: "sprites/spr_Appie/spr_Appie.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_AppieCM",
+        path: "sprites/spr_AppieCM/spr_AppieCM.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "spr_Bakerspace",
+        path: "sprites/spr_Bakerspace/spr_Bakerspace.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "spr_BakerSpaceCM",
+        path: "sprites/spr_BakerSpaceCM/spr_BakerSpaceCM.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "spr_Bus",
+        path: "sprites/spr_Bus/spr_Bus.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_BusCard",
+        path: "sprites/spr_BusCard/spr_buscard.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "spr_BusCardGif",
+        path: "sprites/spr_BusCardGif/spr_BusCardGif.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_BusStop",
+        path: "sprites/spr_BusStop/spr_BusStop.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "spr_BusStopCM",
+        path: "sprites/spr_BusStopCM/spr_BusStopCM.yy",
+      },
+      order: 5,
+    },
+    {
+      id: {
+        name: "spr_Captcha",
+        path: "sprites/spr_Captcha/spr_Captcha.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "spr_CaptchaTick",
+        path: "sprites/spr_CaptchaTick/spr_CaptchaTick.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_Chatbox",
+        path: "sprites/spr_Chatbox/spr_Chatbox.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_Check",
+        path: "sprites/spr_Check/spr_Check.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_Cocotier",
+        path: "sprites/spr_cocotier/spr_cocotier.yy",
+      },
+      order: 5,
+    },
+    {
+      id: {
+        name: "spr_Coffee",
+        path: "sprites/spr_Coffee/spr_Coffee.yy",
+      },
+      order: 0,
+    },
+    {
+      id: {
+        name: "spr_CoffeeBar",
+        path: "sprites/spr_CoffeeBar/spr_CoffeeBar.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_CoffeeDropper",
+        path: "sprites/spr_CoffeeDropper/spr_CoffeeDropper.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_CoffeeMachine",
+        path: "sprites/spr_CoffeeMachine/spr_CoffeeMachine.yy",
+      },
+      order: 5,
+    },
+    {
+      id: {
+        name: "spr_CollisionPlant",
+        path: "sprites/spr_CollisionPlant/spr_CollisionPlant.yy",
+      },
+      order: 6,
+    },
+    {
+      id: {
+        name: "spr_Cursor",
+        path: "sprites/spr_Cursor/spr_Cursor.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "spr_Dead",
+        path: "sprites/spr_Dead/spr_Dead.yy",
+      },
+      order: 1,
+    },
+    {
+      id: {
+        name: "spr_Deregister",
+        path: "sprites/spr_Deregister/spr_Deregister.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_Dialogue",
+        path: "sprites/spr_Dialogue/spr_Dialogue.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "spr_DialogueChoice",
+        path: "sprites/spr_DialogueChoice/spr_DialogueChoice.yy",
+      },
+      order: 5,
+    },
+    {
+      id: {
+        name: "spr_DialogueFrame",
+        path: "sprites/spr_DialogueFrame/spr_DialogueFrame.yy",
+      },
+      order: 6,
+    },
+    {
+      id: {
+        name: "spr_Distraught",
+        path: "sprites/spr_Distraught/spr_Distraught.yy",
+      },
+      order: 2,
+    },
+    {
+      id: {
+        name: "spr_DMDialogueBG",
+        path: "sprites/spr_DMDialogueBG/spr_DMDialogueBG.yy",
+      },
+      order: 6,
+    },
+    {
+      id: {
+        name: "spr_Door",
+        path: "sprites/spr_Door/spr_Door.yy",
+      },
+      order: 6,
+    },
+    {
+      id: {
+        name: "spr_Drop",
+        path: "sprites/spr_Drop/spr_Drop.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "spr_Frame",
+        path: "sprites/spr_Frame/spr_Frame.yy",
+      },
+      order: 7,
+    },
+    {
+      id: {
+        name: "spr_GameMaker",
+        path: "sprites/spr_GameMaker/spr_GameMaker.yy",
+      },
+      order: 7,
+    },
+    {
+      id: {
+        name: "spr_HanzeOutside",
+        path: "sprites/spr_HanzeOutside/spr_HanzeOutside.yy",
+      },
+      order: 7,
+    },
+    {
+      id: {
+        name: "spr_HanzeOutsideCM",
+        path: "sprites/spr_HanzeOutsideCM/spr_HanzeOutsideCM.yy",
+      },
+      order: 7,
+    },
+    {
+      id: {
+        name: "spr_Happy",
+        path: "sprites/spr_Happy/spr_Happy.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "spr_Knob",
+        path: "sprites/spr_Knob/spr_Knob.yy",
+      },
+      order: 8,
+    },
+    {
+      id: {
+        name: "spr_machiene",
+        path: "sprites/spr_machiene/spr_machiene.yy",
+      },
+      order: 8,
+    },
+    {
+      id: {
+        name: "spr_MainHall",
+        path: "sprites/spr_MainHall/spr_MainHall.yy",
+      },
+      order: 9,
+    },
+    {
+      id: {
+        name: "spr_MainHallCM",
+        path: "sprites/spr_MainHallCM/spr_MainHallCM.yy",
+      },
+      order: 8,
+    },
+    {
+      id: {
+        name: "spr_MainMenu",
+        path: "sprites/spr_MainMenu/spr_MainMenu.yy",
+      },
+      order: 9,
+    },
+    {
+      id: {
+        name: "spr_MakerspaceINSIDE",
+        path: "sprites/spr_MakerspaceINSIDE/spr_MakerspaceINSIDE.yy",
+      },
+      order: 10,
+    },
+    {
+      id: {
+        name: "spr_Micheal",
+        path: "sprites/spr_Micheal/spr_Micheal.yy",
+      },
+      order: 8,
+    },
+    {
+      id: {
+        name: "spr_NotARobot",
+        path: "sprites/spr_NotARobot/spr_NotARobot.yy",
+      },
+      order: 3,
+    },
+    {
+      id: {
+        name: "spr_OutsideCM",
+        path: "sprites/spr_OutsideCM/spr_OutsideCM.yy",
+      },
+      order: 9,
+    },
+    {
+      id: {
+        name: "spr_OVCardReader",
+        path: "sprites/spr_OVCardReader/spr_OVCardReader.yy",
+      },
+      order: 11,
+    },
+    {
+      id: {
+        name: "spr_PauseMenu",
+        path: "sprites/spr_PauseMenu/spr_PauseMenu.yy",
+      },
+      order: 10,
+    },
+    {
+      id: {
+        name: "spr_Phone",
+        path: "sprites/spr_Phone/spr_Phone.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "spr_PlayerTemp",
+        path: "sprites/spr_PlayerTemp/spr_PlayerTemp.yy",
+      },
+      order: 4,
+    },
+    {
+      id: {
+        name: "spr_Portrait",
+        path: "sprites/spr_Portrait/spr_Portrait.yy",
+      },
+      order: 9,
+    },
+    {
+      id: {
+        name: "spr_Robot",
+        path: "sprites/spr_Robot/spr_Robot.yy",
+      },
+      order: 5,
+    },
+    {
+      id: {
+        name: "spr_Sad",
+        path: "sprites/spr_Sad/spr_Sad.yy",
+      },
+      order: 6,
+    },
+    {
+      id: {
+        name: "spr_Shock",
+        path: "sprites/spr_Shock/spr_Shock.yy",
+      },
+      order: 7,
+    },
+    {
+      id: {
+        name: "spr_SliderBar",
+        path: "sprites/spr_SliderBar/spr_SliderBar.yy",
+      },
+      order: 11,
+    },
+    {
+      id: {
+        name: "spr_SliderKnob",
+        path: "sprites/spr_SliderKnob/spr_SliderKnob.yy",
+      },
+      order: 12,
+    },
+    {
+      id: {
+        name: "spr_TalkingBubble",
+        path: "sprites/spr_talkingbubble/spr_talkingbubble.yy",
+      },
+      order: 10,
+    },
+    {
+      id: {
+        name: "DEPspr_Tick",
+        path: "sprites/spr_Tick/spr_Tick.yy",
+      },
+      order: 12,
+    },
+    {
+      id: {
+        name: "spr_TickFrame",
+        path: "sprites/spr_TickFrame/spr_TickFrame.yy",
+      },
+      order: 13,
+    },
+    {
+      id: {
+        name: "spr_Unamused",
+        path: "sprites/spr_Unamused/spr_Unamused.yy",
+      },
+      order: 8,
+    },
+    {
+      id: {
+        name: "spr_VerifyButton",
+        path: "sprites/spr_VerifyButton/spr_VerifyButton.yy",
+      },
+      order: 5,
+    },
+    {
+      id: {
+        name: "spr_XButton",
+        path: "sprites/spr_XButton/spr_XButton.yy",
+      },
+      order: 14,
+    },
   ],
-  "configs":{
-    "children":[],
-    "name":"Default",
+  Options: [
+    {
+      name: "Android",
+      path: "options/android/options_android.yy",
+    },
+    {
+      name: "HTML5",
+      path: "options/html5/options_html5.yy",
+    },
+    {
+      name: "iOS",
+      path: "options/ios/options_ios.yy",
+    },
+    {
+      name: "Linux",
+      path: "options/linux/options_linux.yy",
+    },
+    {
+      name: "macOS",
+      path: "options/mac/options_mac.yy",
+    },
+    {
+      name: "Main",
+      path: "options/main/options_main.yy",
+    },
+    {
+      name: "Opera GX",
+      path: "options/operagx/options_operagx.yy",
+    },
+    {
+      name: "tvOS",
+      path: "options/tvos/options_tvos.yy",
+    },
+    {
+      name: "Windows",
+      path: "options/windows/options_windows.yy",
+    },
+  ],
+  isDnDProject: false,
+  isEcma: false,
+  tutorialPath: "",
+  configs: {
+    name: "Default",
+    children: [],
   },
-  "defaultScriptType":1,
-  "Folders":[
-    {"$GMFolder":"","%Name":"Deprecated","folderPath":"folders/Deprecated.yy","name":"Deprecated","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Collision Masks","folderPath":"folders/Objects/Collision Masks.yy","name":"Collision Masks","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Dialogs","folderPath":"folders/Objects/Dialogs.yy","name":"Dialogs","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Systems","folderPath":"folders/Objects/Systems.yy","name":"Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"UI","folderPath":"folders/Objects/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Sequences","folderPath":"folders/Sequences.yy","name":"Sequences","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"SFX","folderPath":"folders/SFX.yy","name":"SFX","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"BGs","folderPath":"folders/Sprites/BGs.yy","name":"BGs","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Collision Masks","folderPath":"folders/Sprites/BGs/Collision Masks.yy","name":"Collision Masks","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Minigames","folderPath":"folders/Sprites/Minigames.yy","name":"Minigames","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"CardMG","folderPath":"folders/Sprites/Minigames/CardMG.yy","name":"CardMG","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"CoffeeMG","folderPath":"folders/Sprites/Minigames/CoffeeMG.yy","name":"CoffeeMG","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Player","folderPath":"folders/Sprites/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"UI","folderPath":"folders/Sprites/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Phone","folderPath":"folders/Sprites/UI/Phone.yy","name":"Phone","resourceType":"GMFolder","resourceVersion":"2.0",},
+  RoomOrderNodes: [
+    {
+      roomId: {
+        name: "rm_Agartha",
+        path: "rooms/rm_Agartha/rm_Agartha.yy",
+      },
+    },
+    {
+      roomId: {
+        name: "rm_Appie",
+        path: "rooms/rm_Appie/rm_Appie.yy",
+      },
+    },
+    {
+      roomId: {
+        name: "rm_BakerSpace",
+        path: "rooms/rm_BakerSpace/rm_BakerSpace.yy",
+      },
+    },
+    {
+      roomId: {
+        name: "rm_BusStop",
+        path: "rooms/rm_BusStop/rm_BusStop.yy",
+      },
+    },
+    {
+      roomId: {
+        name: "rm_CardReaderMG",
+        path: "rooms/rm_CardReaderMG/rm_CardReaderMG.yy",
+      },
+    },
+    {
+      roomId: {
+        name: "rm_CardSwipeMG",
+        path: "rooms/rm_CardSwipeMG/rm_CardSwipeMG.yy",
+      },
+    },
+    {
+      roomId: {
+        name: "rm_CoffeeMachine",
+        path: "rooms/rm_CoffeeMachine/rm_CoffeeMachine.yy",
+      },
+    },
+    {
+      roomId: {
+        name: "rm_DenizMaria",
+        path: "rooms/rm_DenizMaria/rm_DenizMaria.yy",
+      },
+    },
+    {
+      roomId: {
+        name: "rm_inside",
+        path: "rooms/rm_inside/rm_inside.yy",
+      },
+    },
+    {
+      roomId: {
+        name: "rm_outside",
+        path: "rooms/rm_outside/rm_outside.yy",
+      },
+    },
+    {
+      roomId: {
+        name: "rm_TitleScreen",
+        path: "rooms/rm_TitleScreen/rm_TitleScreen.yy",
+      },
+    },
+    {
+      roomId: {
+        name: "rm_VdendingmachineMinigame",
+        path: "rooms/rm_VdendingmachineMinigame/rm_VdendingmachineMinigame.yy",
+      },
+    },
   ],
-  "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[
-    {"$GMIncludedFile":"","%Name":"background.webp","CopyToMask":-1,"filePath":"datafiles","name":"background.webp","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"busser.png","CopyToMask":-1,"filePath":"datafiles","name":"busser.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"captcha_first.webp","CopyToMask":-1,"filePath":"datafiles","name":"captcha_first.webp","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"captcha_second.webp","CopyToMask":-1,"filePath":"datafiles","name":"captcha_second.webp","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"checkmark.webp","CopyToMask":-1,"filePath":"datafiles","name":"checkmark.webp","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"DenizMariadialogueBG.png","CopyToMask":-1,"filePath":"datafiles","name":"DenizMariadialogueBG.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"dialogue_new_frame.webp","CopyToMask":-1,"filePath":"datafiles","name":"dialogue_new_frame.webp","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"dialogue_new.webp","CopyToMask":-1,"filePath":"datafiles","name":"dialogue_new.webp","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"Girl what are you smoking.m4a","CopyToMask":-1,"filePath":"datafiles","name":"Girl what are you smoking.m4a","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"main_menu_3.png","CopyToMask":-1,"filePath":"datafiles","name":"main_menu_3.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"mainhallhaze.png","CopyToMask":-1,"filePath":"datafiles","name":"mainhallhaze.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"mainhallhaze.webp","CopyToMask":-1,"filePath":"datafiles","name":"mainhallhaze.webp","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"menu_new2.webp","CopyToMask":-1,"filePath":"datafiles","name":"menu_new2.webp","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"Nersans Three.otf","CopyToMask":-1,"filePath":"datafiles","name":"Nersans Three.otf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"pausemenu.png","CopyToMask":-1,"filePath":"datafiles","name":"pausemenu.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"phone.webp","CopyToMask":-1,"filePath":"datafiles","name":"phone.webp","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"Stacked pixel.ttf","CopyToMask":-1,"filePath":"datafiles","name":"Stacked pixel.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  Folders: [
+    {
+      folderPath: "folders/Deprecated.yy",
+      order: 0,
+      resourceVersion: "",
+      name: "Deprecated",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Fonts.yy",
+      order: 1,
+      resourceVersion: "",
+      name: "Fonts",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects.yy",
+      order: 2,
+      resourceVersion: "",
+      name: "Objects",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Collision Masks.yy",
+      order: 0,
+      resourceVersion: "",
+      name: "Collision Masks",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/UI.yy",
+      order: 1,
+      resourceVersion: "",
+      name: "UI",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Systems.yy",
+      order: 2,
+      resourceVersion: "",
+      name: "Systems",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Objects/Dialogs.yy",
+      order: 5,
+      resourceVersion: "",
+      name: "Dialogs",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Rooms.yy",
+      order: 3,
+      resourceVersion: "",
+      name: "Rooms",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Scripts.yy",
+      order: 4,
+      resourceVersion: "",
+      name: "Scripts",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Sequences.yy",
+      order: 5,
+      resourceVersion: "",
+      name: "Sequences",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/SFX.yy",
+      order: 6,
+      resourceVersion: "",
+      name: "SFX",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Sprites.yy",
+      order: 7,
+      resourceVersion: "",
+      name: "Sprites",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Sprites/BGs.yy",
+      order: 0,
+      resourceVersion: "",
+      name: "BGs",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Sprites/BGs/Collision Masks.yy",
+      order: 0,
+      resourceVersion: "",
+      name: "Collision Masks",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Sprites/Player.yy",
+      order: 1,
+      resourceVersion: "",
+      name: "Player",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Sprites/Minigames.yy",
+      order: 3,
+      resourceVersion: "",
+      name: "Minigames",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Sprites/Minigames/CardMG.yy",
+      order: 0,
+      resourceVersion: "",
+      name: "CardMG",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Sprites/UI.yy",
+      order: 4,
+      resourceVersion: "",
+      name: "UI",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Sprites/UI/Phone.yy",
+      order: 0,
+      resourceVersion: "",
+      name: "Phone",
+      tags: [],
+      resourceType: "GMFolder",
+    },
+    {
+      folderPath: "folders/Sprites/Minigames/CoffeeMG.yy",
+      order: 1,
+      resourceVersion: "",
+      name: "CoffeeMG",
+      tags: [],
+      resourceType: "GMFolder",
+    },
   ],
-  "isEcma":false,
-  "LibraryEmitters":[],
-  "MetaData":{
-    "IDEVersion":"2024.14.2.213",
+  AudioGroups: [
+    {
+      targets: -1,
+      resourceVersion: "",
+      name: "audiogroup_default",
+      resourceType: "GMAudioGroup",
+    },
+  ],
+  TextureGroups: [
+    {
+      isScaled: true,
+      autocrop: true,
+      border: 2,
+      mipsToGenerate: 0,
+      groupParent: null,
+      targets: -1,
+      resourceVersion: "",
+      name: "Default",
+      resourceType: "GMTextureGroup",
+    },
+  ],
+  IncludedFiles: [
+    {
+      CopyToMask: -1,
+      filePath: "datafiles",
+      name: "Stacked pixel.ttf",
+      resourceType: "GMIncludedFile",
+    },
+    {
+      CopyToMask: -1,
+      filePath: "datafiles",
+      name: "phone.webp",
+      resourceType: "GMIncludedFile",
+    },
+    {
+      CopyToMask: -1,
+      filePath: "datafiles",
+      name: "pausemenu.png",
+      resourceType: "GMIncludedFile",
+    },
+    {
+      CopyToMask: -1,
+      filePath: "datafiles",
+      name: "Nersans Three.otf",
+      resourceType: "GMIncludedFile",
+    },
+    {
+      CopyToMask: -1,
+      filePath: "datafiles",
+      name: "menu_new2.webp",
+      resourceType: "GMIncludedFile",
+    },
+    {
+      CopyToMask: -1,
+      filePath: "datafiles",
+      name: "main_menu_3.png",
+      resourceType: "GMIncludedFile",
+    },
+    {
+      CopyToMask: -1,
+      filePath: "datafiles",
+      name: "mainhallhaze.webp",
+      resourceType: "GMIncludedFile",
+    },
+    {
+      CopyToMask: -1,
+      filePath: "datafiles",
+      name: "mainhallhaze.png",
+      resourceType: "GMIncludedFile",
+    },
+    {
+      CopyToMask: -1,
+      filePath: "datafiles",
+      name: "Girl what are you smoking.m4a",
+      resourceType: "GMIncludedFile",
+    },
+    {
+      CopyToMask: -1,
+      filePath: "datafiles",
+      name: "dialogue_new_frame.webp",
+      resourceType: "GMIncludedFile",
+    },
+    {
+      CopyToMask: -1,
+      filePath: "datafiles",
+      name: "dialogue_new.webp",
+      resourceType: "GMIncludedFile",
+    },
+    {
+      CopyToMask: -1,
+      filePath: "datafiles",
+      name: "DenizMariadialogueBG.png",
+      resourceType: "GMIncludedFile",
+    },
+    {
+      CopyToMask: -1,
+      filePath: "datafiles",
+      name: "checkmark.webp",
+      resourceType: "GMIncludedFile",
+    },
+    {
+      CopyToMask: -1,
+      filePath: "datafiles",
+      name: "captcha_second.webp",
+      resourceType: "GMIncludedFile",
+    },
+    {
+      CopyToMask: -1,
+      filePath: "datafiles",
+      name: "captcha_first.webp",
+      resourceType: "GMIncludedFile",
+    },
+    {
+      CopyToMask: -1,
+      filePath: "datafiles",
+      name: "busser.png",
+      resourceType: "GMIncludedFile",
+    },
+    {
+      CopyToMask: -1,
+      filePath: "datafiles",
+      name: "background.webp",
+      resourceType: "GMIncludedFile",
+    },
+  ],
+  MetaData: {
+    IDEVersion: "",
   },
-  "name":"RoboBitch",
-  "resources":[
-    {"id":{"name":"DEPfnt_MeatMadness","path":"fonts/DEPfnt_MeatMadness/DEPfnt_MeatMadness.yy",},},
-    {"id":{"name":"fnt_NersansThree","path":"fonts/fnt_NersansThree/fnt_NersansThree.yy",},},
-    {"id":{"name":"BaseCollisionMaskObj","path":"objects/BaseCollisionMaskObj/BaseCollisionMaskObj.yy",},},
-    {"id":{"name":"cm_Appie","path":"objects/cm_Appie/cm_Appie.yy",},},
-    {"id":{"name":"cm_Bakerspace","path":"objects/cm_Bakerspace/cm_Bakerspace.yy",},},
-    {"id":{"name":"cm_BusStop","path":"objects/cm_BusStop/cm_BusStop.yy",},},
-    {"id":{"name":"cm_MainHall","path":"objects/cm_MainHall/cm_MainHall.yy",},},
-    {"id":{"name":"cm_Outside","path":"objects/cm_Outside/cm_Outside.yy",},},
-    {"id":{"name":"cm_Plant","path":"objects/cm_Plant/cm_Plant.yy",},},
-    {"id":{"name":"DEPMenu","path":"objects/DEPMenu/DEPMenu.yy",},},
-    {"id":{"name":"obj_Button","path":"objects/obj_Button/obj_Button.yy",},},
-    {"id":{"name":"obj_Camera","path":"objects/obj_Camera/obj_Camera.yy",},},
-    {"id":{"name":"obj_Checkbox","path":"objects/obj_Checkbox/obj_Checkbox.yy",},},
-    {"id":{"name":"obj_Coffee","path":"objects/obj_Coffee/obj_Coffee.yy",},},
-    {"id":{"name":"obj_CoffeeDropper","path":"objects/obj_CoffeeDropper/obj_CoffeeDropper.yy",},},
-    {"id":{"name":"obj_CustsceneController","path":"objects/obj_CustsceneController/obj_CustsceneController.yy",},},
-    {"id":{"name":"obj_DialogMariaDeniz","path":"objects/obj_DialogMariaDeniz/obj_DialogMariaDeniz.yy",},},
-    {"id":{"name":"obj_DialogMicheal","path":"objects/obj_DialogMicheal/obj_DialogMicheal.yy",},},
-    {"id":{"name":"obj_DialogSampleA","path":"objects/obj_DialogSampleA/obj_DialogSampleA.yy",},},
-    {"id":{"name":"obj_DialogueButton","path":"objects/obj_DialogueButton/obj_DialogueButton.yy",},},
-    {"id":{"name":"obj_DialogueParent","path":"objects/obj_DialogueParent/obj_DialogueParent.yy",},},
-    {"id":{"name":"obj_GameController","path":"objects/obj_GameController/obj_GameController.yy",},},
-    {"id":{"name":"obj_OVCard","path":"objects/obj_OVCard/obj_OVCard.yy",},},
-    {"id":{"name":"obj_OVCardReader","path":"objects/obj_OVCardReader/obj_OVCardReader.yy",},},
-    {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},},
-    {"id":{"name":"obj_RoomInfoInside","path":"objects/obj_RoomInfoInside/obj_RoomInfoInside.yy",},},
-    {"id":{"name":"obj_RoomInfoOutside","path":"objects/obj_RoomInfoOutside/obj_RoomInfoOutside.yy",},},
-    {"id":{"name":"obj_RoomInfoParent","path":"objects/obj_RoomInfoParent/obj_RoomInfoParent.yy",},},
-    {"id":{"name":"obj_RoomSwitcher","path":"objects/obj_RoomSwitcher/obj_RoomSwitcher.yy",},},
-    {"id":{"name":"obj_SliderBar","path":"objects/obj_SliderBar/obj_SliderBar.yy",},},
-    {"id":{"name":"obj_SliderKnob","path":"objects/obj_SliderKnob/obj_SliderKnob.yy",},},
-    {"id":{"name":"obj_Tick","path":"objects/obj_Tick/obj_Tick.yy",},},
-    {"id":{"name":"rm_Agartha","path":"rooms/rm_Agartha/rm_Agartha.yy",},},
-    {"id":{"name":"rm_Appie","path":"rooms/rm_Appie/rm_Appie.yy",},},
-    {"id":{"name":"rm_BakerSpace","path":"rooms/rm_BakerSpace/rm_BakerSpace.yy",},},
-    {"id":{"name":"rm_BusStop","path":"rooms/rm_BusStop/rm_BusStop.yy",},},
-    {"id":{"name":"rm_CardSwipeMG","path":"rooms/rm_CardSwipeMG/rm_CardSwipeMG.yy",},},
-    {"id":{"name":"rm_CoffeeMachine","path":"rooms/rm_CoffeeMachine/rm_CoffeeMachine.yy",},},
-    {"id":{"name":"rm_DenizMaria","path":"rooms/rm_DenizMaria/rm_DenizMaria.yy",},},
-    {"id":{"name":"rm_inside","path":"rooms/rm_inside/rm_inside.yy",},},
-    {"id":{"name":"rm_outside","path":"rooms/rm_outside/rm_outside.yy",},},
-    {"id":{"name":"rm_TitleScreen","path":"rooms/rm_TitleScreen/rm_TitleScreen.yy",},},
-    {"id":{"name":"rm_VdendingmachineMinigame","path":"rooms/rm_VdendingmachineMinigame/rm_VdendingmachineMinigame.yy",},},
-    {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
-    {"id":{"name":"scr_Dialogue","path":"scripts/scr_Dialogue/scr_Dialogue.yy",},},
-    {"id":{"name":"scr_Pause","path":"scripts/scr_Pause/scr_Pause.yy",},},
-    {"id":{"name":"scr_Position","path":"scripts/scr_Position/scr_Position.yy",},},
-    {"id":{"name":"sq_Bus1","path":"sequences/sq_Bus1/sq_Bus1.yy",},},
-    {"id":{"name":"sq_Bus2","path":"sequences/sq_Bus2/sq_Bus2.yy",},},
-    {"id":{"name":"sfx_GrassFootstep","path":"sounds/sfx_GrassFootstep/sfx_GrassFootstep.yy",},},
-    {"id":{"name":"sfx_MariaVoice","path":"sounds/sfx_MariaVoice/sfx_MariaVoice.yy",},},
-    {"id":{"name":"BaseCollisionMaskSprite","path":"sprites/BaseCollisionMaskSprite/BaseCollisionMaskSprite.yy",},},
-    {"id":{"name":"DEP1spr_MainMenu","path":"sprites/DEP1spr_MainMenu/DEP1spr_MainMenu.yy",},},
-    {"id":{"name":"DEP1spr_menu","path":"sprites/DEP1spr_menu/DEP1spr_menu.yy",},},
-    {"id":{"name":"DEPspr_ANGRY","path":"sprites/DEPspr_ANGRY/DEPspr_ANGRY.yy",},},
-    {"id":{"name":"DEPspr_Button","path":"sprites/DEPspr_Button/DEPspr_Button.yy",},},
-    {"id":{"name":"DEPspr_Dialogue_body_after","path":"sprites/DEPspr_Dialogue_body_after/DEPspr_Dialogue_body_after.yy",},},
-    {"id":{"name":"DEPspr_Dialogue_frame_after","path":"sprites/DEPspr_Dialogue_frame_after/DEPspr_Dialogue_frame_after.yy",},},
-    {"id":{"name":"DEPspr_MainMenu","path":"sprites/DEPspr_MainMenu/DEPspr_MainMenu.yy",},},
-    {"id":{"name":"DEPspr_Player","path":"sprites/DEPspr_Player/DEPspr_Player.yy",},},
-    {"id":{"name":"DEPspr_SliderBar","path":"sprites/DEPspr_SliderBar/DEPspr_SliderBar.yy",},},
-    {"id":{"name":"DEPspr_SliderKnob","path":"sprites/DEPspr_SliderKnob/DEPspr_SliderKnob.yy",},},
-    {"id":{"name":"spr_Agartha","path":"sprites/spr_Agartha/spr_Agartha.yy",},},
-    {"id":{"name":"spr_Angry","path":"sprites/spr_Angry/spr_Angry.yy",},},
-    {"id":{"name":"spr_Appie","path":"sprites/spr_Appie/spr_Appie.yy",},},
-    {"id":{"name":"spr_AppieCM","path":"sprites/spr_AppieCM/spr_AppieCM.yy",},},
-    {"id":{"name":"spr_Bakerspace","path":"sprites/spr_Bakerspace/spr_Bakerspace.yy",},},
-    {"id":{"name":"spr_BakerSpaceCM","path":"sprites/spr_BakerSpaceCM/spr_BakerSpaceCM.yy",},},
-    {"id":{"name":"spr_Bus","path":"sprites/spr_Bus/spr_Bus.yy",},},
-    {"id":{"name":"spr_BusCard","path":"sprites/spr_BusCard/spr_BusCard.yy",},},
-    {"id":{"name":"spr_BusCardGif","path":"sprites/spr_BusCardGif/spr_BusCardGif.yy",},},
-    {"id":{"name":"spr_BusStop","path":"sprites/spr_BusStop/spr_BusStop.yy",},},
-    {"id":{"name":"spr_BusStopCM","path":"sprites/spr_BusStopCM/spr_BusStopCM.yy",},},
-    {"id":{"name":"spr_Captcha","path":"sprites/spr_Captcha/spr_Captcha.yy",},},
-    {"id":{"name":"spr_CaptchaTick","path":"sprites/spr_CaptchaTick/spr_CaptchaTick.yy",},},
-    {"id":{"name":"spr_Chatbox","path":"sprites/spr_Chatbox/spr_Chatbox.yy",},},
-    {"id":{"name":"spr_Check","path":"sprites/spr_Check/spr_Check.yy",},},
-    {"id":{"name":"spr_Cocotier","path":"sprites/spr_Cocotier/spr_Cocotier.yy",},},
-    {"id":{"name":"spr_Coffee","path":"sprites/spr_Coffee/spr_Coffee.yy",},},
-    {"id":{"name":"spr_CoffeeBar","path":"sprites/spr_CoffeeBar/spr_CoffeeBar.yy",},},
-    {"id":{"name":"spr_CoffeeDropper","path":"sprites/spr_CoffeeDropper/spr_CoffeeDropper.yy",},},
-    {"id":{"name":"spr_CoffeeMachine","path":"sprites/spr_CoffeeMachine/spr_CoffeeMachine.yy",},},
-    {"id":{"name":"spr_CollisionPlant","path":"sprites/spr_CollisionPlant/spr_CollisionPlant.yy",},},
-    {"id":{"name":"spr_Cursor","path":"sprites/spr_Cursor/spr_Cursor.yy",},},
-    {"id":{"name":"spr_Dead","path":"sprites/spr_Dead/spr_Dead.yy",},},
-    {"id":{"name":"spr_Deregister","path":"sprites/spr_Deregister/spr_Deregister.yy",},},
-    {"id":{"name":"spr_Dialogue","path":"sprites/spr_Dialogue/spr_Dialogue.yy",},},
-    {"id":{"name":"spr_DialogueChoice","path":"sprites/spr_DialogueChoice/spr_DialogueChoice.yy",},},
-    {"id":{"name":"spr_Distraught","path":"sprites/spr_Distraught/spr_Distraught.yy",},},
-    {"id":{"name":"spr_DMDialogueBG","path":"sprites/spr_DMDialogueBG/spr_DMDialogueBG.yy",},},
-    {"id":{"name":"spr_Door","path":"sprites/spr_Door/spr_Door.yy",},},
-    {"id":{"name":"spr_Drop","path":"sprites/spr_Drop/spr_Drop.yy",},},
-    {"id":{"name":"spr_Frame","path":"sprites/spr_Frame/spr_Frame.yy",},},
-    {"id":{"name":"spr_GameMaker","path":"sprites/spr_GameMaker/spr_GameMaker.yy",},},
-    {"id":{"name":"spr_HanzeOutside","path":"sprites/spr_HanzeOutside/spr_HanzeOutside.yy",},},
-    {"id":{"name":"spr_HanzeOutsideCM","path":"sprites/spr_HanzeOutsideCM/spr_HanzeOutsideCM.yy",},},
-    {"id":{"name":"spr_Happy","path":"sprites/spr_Happy/spr_Happy.yy",},},
-    {"id":{"name":"spr_Knob","path":"sprites/spr_Knob/spr_Knob.yy",},},
-    {"id":{"name":"spr_machiene","path":"sprites/spr_machiene/spr_machiene.yy",},},
-    {"id":{"name":"spr_MainHall","path":"sprites/spr_MainHall/spr_MainHall.yy",},},
-    {"id":{"name":"spr_MainHallCM","path":"sprites/spr_MainHallCM/spr_MainHallCM.yy",},},
-    {"id":{"name":"spr_MainMenu","path":"sprites/spr_MainMenu/spr_MainMenu.yy",},},
-    {"id":{"name":"spr_Micheal","path":"sprites/spr_Micheal/spr_Micheal.yy",},},
-    {"id":{"name":"spr_NotARobot","path":"sprites/spr_NotARobot/spr_NotARobot.yy",},},
-    {"id":{"name":"spr_OVCardReader","path":"sprites/spr_OVCardReader/spr_OVCardReader.yy",},},
-    {"id":{"name":"spr_PauseMenu","path":"sprites/spr_PauseMenu/spr_PauseMenu.yy",},},
-    {"id":{"name":"spr_Phone","path":"sprites/spr_Phone/spr_Phone.yy",},},
-    {"id":{"name":"spr_PlayerTemp","path":"sprites/spr_PlayerTemp/spr_PlayerTemp.yy",},},
-    {"id":{"name":"spr_Portrait","path":"sprites/spr_Portrait/spr_Portrait.yy",},},
-    {"id":{"name":"spr_Robot","path":"sprites/spr_Robot/spr_Robot.yy",},},
-    {"id":{"name":"spr_Sad","path":"sprites/spr_Sad/spr_Sad.yy",},},
-    {"id":{"name":"spr_Shock","path":"sprites/spr_Shock/spr_Shock.yy",},},
-    {"id":{"name":"spr_SliderBar","path":"sprites/spr_SliderBar/spr_SliderBar.yy",},},
-    {"id":{"name":"spr_TalkingBubble","path":"sprites/spr_TalkingBubble/spr_TalkingBubble.yy",},},
-    {"id":{"name":"spr_TickFrame","path":"sprites/spr_TickFrame/spr_TickFrame.yy",},},
-    {"id":{"name":"spr_Unamused","path":"sprites/spr_Unamused/spr_Unamused.yy",},},
-    {"id":{"name":"spr_VerifyButton","path":"sprites/spr_VerifyButton/spr_VerifyButton.yy",},},
-    {"id":{"name":"spr_XButton","path":"sprites/spr_XButton/spr_XButton.yy",},},
-  ],
-  "resourceType":"GMProject",
-  "resourceVersion":"2.0",
-  "RoomOrderNodes":[
-    {"roomId":{"name":"rm_TitleScreen","path":"rooms/rm_TitleScreen/rm_TitleScreen.yy",},},
-    {"roomId":{"name":"rm_BusStop","path":"rooms/rm_BusStop/rm_BusStop.yy",},},
-    {"roomId":{"name":"rm_CardSwipeMG","path":"rooms/rm_CardSwipeMG/rm_CardSwipeMG.yy",},},
-    {"roomId":{"name":"rm_outside","path":"rooms/rm_outside/rm_outside.yy",},},
-    {"roomId":{"name":"rm_DenizMaria","path":"rooms/rm_DenizMaria/rm_DenizMaria.yy",},},
-    {"roomId":{"name":"rm_inside","path":"rooms/rm_inside/rm_inside.yy",},},
-    {"roomId":{"name":"rm_Appie","path":"rooms/rm_Appie/rm_Appie.yy",},},
-
-
-    {"roomId":{"name":"rm_BakerSpace","path":"rooms/rm_BakerSpace/rm_BakerSpace.yy",},},
-    {"roomId":{"name":"rm_CoffeeMachine","path":"rooms/rm_CoffeeMachine/rm_CoffeeMachine.yy",},},
-    {"roomId":{"name":"rm_Agartha","path":"rooms/rm_Agartha/rm_Agartha.yy",},},
-
-    {"roomId":{"name":"rm_VdendingmachineMinigame","path":"rooms/rm_VdendingmachineMinigame/rm_VdendingmachineMinigame.yy",},},
-
-
-    {"roomId":{"name":"rm_VdendingmachineMinigame","path":"rooms/rm_VdendingmachineMinigame/rm_Vdendingmac
-  ],
-  "templateType":"game",
-  "TextureGroups":[
-    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
-  ],
+  resourceVersion: "",
+  name: "RoboBitch",
+  tags: [],
+  resourceType: "GMProject",
 }
