@@ -28,7 +28,7 @@ on_dialog_end = function(descriptor){
 	if(descriptor == "smoking_yes"){
 		global.NewPlayerX = 450;
 		global.NewPlayerY = 320;
-		room_goto(rm_outside)
+		room_goto(rm_endscreen)
 	}
 }
 
