@@ -92,6 +92,7 @@
     {"id":{"name":"obj_DialogMicheal","path":"objects/obj_DialogMicheal/obj_DialogMicheal.yy",},},
     {"id":{"name":"obj_DialogSampleA","path":"objects/obj_DialogSampleA/obj_DialogSampleA.yy",},},
     {"id":{"name":"obj_DialogueButton","path":"objects/obj_DialogueButton/obj_DialogueButton.yy",},},
+    {"id":{"name":"obj_DialogueCharacter","path":"objects/obj_DialogueCharacter/obj_DialogueCharacter.yy",},},
     {"id":{"name":"obj_DialogueParent","path":"objects/obj_DialogueParent/obj_DialogueParent.yy",},},
     {"id":{"name":"obj_Drop","path":"objects/obj_Drop/obj_Drop.yy",},},
     {"id":{"name":"obj_GameController","path":"objects/obj_GameController/obj_GameController.yy",},},
@@ -209,8 +210,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_TitleScreen","path":"rooms/rm_TitleScreen/rm_TitleScreen.yy",},},
-    {"roomId":{"name":"rm_CupGame","path":"rooms/rm_CupGame/rm_CupGame.yy",},},
     {"roomId":{"name":"rm_BusStop","path":"rooms/rm_BusStop/rm_BusStop.yy",},},
+    {"roomId":{"name":"rm_CupGame","path":"rooms/rm_CupGame/rm_CupGame.yy",},},
     {"roomId":{"name":"rm_CardSwipeMG","path":"rooms/rm_CardSwipeMG/rm_CardSwipeMG.yy",},},
     {"roomId":{"name":"rm_outside","path":"rooms/rm_outside/rm_outside.yy",},},
     {"roomId":{"name":"rm_DenizMaria","path":"rooms/rm_DenizMaria/rm_DenizMaria.yy",},},

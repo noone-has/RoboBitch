@@ -48,6 +48,7 @@
     {"name":"obj_DialogMariaDeniz","order":2,"path":"objects/obj_DialogMariaDeniz/obj_DialogMariaDeniz.yy",},
     {"name":"obj_DialogMicheal","order":1,"path":"objects/obj_DialogMicheal/obj_DialogMicheal.yy",},
     {"name":"obj_DialogueButton","order":6,"path":"objects/obj_DialogueButton/obj_DialogueButton.yy",},
+    {"name":"obj_DialogueCharacter","order":7,"path":"objects/obj_DialogueCharacter/obj_DialogueCharacter.yy",},
     {"name":"obj_DialogueParent","order":1,"path":"objects/obj_DialogueParent/obj_DialogueParent.yy",},
     {"name":"obj_Drop","order":12,"path":"objects/obj_Drop/obj_Drop.yy",},
     {"name":"obj_GameController","order":2,"path":"objects/obj_GameController/obj_GameController.yy",},
