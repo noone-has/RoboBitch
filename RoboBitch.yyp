@@ -122,6 +122,7 @@
     {"id":{"name":"rm_CupGame","path":"rooms/rm_CupGame/rm_CupGame.yy",},},
     {"id":{"name":"rm_DenizMaria","path":"rooms/rm_DenizMaria/rm_DenizMaria.yy",},},
     {"id":{"name":"rm_endscreen","path":"rooms/rm_endscreen/rm_endscreen.yy",},},
+    {"id":{"name":"rm_Hallway","path":"rooms/rm_Hallway/rm_Hallway.yy",},},
     {"id":{"name":"rm_inside","path":"rooms/rm_inside/rm_inside.yy",},},
     {"id":{"name":"rm_outside","path":"rooms/rm_outside/rm_outside.yy",},},
     {"id":{"name":"rm_TitleScreen","path":"rooms/rm_TitleScreen/rm_TitleScreen.yy",},},
@@ -244,6 +245,7 @@
     {"roomId":{"name":"rm_CoffeeMachine","path":"rooms/rm_CoffeeMachine/rm_CoffeeMachine.yy",},},
     {"roomId":{"name":"rm_Agartha","path":"rooms/rm_Agartha/rm_Agartha.yy",},},
     {"roomId":{"name":"rm_endscreen","path":"rooms/rm_endscreen/rm_endscreen.yy",},},
+    {"roomId":{"name":"rm_Hallway","path":"rooms/rm_Hallway/rm_Hallway.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
