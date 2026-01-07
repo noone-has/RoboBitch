@@ -51,3 +51,5 @@ switch (button_id)
 		}
 	break;
 }
+
+audio_play_sound(sfx_menu, 10, false);
