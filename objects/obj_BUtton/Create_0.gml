@@ -7,4 +7,5 @@ enum Buttons
 	Resume,
 	Empty,
 	Back,
+	CaptchaVerify,
 }
