@@ -1,6 +1,6 @@
 dialog = new scr_Dialogue()
 
-key_next = vk_enter  || vk_space;
+key_next = vk_enter || vk_space;
 
 global.should_show_dialog = false
 global.is_making_choice = false
@@ -15,6 +15,7 @@ alpha = 0
 trigger_radius = 20
 
 //used to execute logic when a branch gets selected
+//you can overwrite these in children
 on_branch_select = function(descriptor){
 	return;
 }
@@ -28,6 +29,9 @@ show_dialog = function(character_sprite, text)
 	layer_set_visible("DialogueLayer", true)
 	var textID = layer_text_get_id("DialogueLayer", "DialogueText");
 	layer_text_text(textID, text)
+	
+	
+	
 	alpha = lerp(alpha, 1, 0.06)
 	image_alpha = alpha
 }

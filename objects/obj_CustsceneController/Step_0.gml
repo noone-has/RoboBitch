@@ -9,7 +9,7 @@ switch (global.SequenceState)
 {
 	case SequenceStates.BusArriving:
 		alarm[0] = 3*room_speed
-	break;	
+	break;
 
 	case SequenceStates.BusLeaving:
 		layer_sequence_create("Sequences", -384, 704, sq_Bus2)

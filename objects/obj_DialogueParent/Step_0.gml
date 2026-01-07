@@ -13,7 +13,7 @@ if(global.should_show_dialog == false){
 			global.is_making_choice = true
 			
 			
-			var branch_index = global.DialogueChoice; 
+			var branch_index = global.DialogueChoice;
 			
 			if(dialog.get_branch(branch_index) != false){//the requested branch exists
 				dialog = dialog.get_branch(branch_index)
