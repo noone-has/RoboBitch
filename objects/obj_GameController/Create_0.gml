@@ -8,7 +8,7 @@ layer_set_visible("SettingsLayer", false)
 layer_set_visible("DialogueLayer", false)
 layer_set_visible("DialogueOptionsLayer", false)
 layer_set_visible("CardSwipeLayer", false)
-
+layer_set_visible("PhoneLayer", false)
 
 // Cursor
 window_set_cursor(cr_none);
@@ -29,5 +29,3 @@ enum SequenceStates{
 	BusLeaving,
 	Cutscene3,
 }
-
-global.SequenceState = SequenceStates.BusArriving;

@@ -2,13 +2,13 @@ if(lastState == global.SequenceState)
 {
 	return;
 }
-//ELSE
 lastState = global.SequenceState
 
+//The SequenceState has changed
 switch (global.SequenceState)
 {
-	case SequenceStates.BusArriving: 
-		layer_sequence_create("Sequences", 1184, 704, sq_Bus1)
+	case SequenceStates.BusArriving:
+		alarm[0] = 3*room_speed
 	break;	
 
 	case SequenceStates.BusLeaving:
