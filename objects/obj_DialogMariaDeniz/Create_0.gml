@@ -13,8 +13,7 @@ dialog.add(DEPspr_Player, "You want a hit or not?")
 //Say yes to smoking
 dialog_SmokingYes = new scr_Dialogue()
 dialog_SmokingYes.descriptor = "smoking_yes"
-dialog_SmokingYes.add(DEPspr_Player, "(You take a hit)")
-dialog_SmokingYes.add(DEPspr_Player, "Let's go to Appie") //maria/deniz
+dialog_SmokingYes.add(DEPspr_Player, "(You take a hit)") //maria/deniz
 
 //Say no to smoking
 dialog_SmokingNo = new scr_Dialogue()
@@ -28,7 +27,7 @@ on_dialog_end = function(descriptor){
 	if(descriptor == "smoking_yes"){
 		global.NewPlayerX = 450;
 		global.NewPlayerY = 320;
-		room_goto(rm_outside)
+		room_goto(rm_endscreen)
 	}
 }
 
