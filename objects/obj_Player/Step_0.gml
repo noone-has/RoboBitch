@@ -5,9 +5,3 @@ upKey =    keyboard_check(ord("W")) || keyboard_check(vk_up)
 downKey =  keyboard_check(ord("S")) || keyboard_check(vk_down)
 
 if (!global.should_show_dialog && !global.is_making_choice){movement();}
-
-//TESTING ROOM INFO OBJECT
-/*oRoomInfo = instance_id_get(obj_RoomInfoParent)
-with(oRoomInfo){
-	show_debug_message(roomName)
-}*/
