@@ -14,7 +14,6 @@ dialog.add(spr_Micheal, "You want a hit or not?")
 dialog_SmokingYes = new scr_Dialogue()
 dialog_SmokingYes.descriptor = "smoking_yes"
 dialog_SmokingYes.add(spr_Robot, "(You take a hit)")
-dialog_SmokingYes.add(spr_Micheal, "Let's go to Appie") //maria/deniz
 
 //Say no to smoking
 dialog_SmokingNo = new scr_Dialogue()

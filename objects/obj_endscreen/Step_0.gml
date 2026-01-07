@@ -1,4 +1,4 @@
-if (image_index == 10)
+if keyboard_check(vk_space)
 	{
-		image_index = 10;
+		game_restart()
 	}
