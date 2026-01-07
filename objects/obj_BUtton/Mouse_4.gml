@@ -1,4 +1,4 @@
-switch (button_id) 
+switch (button_id)
 { 
 	case Buttons.Start:	
 		room_goto_next() layer_set_visible("MainMenuLayer", false)
@@ -16,7 +16,7 @@ switch (button_id)
 	break;
 	
 	case
-		Buttons.Fullscreen: 
+		Buttons.Fullscreen:
 		global.isFullscreen = !global.isFullscreen;
 	break;
 	
@@ -43,5 +43,11 @@ switch (button_id)
 			layer_set_visible("PauseLayer", true);
 			layer_set_visible("SettingsLayer", false);
 		} 
-	break; 
+	break;
+	
+	case Buttons.CaptchaVerify:
+		with(obj_CaptchaController){
+			verify()
+		}
+	break;
 }
