@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_DialogueCharacter",
+  "%Name":"obj_busstop",
   "eventList":[],
   "managed":true,
-  "name":"obj_DialogueCharacter",
+  "name":"obj_busstop",
   "overriddenProperties":[],
   "parent":{
-    "name":"UI",
-    "path":"folders/Objects/UI.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_face_dialogue",
-    "path":"sprites/spr_face_dialogue/spr_face_dialogue.yy",
+    "name":"spr_BusStop",
+    "path":"sprites/spr_BusStop/spr_BusStop.yy",
   },
   "spriteMaskId":null,
   "visible":true,
