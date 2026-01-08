@@ -34,10 +34,12 @@ if(swipeStarted){
 		var slowEnough = (timeSinceFirstSwipe > targetSwipeTime - targetSwipeTimeThreshold)
 	
 		if(!fastEnough){
+			audio_play_sound(sfx_wrong, 10, false);
 			readerStatus = "TOO SLOW"
 			targetSwipeTimeThreshold += 5
 		}
 		if(!slowEnough){
+			audio_play_sound(sfx_wrong, 10, false);
 			readerStatus = "TOO FAST"
 			targetSwipeTimeThreshold += 5
 		}

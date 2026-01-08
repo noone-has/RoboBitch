@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sfx_menu",
+  "%Name":"sfx_wrong",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.11988662,
+  "duration":0.6198639,
   "exportDir":"",
-  "name":"sfx_menu",
+  "name":"sfx_wrong",
   "parent":{
     "name":"SFX",
     "path":"folders/SFX.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_menu.wav",
+  "soundFile":"sfx_wrong.wav",
   "volume":1.0,
 }

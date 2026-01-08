@@ -10,3 +10,5 @@ activate = function(){
 	global.NewPlayerX = targetX;
 	global.NewPlayerY = targetY;
 }
+
+visible = false;

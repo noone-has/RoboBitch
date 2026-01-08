@@ -12,6 +12,7 @@
     {"name":"inst_6C870651","path":"rooms/rm_outside/rm_outside.yy",},
     {"name":"inst_58B73BD8","path":"rooms/rm_outside/rm_outside.yy",},
     {"name":"inst_10F495D5","path":"rooms/rm_outside/rm_outside.yy",},
+    {"name":"inst_3C98E9C7","path":"rooms/rm_outside/rm_outside.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -26,11 +27,11 @@
         {"$GMRInstance":"v4","%Name":"inst_6C870651","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6C870651","objectId":{"name":"cm_Outside","path":"objects/cm_Outside/cm_Outside.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
         {"$GMRInstance":"v4","%Name":"inst_58B73BD8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_58B73BD8","objectId":{"name":"obj_RoomSwitcher","path":"objects/obj_RoomSwitcher/obj_RoomSwitcher.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_RoomSwitcher","path":"objects/obj_RoomSwitcher/obj_RoomSwitcher.yy",},"propertyId":{"name":"target_room","path":"objects/obj_RoomSwitcher/obj_RoomSwitcher.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_DenizMaria",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_RoomSwitcher","path":"objects/obj_RoomSwitcher/obj_RoomSwitcher.yy",},"propertyId":{"name":"trigger_condition","path":"objects/obj_RoomSwitcher/obj_RoomSwitcher.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"triggers.Radius",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_RoomSwitcher","path":"objects/obj_RoomSwitcher/obj_RoomSwitcher.yy",},"propertyId":{"name":"targetX","path":"objects/obj_RoomSwitcher/obj_RoomSwitcher.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"64",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_RoomSwitcher","path":"objects/obj_RoomSwitcher/obj_RoomSwitcher.yy",},"propertyId":{"name":"targetY","path":"objects/obj_RoomSwitcher/obj_RoomSwitcher.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"288",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":512.0,"y":544.0,},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":512.0,"y":512.0,},
         {"$GMRInstance":"v4","%Name":"inst_10F495D5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_10F495D5","objectId":{"name":"obj_DialogMicheal","path":"objects/obj_DialogMicheal/obj_DialogMicheal.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":800.0,"y":384.0,},
+        {"$GMRInstance":"v4","%Name":"inst_3C98E9C7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3C98E9C7","objectId":{"name":"arr_outside1","path":"objects/arr_outside1/arr_outside1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":512.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Sequences","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_50ED794C","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_50ED794C","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_Micheal","path":"sprites/spr_Micheal/spr_Micheal.yy",},"x":768.0,"y":352.0,},
@@ -56,7 +57,7 @@
   "roomSettings":{
     "Height":1080,
     "inheritRoomSettings":false,
-    "persistent":false,
+    "persistent":true,
     "Width":1920,
   },
   "sequenceId":null,
