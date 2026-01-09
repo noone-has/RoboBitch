@@ -96,6 +96,7 @@
     {"name":"sfx_end","order":3,"path":"sounds/sfx_end/sfx_end.yy",},
     {"name":"sfx_MariaVoice","order":1,"path":"sounds/sfx_MariaVoice/sfx_MariaVoice.yy",},
     {"name":"sfx_menu","order":5,"path":"sounds/sfx_menu/sfx_menu.yy",},
+    {"name":"sfx_positive","order":6,"path":"sounds/sfx_positive/sfx_positive.yy",},
     {"name":"sfx_wrong","order":4,"path":"sounds/sfx_wrong/sfx_wrong.yy",},
     {"name":"BaseCollisionMaskSprite","order":6,"path":"sprites/BaseCollisionMaskSprite/BaseCollisionMaskSprite.yy",},
     {"name":"captcha_background","order":15,"path":"sprites/captcha_background/captcha_background.yy",},

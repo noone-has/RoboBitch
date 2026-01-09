@@ -50,6 +50,7 @@ if(swipeStarted){
 			readerStatus = "YAY YOU DID IT :D !"
 			done = true;
 			doneTimeStamp = current_time
+			audio_play_sound(sfx_positive, 7, false, global.AudioVolume);
 		}
 	}
 }

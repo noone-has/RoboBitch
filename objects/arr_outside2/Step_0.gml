@@ -1,9 +1,11 @@
-if (visit_count = 2)
+if (visit_count = 3)
 	{
 		visible = true;
 	}
-	
-if (visit_count > 2)
+	else
 	{
 		visible = false;
 	}
+	
+	
+show_debug_message(visit_count)
