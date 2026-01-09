@@ -1,8 +1,9 @@
+show_debug_message(global.AudioVolume)
 
 if(is_being_dragged == true)
 {
 	if(mouse_x < x)
-	{amount_current = 0} //if the mouse is behind the slider, set the slider value to 0
+	{amount_current = 0; amount = 0} //if the mouse is behind the slider, set the slider value to 0
 	else
 	{
 		var xx = abs(x - mouse_x)
@@ -12,10 +13,13 @@ if(is_being_dragged == true)
 		amount_current = amount * 100
 	}
 }
-amount_send = amount;
 
 switch (slider_id)
 {
-	case 0: global.AudioVolume = amount_current; break;
-	case 1: global.MusicVolume = amount_current; break;
+	case 0:
+		global.AudioVolume = amount;
+		break;
+	case 1: 
+		global.MusicVolume = amount; 
+		break;
 }
