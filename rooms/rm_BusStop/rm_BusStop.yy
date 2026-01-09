@@ -13,9 +13,8 @@
     {"name":"inst_5568D84A","path":"rooms/rm_BusStop/rm_BusStop.yy",},
     {"name":"inst_558ED0F","path":"rooms/rm_BusStop/rm_BusStop.yy",},
     {"name":"inst_5517F3E2","path":"rooms/rm_BusStop/rm_BusStop.yy",},
-    {"name":"inst_37CB1518","path":"rooms/rm_BusStop/rm_BusStop.yy",},
-    {"name":"inst_63531CC1","path":"rooms/rm_BusStop/rm_BusStop.yy",},
     {"name":"inst_35E46529","path":"rooms/rm_BusStop/rm_BusStop.yy",},
+    {"name":"inst_37CB1518","path":"rooms/rm_BusStop/rm_BusStop.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -33,7 +32,6 @@
         {"$GMRInstance":"v4","%Name":"inst_4D984FC0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4D984FC0","objectId":{"name":"obj_RoomSwitcher","path":"objects/obj_RoomSwitcher/obj_RoomSwitcher.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_RoomSwitcher","path":"objects/obj_RoomSwitcher/obj_RoomSwitcher.yy",},"propertyId":{"name":"target_room","path":"objects/obj_RoomSwitcher/obj_RoomSwitcher.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_CardSwipeMG",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":1632.0,"y":896.0,},
-        {"$GMRInstance":"v4","%Name":"inst_63531CC1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_63531CC1","objectId":{"name":"obj_goheresign","path":"objects/obj_goheresign/obj_goheresign.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5148628,"scaleY":0.5148628,"x":64.0,"y":352.0,},
         {"$GMRInstance":"v4","%Name":"inst_2C541E45","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2C541E45","objectId":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":864.0,"y":736.0,},
         {"$GMRInstance":"v4","%Name":"inst_5568D84A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5568D84A","objectId":{"name":"obj_CustsceneController","path":"objects/obj_CustsceneController/obj_CustsceneController.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
         {"$GMRInstance":"v4","%Name":"inst_37CB1518","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_37CB1518","objectId":{"name":"cm_BusStop","path":"objects/cm_BusStop/cm_BusStop.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":-96.0,},

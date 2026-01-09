@@ -7,6 +7,7 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_5DBABD67","path":"rooms/rm_TitleScreen/rm_TitleScreen.yy",},
+    {"name":"inst_1A7C2B75","path":"rooms/rm_TitleScreen/rm_TitleScreen.yy",},
     {"name":"StartGameButton","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"SettingsButton1","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"QuitGameButton1","path":"roomui/RoomUI/RoomUI.yy",},
@@ -16,7 +17,6 @@
     {"name":"SettingsButton","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"QuitGameButton","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_F7CF143","path":"roomui/RoomUI/RoomUI.yy",},
-    {"name":"inst_1A7C2B75","path":"rooms/rm_TitleScreen/rm_TitleScreen.yy",},
     {"name":"DialogueOption1Button","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"DialogueOption2Button","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_5D5CE36B","path":"roomui/RoomUI/RoomUI.yy",},
