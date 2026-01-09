@@ -13,8 +13,9 @@ if(is_being_dragged == true)
 	}
 }
 amount_send = amount;
+
 switch (slider_id)
 {
-	case 0: global.AudioVolume = amount_send; break;
-	case 1: global.MusicVolume = amount_send; break;
+	case 0: global.AudioVolume = amount_current; break;
+	case 1: global.MusicVolume = amount_current; break;
 }

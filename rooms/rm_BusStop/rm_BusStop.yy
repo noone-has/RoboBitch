@@ -12,9 +12,9 @@
     {"name":"inst_2C541E45","path":"rooms/rm_BusStop/rm_BusStop.yy",},
     {"name":"inst_5568D84A","path":"rooms/rm_BusStop/rm_BusStop.yy",},
     {"name":"inst_558ED0F","path":"rooms/rm_BusStop/rm_BusStop.yy",},
-    {"name":"inst_5517F3E2","path":"rooms/rm_BusStop/rm_BusStop.yy",},
     {"name":"inst_35E46529","path":"rooms/rm_BusStop/rm_BusStop.yy",},
     {"name":"inst_37CB1518","path":"rooms/rm_BusStop/rm_BusStop.yy",},
+    {"name":"inst_5517F3E2","path":"rooms/rm_BusStop/rm_BusStop.yy",},
   ],
   "isDnd":false,
   "layers":[
