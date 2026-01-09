@@ -1,9 +1,9 @@
 depth = -100
 
-
 /* fyi all object rerun create code when you enter a new room
 thats why this code works :p*/
-// Room location
+
+// Set the new player location when switching rooms
 x = global.NewPlayerX;
 y = global.NewPlayerY;
 

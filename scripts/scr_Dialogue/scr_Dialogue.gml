@@ -49,7 +49,7 @@ function scr_Dialogue() constructor{
 		}
 		if(branch_index > array_length(_branches)-1){
 			//getting the branch failed
-			show_debug_message("GETTING BRANCH FAILED")
+			show_debug_message($"Branch {i} could not be found.")
 			return false
 		}
 		return array_get(_branches, branch_index);

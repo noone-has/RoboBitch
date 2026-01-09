@@ -24,6 +24,8 @@ if(swipeStarted){
 			
 			readerStatus = msg //display on the scanner
 			
+			audio_play_sound(sfx_wrong, 10, false, global.AudioVolume);
+			
 			return; //so the rest of the code doesn't run
 		}
 		
@@ -34,12 +36,12 @@ if(swipeStarted){
 		var slowEnough = (timeSinceFirstSwipe > targetSwipeTime - targetSwipeTimeThreshold)
 	
 		if(!fastEnough){
-			audio_play_sound(sfx_wrong, 10, false);
+			audio_play_sound(sfx_wrong, 10, false, global.AudioVolume);
 			readerStatus = "TOO SLOW"
 			targetSwipeTimeThreshold += 5
 		}
 		if(!slowEnough){
-			audio_play_sound(sfx_wrong, 10, false);
+			audio_play_sound(sfx_wrong, 10, false, global.AudioVolume);
 			readerStatus = "TOO FAST"
 			targetSwipeTimeThreshold += 5
 		}
