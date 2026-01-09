@@ -1,10 +1,10 @@
+
 depth = -100
+
 
 /* fyi all object rerun create code when you enter a new room
 thats why this code works :p*/
 // Room location
-x = global.NewPlayerX;
-y = global.NewPlayerY; 
 
 // SFX
 snd_step = sfx_GrassFootstep;
@@ -14,7 +14,7 @@ step_snd_offset = 0;
 moveSpd = 8;
 xSpd = 0
 ySpd = 0
-maxSpd = 8;
+maxSpd = 10;
 acceleration = 0.1;
 decceleration = 0.1;
 
@@ -28,23 +28,19 @@ moving = false;
 TopDownMovement = function(){
 	//Get inputs 
 	var horInput = rightKey - leftKey;
-	var verInput = downKey - upKey;
 	//Get the vector made from the two inputs
-	moveDir = point_direction(0, 0, horInput, verInput);
+	moveDir = point_direction(0, 0, horInput, 0);
 
 	var Spd = 0;
-	var ifInput = point_distance(0, 0, horInput, verInput);
+	var ifInput = point_distance(0, 0, horInput, 0);
 	ifInput = clamp(ifInput, 0, 1);
 	Spd = moveSpd * ifInput;
 
 	xSpd += lengthdir_x(Spd, moveDir)*acceleration;
-	ySpd += lengthdir_y(Spd, moveDir)*acceleration;
 
 	xSpd = clamp(xSpd, -maxSpd, maxSpd)
-	ySpd = clamp(ySpd, -maxSpd, maxSpd)
 
 	var isMovingX = horInput != 0
-	var isMovingY = verInput != 0
 	
 	if(!isMovingX){
 		if(xSpd < 0)
@@ -54,17 +50,6 @@ TopDownMovement = function(){
 		if(xSpd > 0)
 		{
 			xSpd = clamp(xSpd - (moveSpd * decceleration), 0, infinity)
-		}
-	}
-	if(!isMovingY){
-		if(ySpd < 0)
-		{
-			ySpd = clamp(ySpd + (moveSpd * decceleration), -infinity, 0)
-
-		}
-		if(ySpd > 0)
-		{
-			ySpd = clamp(ySpd - (moveSpd * decceleration), 0, infinity)
 		}
 	}
 
@@ -83,18 +68,16 @@ PointAndClickMovement = function(){
 	if(moving){
 		//get the difference(delta) on both axis
 		var dx = nextPoint.getX() - x;
-		var dy = nextPoint.getY() - y;
 		
 		//get a direction vector
 		directionToNextPoint = new scr_Position(dx, dy)
 		directionToNextPoint.normalize()
 		
 		var move_x = directionToNextPoint.getX()*moveSpd
-		var move_y = directionToNextPoint.getY()*moveSpd
 		
-		show_debug_message(string(move_x) + ";" + string(move_y))
+		show_debug_message(string(move_x) + ";" + string(0))
 		
-		move_and_collide(move_x, move_y, all)
+		move_and_collide(move_x, 0, all)
 	
 		//check if the player is close to the new position
 		if(point_distance(x, y, nextPoint.getX(), nextPoint.getY()) < 5){

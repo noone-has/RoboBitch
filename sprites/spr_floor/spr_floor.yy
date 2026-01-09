@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"spr_floor",
-  "bboxMode":0,
-  "bbox_bottom":1079,
+  "bboxMode":2,
+  "bbox_bottom":0,
   "bbox_left":0,
-  "bbox_right":1919,
+  "bbox_right":0,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
