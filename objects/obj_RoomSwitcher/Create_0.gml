@@ -11,3 +11,4 @@ activate = function(){
 }
 
 visible = false;
+
