@@ -1,19 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Spawner",
+  "%Name":"obj_RunGameBackpackRed",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Spawner",
+  "name":"obj_RunGameBackpackRed",
   "overriddenProperties":[],
   "parent":{
     "name":"RunGame",
     "path":"folders/Objects/RunGame.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_RunGameObstacle",
+    "path":"objects/obj_RunGameObstacle/obj_RunGameObstacle.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,7 +33,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_bpred",
+    "path":"sprites/spr_bpred/spr_bpred.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

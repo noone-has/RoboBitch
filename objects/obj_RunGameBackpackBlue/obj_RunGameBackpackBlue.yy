@@ -1,17 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bpred",
+  "%Name":"obj_RunGameBackpackBlue",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_bpred",
+  "name":"obj_RunGameBackpackBlue",
   "overriddenProperties":[],
   "parent":{
     "name":"RunGame",
     "path":"folders/Objects/RunGame.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_RunGameObstacle",
+    "path":"objects/obj_RunGameObstacle/obj_RunGameObstacle.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bpred",
-    "path":"sprites/spr_bpred/spr_bpred.yy",
+    "name":"spr_bpblue",
+    "path":"sprites/spr_bpblue/spr_bpblue.yy",
   },
   "spriteMaskId":null,
   "visible":true,
