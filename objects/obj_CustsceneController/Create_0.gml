@@ -4,3 +4,11 @@
 lastState = -1
 global.NewPlayerX = 900;
 global.NewPlayerY = 700;
+
+//Add new cutscenes to this and execute the logic in obj_CutsceneController
+enum SequenceStates{
+	BusArriving,
+	BusLeaving,
+	Cutscene3,
+}
+

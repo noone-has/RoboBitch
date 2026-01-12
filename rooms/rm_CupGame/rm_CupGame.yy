@@ -43,8 +43,8 @@
   ],
   "name":"rm_CupGame",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Minigames",
+    "path":"folders/Rooms/Minigames.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

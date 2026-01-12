@@ -34,8 +34,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Endscreen",
-    "path":"folders/Sprites/Endscreen.yy",
+    "name":"BGs",
+    "path":"folders/Sprites/BGs.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

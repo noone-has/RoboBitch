@@ -42,8 +42,8 @@
   ],
   "name":"rm_DenizMaria",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Dialogue",
+    "path":"folders/Rooms/Dialogue.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
