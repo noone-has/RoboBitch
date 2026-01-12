@@ -192,6 +192,7 @@
     {"name":"spr_VendingMachineBG","order":11,"path":"sprites/spr_VendingMachineBG/spr_VendingMachineBG.yy",},
     {"name":"spr_VerifyButton","order":5,"path":"sprites/spr_VerifyButton/spr_VerifyButton.yy",},
     {"name":"spr_WalkLoop","order":10,"path":"sprites/spr_WalkLoop/spr_WalkLoop.yy",},
+    {"name":"spr_WalkStart","order":12,"path":"sprites/spr_WalkStart/spr_WalkStart.yy",},
     {"name":"spr_XButton","order":4,"path":"sprites/spr_XButton/spr_XButton.yy",},
   ],
 }

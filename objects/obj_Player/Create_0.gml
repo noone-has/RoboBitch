@@ -26,6 +26,10 @@ targetY = 0;
 //For the point and click movement
 moving = false;
 
+//
+animationSpeed = 10
+animationTimer = 0
+
 TopDownMovement = function(){
 	//Get inputs 
 	var horInput = rightKey - leftKey;
