@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bpred",
+  "%Name":"obj_obstacle",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_bpred",
+  "name":"obj_obstacle",
   "overriddenProperties":[],
   "parent":{
     "name":"RunGame",
-    "path":"folders/Objects/RunGame.yy",
+    "path":"folders/Objects/Minigames/RunGame.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,9 +31,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bpred",
-    "path":"sprites/spr_bpred/spr_bpred.yy",
+    "name":"spr_empty",
+    "path":"sprites/spr_empty/spr_empty.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_empty",
+    "path":"sprites/spr_empty/spr_empty.yy",
+  },
   "visible":true,
 }

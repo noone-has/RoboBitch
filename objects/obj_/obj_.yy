@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bar9",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_",
+  "eventList":[],
   "managed":true,
-  "name":"obj_bar9",
+  "name":"obj_",
   "overriddenProperties":[],
   "parent":{
-    "name":"Coffeegame",
-    "path":"folders/Objects/Minigames/Coffeegame.yy",
+    "name":"Systems",
+    "path":"folders/Objects/Systems.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_bar9",
-    "path":"sprites/spr_bar9/spr_bar9.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

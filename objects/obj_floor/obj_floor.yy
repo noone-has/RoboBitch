@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"RunGame",
-    "path":"folders/Objects/RunGame.yy",
+    "path":"folders/Objects/Minigames/RunGame.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -35,6 +35,9 @@
     "name":"spr_floor",
     "path":"sprites/spr_floor/spr_floor.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_empty",
+    "path":"sprites/spr_empty/spr_empty.yy",
+  },
   "visible":true,
 }

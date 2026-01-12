@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"RunGame",
-    "path":"folders/Objects/RunGame.yy",
+    "path":"folders/Objects/Minigames/RunGame.yy",
   },
   "parentObjectId":null,
   "persistent":false,
