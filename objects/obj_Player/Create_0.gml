@@ -1,3 +1,4 @@
+//depth
 depth = -100
 
 /* fyi all object rerun create code when you enter a new room
