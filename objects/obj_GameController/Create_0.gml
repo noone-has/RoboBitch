@@ -23,9 +23,4 @@ global.MusicVolume = 1;
 global.paused = false;
 scr_Pause();
 
-//Add new cutscenes to this and execute the logic in obj_CutsceneController
-enum SequenceStates{
-	BusArriving,
-	BusLeaving,
-	Cutscene3,
-}
+
