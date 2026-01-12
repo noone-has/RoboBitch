@@ -31,10 +31,6 @@
   "ResourceOrderSettings":[
     {"name":"DEPfnt_MeatMadness","order":8,"path":"fonts/DEPfnt_MeatMadness/DEPfnt_MeatMadness.yy",},
     {"name":"fnt_NersansThree","order":1,"path":"fonts/fnt_NersansThree/fnt_NersansThree.yy",},
-    {"name":"arr_coffeemachine1","order":2,"path":"objects/arr_coffeemachine1/arr_coffeemachine1.yy",},
-    {"name":"arr_inside1","order":4,"path":"objects/arr_inside1/arr_inside1.yy",},
-    {"name":"arr_outside1","order":1,"path":"objects/arr_outside1/arr_outside1.yy",},
-    {"name":"arr_outside2","order":3,"path":"objects/arr_outside2/arr_outside2.yy",},
     {"name":"BaseCollisionMaskObj","order":6,"path":"objects/BaseCollisionMaskObj/BaseCollisionMaskObj.yy",},
     {"name":"cm_Appie","order":3,"path":"objects/cm_Appie/cm_Appie.yy",},
     {"name":"cm_Bakerspace","order":2,"path":"objects/cm_Bakerspace/cm_Bakerspace.yy",},

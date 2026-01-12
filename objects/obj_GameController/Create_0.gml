@@ -12,14 +12,6 @@ for (var i = 0; i < array_length(layers); i++)
 }
 layer_set_visible("MainMenuLayer", true) 
 
-/*
-layer_set_visible("SettingsLayer", false)
-layer_set_visible("DialogueLayer", false)
-layer_set_visible("DialogueOptionsLayer", false)
-layer_set_visible("CardSwipeLayer", false)
-layer_set_visible("PhoneLayer", false)	
-*/
-
 // Cursor
 window_set_cursor(cr_none);
 cursor_sprite = spr_Cursor;

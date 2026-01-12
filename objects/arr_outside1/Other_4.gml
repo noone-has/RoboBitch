@@ -1,1 +1,0 @@
-visit_count += 1;

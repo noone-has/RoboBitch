@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_WalkStart",
-    "path":"sprites/spr_WalkStart/spr_WalkStart.yy",
+    "name":"spr_PlayerTemp",
+    "path":"sprites/spr_PlayerTemp/spr_PlayerTemp.yy",
   },
   "spriteMaskId":null,
   "visible":true,
