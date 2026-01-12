@@ -6,10 +6,6 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_1755149F","path":"rooms/rm_RunGame/rm_RunGame.yy",},
-    {"name":"inst_11E558EB","path":"rooms/rm_RunGame/rm_RunGame.yy",},
-    {"name":"inst_3019E993","path":"rooms/rm_RunGame/rm_RunGame.yy",},
-    {"name":"inst_2829708B","path":"rooms/rm_RunGame/rm_RunGame.yy",},
   ],
   "isDnd":false,
   "layers":[

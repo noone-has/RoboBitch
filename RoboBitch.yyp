@@ -133,7 +133,7 @@
     {"id":{"name":"obj_Runner","path":"objects/obj_Runner/obj_Runner.yy",},},
     {"id":{"name":"obj_SliderBar","path":"objects/obj_SliderBar/obj_SliderBar.yy",},},
     {"id":{"name":"obj_SliderKnob","path":"objects/obj_SliderKnob/obj_SliderKnob.yy",},},
-    {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},},
+    {"id":{"name":"obj_Spawner","path":"objects/obj_spawner/obj_Spawner.yy",},},
     {"id":{"name":"obj_teacher","path":"objects/obj_teacher/obj_teacher.yy",},},
     {"id":{"name":"obj_Tick","path":"objects/obj_Tick/obj_Tick.yy",},},
     {"id":{"name":"rm_Agartha","path":"rooms/rm_Agartha/rm_Agartha.yy",},},

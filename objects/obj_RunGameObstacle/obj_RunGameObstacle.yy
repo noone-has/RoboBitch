@@ -9,8 +9,8 @@
   "name":"obj_RunGameObstacle",
   "overriddenProperties":[],
   "parent":{
-    "name":"RunGame",
-    "path":"folders/Objects/RunGame.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
