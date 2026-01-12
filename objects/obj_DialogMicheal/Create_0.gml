@@ -1,6 +1,8 @@
 // Inherit the parent event
 event_inherited();
 
+trigger_radius = 10000
+
 //Main dialogue
 dialog.add(spr_Micheal, "Welcome newcomer.")
 dialog.add(spr_Micheal, "You're already late! Get your ass to class.")
