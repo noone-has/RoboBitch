@@ -1,21 +1,11 @@
 {
   "$GMObject":"",
-<<<<<<<< HEAD:objects/obj_RunGameBackpackRed/obj_RunGameBackpackRed.yy
-  "%Name":"obj_RunGameBackpackRed",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
-  "managed":true,
-  "name":"obj_RunGameBackpackRed",
-========
   "%Name":"obj_emo2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_emo2",
->>>>>>>> 678695e4f5bc1edb0fd453902f86b769fb92a806:objects/obj_emo2/obj_emo2.yy
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

@@ -127,8 +127,6 @@
     {"id":{"name":"obj_RoomInfoOutside","path":"objects/obj_RoomInfoOutside/obj_RoomInfoOutside.yy",},},
     {"id":{"name":"obj_RoomInfoParent","path":"objects/obj_RoomInfoParent/obj_RoomInfoParent.yy",},},
     {"id":{"name":"obj_RoomSwitcher","path":"objects/obj_RoomSwitcher/obj_RoomSwitcher.yy",},},
-    {"id":{"name":"obj_RunGameBackpackBlue","path":"objects/obj_RunGameBackpackBlue/obj_RunGameBackpackBlue.yy",},},
-    {"id":{"name":"obj_RunGameBackpackRed","path":"objects/obj_RunGameBackpackRed/obj_RunGameBackpackRed.yy",},},
     {"id":{"name":"obj_RunGameObstacle","path":"objects/obj_RunGameObstacle/obj_RunGameObstacle.yy",},},
     {"id":{"name":"obj_Runner","path":"objects/obj_Runner/obj_Runner.yy",},},
     {"id":{"name":"obj_SliderBar","path":"objects/obj_SliderBar/obj_SliderBar.yy",},},

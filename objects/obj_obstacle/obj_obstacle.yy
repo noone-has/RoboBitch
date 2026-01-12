@@ -1,14 +1,5 @@
 {
   "$GMObject":"",
-<<<<<<<< HEAD:objects/obj_RunGameObstacle/obj_RunGameObstacle.yy
-  "%Name":"obj_RunGameObstacle",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
-  "managed":true,
-  "name":"obj_RunGameObstacle",
-========
   "%Name":"obj_obstacle",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -16,7 +7,6 @@
   ],
   "managed":true,
   "name":"obj_obstacle",
->>>>>>>> 678695e4f5bc1edb0fd453902f86b769fb92a806:objects/obj_obstacle/obj_obstacle.yy
   "overriddenProperties":[],
   "parent":{
     "name":"RunGame",
@@ -40,10 +30,6 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-<<<<<<<< HEAD:objects/obj_RunGameObstacle/obj_RunGameObstacle.yy
-  "spriteId":null,
-  "spriteMaskId":null,
-========
   "spriteId":{
     "name":"spr_empty",
     "path":"sprites/spr_empty/spr_empty.yy",
@@ -52,6 +38,5 @@
     "name":"spr_empty",
     "path":"sprites/spr_empty/spr_empty.yy",
   },
->>>>>>>> 678695e4f5bc1edb0fd453902f86b769fb92a806:objects/obj_obstacle/obj_obstacle.yy
   "visible":true,
 }
