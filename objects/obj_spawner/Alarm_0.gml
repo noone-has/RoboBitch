@@ -1,7 +1,4 @@
-var array_size = array_length(spawnable_object)
-var random_index = irandom(array_size - 1)
-
-var new_obstacle = instance_create_layer(irandom(room_width), -room_height, object_layer, array_get(spawnable_object, random_index))
+instance_create_layer(irandom(room_width) -100, -400, "Instances", obj_obstacle)
 
 
 new_obstacle.image_angle += irandom(360)

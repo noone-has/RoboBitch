@@ -5,9 +5,9 @@ trigger_radius = 10000
 
 //Main dialogue
 dialog.add(spr_Robot, "(Who are these kids?)")
-dialog.add(spr_Micheal, "Do you want a hit?") //maria/deniz
+dialog.add(spr_Micheal, "Do you want a hit?") //maria/deniz 
 dialog.add(spr_Shock, "Isn't that tabacco?")
-dialog.add(spr_Micheal, "yeah") //maria/deniz
+dialog.add(spr_Micheal, "Yeah, it is.") //maria/deniz
 dialog.add(spr_Micheal, "You want a hit or not?")
 
 //Say yes to smoking

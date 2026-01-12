@@ -11,8 +11,8 @@
   "name":"obj_OVCard",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Cardswipe",
+    "path":"folders/Objects/Minigames/Cardswipe.yy",
   },
   "parentObjectId":null,
   "persistent":false,

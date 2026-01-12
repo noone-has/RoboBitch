@@ -12,11 +12,33 @@
   "isDnd":false,
   "layers":[
     {"$GMRAssetLayer":"","%Name":"Sequences","assets":[],"depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Sequences","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+    {"$GMRAssetLayer":"","%Name":"assets","assets":[
+        {"$GMRSpriteGraphic":"v1","%Name":"graphic_3B0E5304","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_3B0E5304","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.59542876,"scaleY":0.59542876,"spriteId":{"name":"spr_emo1","path":"sprites/spr_emo1/spr_emo1.yy",},"x":415.0,"y":53.0,},
+        {"$GMRSpriteGraphic":"v1","%Name":"graphic_112E3A51","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_112E3A51","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.52780706,"scaleY":0.52780706,"spriteId":{"name":"spr_emo2","path":"sprites/spr_emo2/spr_emo2.yy",},"x":768.93384,"y":30.0,},
+      ],"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"assets","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRInstanceLayer":"","%Name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_4D59957E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4D59957E","objectId":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":288.0,},
         {"$GMRInstance":"v4","%Name":"inst_3B6F8F8E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3B6F8F8E","objectId":{"name":"obj_DialogMariaDeniz","path":"objects/obj_DialogMariaDeniz/obj_DialogMariaDeniz.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":224.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_DMDialogueBG","path":"sprites/spr_DMDialogueBG/spr_DMDialogueBG.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_DMDialogueBG2","path":"sprites/spr_DMDialogueBG2/spr_DMDialogueBG2.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"$GMRBackgroundLayer":"","%Name":"BG","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":400,"effectEnabled":true,"effectType":"_filter_clouds","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"BG","properties":[
+        {"name":"g_CloudScale","type":0,"value":"18",},
+        {"name":"g_CloudVelocity","type":0,"value":"-4",},
+        {"name":"g_CloudVelocity","type":0,"value":"0",},
+        {"name":"g_CloudTurbulence","type":0,"value":"1",},
+        {"name":"g_CloudLevel","type":0,"value":"0.5",},
+        {"name":"g_CloudWaves","type":0,"value":"0.2",},
+        {"name":"g_CloudShape","type":0,"value":"0.1",},
+        {"name":"g_CloudShape","type":0,"value":"0.2",},
+        {"name":"g_CloudDensity","type":0,"value":"0.9",},
+        {"name":"g_CloudFade","type":0,"value":"1",},
+        {"name":"g_CloudColour1","type":1,"value":"#FFFFFFFF",},
+        {"name":"g_CloudColour2","type":1,"value":"#FFFFD8CC",},
+        {"name":"g_CloudShadeOffset","type":0,"value":"0.2",},
+        {"name":"g_CloudShadeOffset","type":0,"value":"0.4",},
+        {"name":"g_CloudShadeFade","type":0,"value":"20",},
+        {"name":"g_CloudTexture","type":2,"value":"_filter_clouds_texture",},
+      ],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_sky","path":"sprites/spr_sky/spr_sky.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"rm_DenizMaria",
   "parent":{
