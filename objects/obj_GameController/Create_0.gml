@@ -14,7 +14,7 @@ layer_set_visible("MainMenuLayer", true)
 
 // Cursor
 window_set_cursor(cr_none);
-cursor_sprite = spr_Cursor;
+cursor_sprite = spr_Cursor1;
 
 // Global Variables
 global.isFullscreen = 1;
