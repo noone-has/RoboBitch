@@ -23,11 +23,21 @@ if(directionChanged){
 
 
 if(isMovingX){
+	sprite_index = spr_WalkStart
 	image_speed = animationSpeed;
 	
 	if(image_index >= image_number - 1){
+		sprite_index = spr_WalkLoop;
+		image_speed = -animationSpeed; //reverse animation because the loop is reversed
+	}
+}
+else{
+	sprite_index = spr_WalkStart
+	image_speed = -animationSpeed;
+	
+	if(image_index <= 0){
 		image_speed = 0;
-		image_index = image_number - 1;
+		image_index = 0;
 	}
 }
 
