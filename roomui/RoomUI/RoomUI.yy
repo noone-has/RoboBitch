@@ -120,7 +120,7 @@
                 {"$GMRFlexPanel":"","%Name":"idk","alignItems":2,"children":[],"flexDirection":0,"height":{"unit":3,"value":1080.0,},"justifyContent":1,"name":"idk","nodeColour":4287033928,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":1920.0,},},
               ],"flexDirection":0,"height":{"unit":3,"value":72.0,},"justifyContent":1,"name":"Chatbox","nodeColour":4282970726,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":417.0,},},
           ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"ChatboxLayer","nodeColour":4294101320,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
-      ],"locked":false,"name":"Dialogue","nodeColour":4294073672,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":false,},
+      ],"locked":false,"name":"Dialogue","nodeColour":4294073672,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":true,},
     {"$GMRUIFolder":"","%Name":"MainUI","children":[
         {"$GMRUILayer":"v1","%Name":"PauseLayer","alignItems":2,"children":[
             {"$GMRFlexPanel":"","%Name":"PauseMenu","alignItems":2,"children":[
