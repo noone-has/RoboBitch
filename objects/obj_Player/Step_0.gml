@@ -6,10 +6,6 @@ downKey =  keyboard_check(ord("S")) || keyboard_check(vk_down)
 
 if (!global.should_show_dialog && !global.is_making_choice){movement();}
 
-show_debug_message($"end:{startAnimation}")
-show_debug_message($"start:{endAnimation}")
-show_debug_message($"flip:{shouldFlip}")
-
 //Animation of robot:
 
 
@@ -21,16 +17,39 @@ if(directionChanged){
 	directionChanged = false;
 }
 
+if(swapping){
+	image_speed = -animationSpeed
+	sprite_index = spr_WalkStart;
+	
+	if(image_index >= 12 && image_speed == -animationSpeed){
+		image_index = 3
+		image_speed = animationSpeed;
+	}
+}
 
-if(isMovingX){
+else if(looping){
+	sprite_index = spr_WalkLoop;
+	image_speed = -animationSpeed; //reverse animation because the loop is reversed
+	
+	if(!isMovingX){
+		looping = false;
+		sprite_index = spr_WalkStart
+		image_index = 15;
+		swapping = true;
+	}
+}
+
+else if(isMovingX){
 	sprite_index = spr_WalkStart
 	image_speed = animationSpeed;
 	
 	if(image_index >= image_number - 1){
 		sprite_index = spr_WalkLoop;
 		image_speed = -animationSpeed; //reverse animation because the loop is reversed
+		looping = true;
 	}
 }
+
 else{
 	sprite_index = spr_WalkStart
 	image_speed = -animationSpeed;
