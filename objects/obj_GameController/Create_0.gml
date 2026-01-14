@@ -3,12 +3,14 @@
 randomise()
 
 // Menu Visibility
+var layers = layer_get_all();
+for (var i = 0; i < array_length(layers); i++) 
+{
+	var currentLayer = layer_get_id(layers[i]);
+	var name = layer_get_name(currentLayer);
+	layer_set_visible(name, false) 
+}
 layer_set_visible("MainMenuLayer", true) 
-layer_set_visible("SettingsLayer", false)
-layer_set_visible("DialogueLayer", false)
-layer_set_visible("DialogueOptionsLayer", false)
-layer_set_visible("CardSwipeLayer", false)
-layer_set_visible("PhoneLayer", false)
 
 // Cursor
 window_set_cursor(cr_none);

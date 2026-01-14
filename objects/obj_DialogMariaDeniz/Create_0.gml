@@ -33,6 +33,7 @@ on_dialog_end = function(descriptor){
 		global.NewPlayerX = 596;
 		global.NewPlayerY = 596;
 		show_debug_message("smoking no")
+		global.SequenceState += 1;
 		room_goto(rm_outside)
 	}
 }

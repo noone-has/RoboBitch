@@ -9,6 +9,7 @@ global.NewPlayerY = 700;
 enum SequenceStates{
 	BusArriving,
 	BusLeaving,
-	Cutscene3,
+	DenizMariaExit,
+	WelcomeExit,
 }
 
