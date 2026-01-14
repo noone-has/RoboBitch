@@ -28,6 +28,8 @@ switch (global.SequenceState)
 		instance_deactivate_object(ArrowEntrance);
 	break;
 	
-	
+	case SequenceStates.StartCupGame:
+		instance_deactivate_layer(ArrowStartCupGame)
+	break;
 	
 }

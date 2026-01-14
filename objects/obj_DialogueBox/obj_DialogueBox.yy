@@ -1,17 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Player",
+  "%Name":"obj_DialogueBox",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Player",
+  "name":"obj_DialogueBox",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"UI",
+    "path":"folders/Objects/UI.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,12 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_WalkStart",
-    "path":"sprites/spr_WalkStart/spr_WalkStart.yy",
+    "name":"spr_Dialogue",
+    "path":"sprites/spr_Dialogue/spr_Dialogue.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_WalkStart",
-    "path":"sprites/spr_WalkStart/spr_WalkStart.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

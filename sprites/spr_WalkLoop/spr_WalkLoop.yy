@@ -1,7 +1,7 @@
 {
   "$GMSprite":"v2",
   "%Name":"spr_WalkLoop",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":249,
   "bbox_left":192,
   "bbox_right":420,

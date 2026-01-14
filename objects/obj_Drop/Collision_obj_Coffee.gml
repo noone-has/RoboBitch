@@ -1,6 +1,9 @@
 // Increase score
 global.CupGameScore += 1;
 
+//play sound
+audio_play_sound(sfx_drop, 1, false, global.AudioVolume);
+
 // Respawn the drop at the top, not in the right 1/4 of the room
 if (global.CupGameScore <= 10)
 {
