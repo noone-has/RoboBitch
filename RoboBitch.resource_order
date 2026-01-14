@@ -40,6 +40,7 @@
     {"name":"cm_Plant","order":4,"path":"objects/cm_Plant/cm_Plant.yy",},
     {"name":"DEPMenu","order":7,"path":"objects/DEPMenu/DEPMenu.yy",},
     {"name":"obj_","order":10,"path":"objects/obj_/obj_.yy",},
+    {"name":"obj_Arrow2","order":1,"path":"objects/obj_Arrow2/obj_Arrow2.yy",},
     {"name":"obj_bar1","order":1,"path":"objects/obj_bar1/obj_bar1.yy",},
     {"name":"obj_bar10","order":10,"path":"objects/obj_bar10/obj_bar10.yy",},
     {"name":"obj_bar2","order":2,"path":"objects/obj_bar2/obj_bar2.yy",},

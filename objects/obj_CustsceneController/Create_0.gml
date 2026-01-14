@@ -17,9 +17,11 @@ enum SequenceStates{
 //>>>ADD NEW GAME STATE VARIABLES HERE<<<
 enum GameStates{
 	BenchVisited,
+	CupGameCompleted,
 }
 
 global.GameStateDict = []
 
 //Inital game states
 global.GameStateDict[GameStates.BenchVisited] = false;
+global.GameStateDict[GameStates.CupGameCompleted] = false;

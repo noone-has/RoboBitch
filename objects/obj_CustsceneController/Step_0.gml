@@ -21,11 +21,6 @@ switch (global.SequenceState)
 	case SequenceStates.DenizMariaExit:
 		instance_deactivate_object(ArrowMaria);
 		instance_deactivate_object(ArrowDeniz);
-		instance_activate_object(ArrowEntrance);
-	break;
-	
-	case SequenceStates.WelcomeExit:
-		instance_deactivate_object(ArrowEntrance);
 	break;
 	
 	case SequenceStates.StartCupGame:
