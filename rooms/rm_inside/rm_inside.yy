@@ -12,6 +12,7 @@
     {"name":"inst_3659D33C","path":"rooms/rm_inside/rm_inside.yy",},
     {"name":"inst_62D1124","path":"rooms/rm_inside/rm_inside.yy",},
     {"name":"inst_2BEBC0FD","path":"rooms/rm_inside/rm_inside.yy",},
+    {"name":"inst_3AA99AD1","path":"rooms/rm_inside/rm_inside.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -27,6 +28,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_RoomSwitcher","path":"objects/obj_RoomSwitcher/obj_RoomSwitcher.yy",},"propertyId":{"name":"targetX","path":"objects/obj_RoomSwitcher/obj_RoomSwitcher.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"234",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_RoomSwitcher","path":"objects/obj_RoomSwitcher/obj_RoomSwitcher.yy",},"propertyId":{"name":"targetY","path":"objects/obj_RoomSwitcher/obj_RoomSwitcher.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"780",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.99999994,"scaleY":0.99999994,"x":1898.0,"y":679.0,},
+        {"$GMRInstance":"v4","%Name":"inst_3AA99AD1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3AA99AD1","objectId":{"name":"obj_Arrow","path":"objects/obj_Arrow/obj_Arrow.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":90.0,"scaleX":1.0,"scaleY":1.0,"x":1856.0,"y":736.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_48949F9D","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_48949F9D","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_Cocotier","path":"sprites/spr_Cocotier/spr_Cocotier.yy",},"x":-64.0,"y":0.0,},

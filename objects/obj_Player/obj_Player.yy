@@ -35,6 +35,9 @@
     "name":"spr_WalkStart",
     "path":"sprites/spr_WalkStart/spr_WalkStart.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_WalkStart",
+    "path":"sprites/spr_WalkStart/spr_WalkStart.yy",
+  },
   "visible":true,
 }
