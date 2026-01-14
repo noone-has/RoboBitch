@@ -39,11 +39,11 @@ animationTimer = 0
 directionChanged = false
 lastDirection = Direction.Right
 
-startAnimation = false;
-endAnimation = false;
+looping = false;
+swapping = false;
+switchSpeedAtFrame = 13
 
 isMovingX = false;
-
 shouldFlip = true;
 
 image_speed = 0
