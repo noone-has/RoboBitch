@@ -1,0 +1,1 @@
+CanRestartRoom = true;
