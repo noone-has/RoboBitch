@@ -1,6 +1,11 @@
 //depth
 depth = -100
 
+enum Direction{
+	Left,
+	Right
+}
+
 /* fyi all object rerun create code when you enter a new room
 thats why this code works :p*/
 
@@ -27,12 +32,24 @@ targetY = 0;
 //For the point and click movement
 moving = false;
 
-//
-animationSpeed = 10
+//animation
+animationSpeed = 1
 animationTimer = 0
 
+directionChanged = false
+lastDirection = Direction.Right
+
+startAnimation = false;
+endAnimation = false;
+
+isMovingX = false;
+
+shouldFlip = true;
+
+image_speed = 0
+
 TopDownMovement = function(){
-	//Get inputs 
+	//Get inputs
 	var horInput = rightKey - leftKey;
 	var verInput = downKey - upKey;
 	//Get the vector made from the two inputs
@@ -48,8 +65,21 @@ TopDownMovement = function(){
 
 	xSpd = clamp(xSpd, -maxSpd, maxSpd)
 	ySpd = clamp(ySpd, -maxSpd, maxSpd)
+	
+	if(xSpd < 0) {
+		if(lastDirection == Direction.Right){
+			lastDirection = Direction.Left
+			directionChanged = true;
+		}
+	}
+	if(xSpd > 0){
+		if(lastDirection == Direction.Left){
+			lastDirection = Direction.Right
+			directionChanged = true;
+		}
+	}
 
-	var isMovingX = horInput != 0
+	isMovingX = horInput != 0
 	var isMovingY = verInput != 0
 	
 	if(!isMovingX){
