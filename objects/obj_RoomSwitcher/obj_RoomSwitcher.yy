@@ -32,7 +32,7 @@
     {"$GMObjectProperty":"v2","%Name":"targetX","filters":[],"listItems":[],"multiselect":false,"name":"targetX","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1408","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"targetY","filters":[],"listItems":[],"multiselect":false,"name":"targetY","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"640","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"trigger_radius","filters":[],"listItems":[],"multiselect":false,"name":"trigger_radius","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"70","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"uses","filters":[],"listItems":[],"multiselect":false,"name":"uses","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"Disabler","filters":[],"listItems":[],"multiselect":false,"name":"Disabler","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

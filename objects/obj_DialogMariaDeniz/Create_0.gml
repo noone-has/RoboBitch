@@ -24,6 +24,7 @@ dialog.add_branch(dialog_SmokingYes, "Agree to take a hit")
 dialog.add_branch(dialog_SmokingNo, "Don't take a hit")
 
 on_dialog_end = function(descriptor){
+	global.GameStateDict[GameStates.BenchVisited] = true;
 	if(descriptor == "smoking_yes"){
 		global.NewPlayerX = 450;
 		global.NewPlayerY = 320;
