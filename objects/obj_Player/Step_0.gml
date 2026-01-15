@@ -6,17 +6,16 @@ downKey =  keyboard_check(ord("S")) || keyboard_check(vk_down)
 
 if (!global.should_show_dialog && !global.is_making_choice){movement();}
 
+
 //Animation of robot:
 
-
-
-//Animation plays once when button A & D gets pressed.
 if(directionChanged){
 	image_xscale *= -1
 	
 	directionChanged = false;
 }
 
+/*
 if(swapping){
 	image_speed = -animationSpeed
 	sprite_index = spr_WalkStart;
@@ -25,7 +24,13 @@ if(swapping){
 		image_index = 3
 		image_speed = animationSpeed;
 	}
+	else if(image_index >= 15){
+		image_speed = 0;
+		image_index = 15;
+		swapping = false;
+	}
 }
+*/
 
 else if(looping){
 	sprite_index = spr_WalkLoop;
@@ -62,6 +67,7 @@ else{
 
 
 
+//Animation plays once when button A & D gets pressed.
 //Freeze on last fram (image index 16) when holding it in.
 //On button release, reverse animation (image speed -1).
 //Switching between button A & D shall not restart the   animation, but play it from last frame.

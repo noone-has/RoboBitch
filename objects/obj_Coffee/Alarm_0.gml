@@ -1,4 +1,6 @@
 global.NewPlayerX = 704
 global.NewPlayerY = 480
-global.SequenceState = SequenceStates.StartCupGame
+
+global.GameStateDict[GameStates.CupGameCompleted] = true;
+
 room_goto(rm_Hallway);

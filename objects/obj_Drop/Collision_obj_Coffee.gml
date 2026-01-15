@@ -8,7 +8,7 @@ audio_play_sound(sfx_drop, 1, false, global.AudioVolume);
 if (global.CupGameScore <= 10)
 {
 var min_x = sprite_width / 2;
-var max_x = room_width * 0.85 - sprite_width / 2;
+var max_x = room_width * 0.80 - sprite_width / 2;
 
 x = irandom_range(min_x, max_x);
 y = -sprite_height;
