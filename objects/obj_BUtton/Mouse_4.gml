@@ -50,6 +50,10 @@ switch (button_id)
 			verify()
 		}
 	break;
+	
+	case Buttons.ControlScheme:
+		global.ControlScheme = !global.ControlScheme
+	break;
 }
 
 audio_play_sound(sfx_menu, 10, false, global.AudioVolume);

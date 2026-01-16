@@ -8,4 +8,5 @@ enum Buttons
 	Empty,
 	Back,
 	CaptchaVerify,
+	ControlScheme,
 }

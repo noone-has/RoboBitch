@@ -10,8 +10,8 @@
   "name":"obj_DialogSampleA",
   "overriddenProperties":[],
   "parent":{
-    "name":"Dialogs",
-    "path":"folders/Objects/Dialogs.yy",
+    "name":"Deprecated",
+    "path":"folders/Deprecated.yy",
   },
   "parentObjectId":{
     "name":"obj_DialogueParent",

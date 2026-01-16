@@ -13,7 +13,7 @@
                   ],"flexDirection":0,"height":{"unit":1,"value":100.0,},"justifyContent":1,"name":"CardSwipePanel","nodeColour":4282958322,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":100.0,},},
               ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"CardSwipeLayer","nodeColour":4282970771,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
           ],"locked":false,"name":"CardSwipe","nodeColour":4294068367,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":true,},
-      ],"locked":false,"name":"Minigame","nodeColour":4284412488,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":true,},
+      ],"locked":false,"name":"Minigame","nodeColour":4284412488,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":false,},
     {"$GMRUIFolder":"","%Name":"Phone","children":[
         {"$GMRUILayer":"v1","%Name":"PhoneLayer","alignItems":2,"children":[
             {"$GMRFlexPanel":"","%Name":"PhoneElements","alignItems":2,"children":[
@@ -84,8 +84,8 @@
                   ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.18,"scaleY":0.18,"x":142.77197,"y":234.0,},
                 {"$GMRSpriteGraphic":"v1","%Name":"Phone","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"Phone","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.59749997,"scaleY":0.5568737,"spriteId":{"name":"spr_Phone","path":"sprites/spr_Phone/spr_Phone.yy",},"x":-189.0,"y":-381.89685,},
               ],"flexDirection":0,"height":{"unit":1,"value":100.0,},"justifyContent":1,"name":"PhoneElements","nodeColour":4292823282,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":100.0,},},
-          ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"PhoneLayer","nodeColour":4294081608,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
-      ],"locked":false,"name":"Phone","nodeColour":4290791666,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":true,},
+          ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"PhoneLayer","nodeColour":4294081608,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
+      ],"locked":false,"name":"Phone","nodeColour":4290791666,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":false,},
     {"$GMRUIFolder":"","%Name":"Dialogue","children":[
         {"$GMRUILayer":"v1","%Name":"DialogueLayer","alignItems":3,"children":[
             {"$GMRFlexPanel":"","%Name":"CharacterFramePanel","alignItems":1,"children":[
@@ -121,7 +121,7 @@
                 {"$GMRFlexPanel":"","%Name":"idk","alignItems":2,"children":[],"flexDirection":0,"height":{"unit":3,"value":1080.0,},"justifyContent":1,"name":"idk","nodeColour":4287033928,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":1920.0,},},
               ],"flexDirection":0,"height":{"unit":3,"value":72.0,},"justifyContent":1,"name":"Chatbox","nodeColour":4282970726,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":417.0,},},
           ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"ChatboxLayer","nodeColour":4294101320,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
-      ],"locked":false,"name":"Dialogue","nodeColour":4294073672,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":true,},
+      ],"locked":false,"name":"Dialogue","nodeColour":4294073672,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":false,},
     {"$GMRUIFolder":"","%Name":"MainUI","children":[
         {"$GMRUILayer":"v1","%Name":"PauseLayer","alignItems":2,"children":[
             {"$GMRFlexPanel":"","%Name":"PauseMenu","alignItems":2,"children":[
@@ -164,6 +164,28 @@
                   ],"flexDirection":0,"height":{"unit":1,"value":59.0,},"justifyContent":1,"marginBottom":{"unit":1,"value":5.0,},"marginRight":{"unit":1,"value":3.0,},"name":"X2","nodeColour":4282950898,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":53.0,},},
               ],"flexDirection":2,"height":{"unit":1,"value":59.0,},"justifyContent":1,"name":"X","nodeColour":4292626674,"paddingBottom":{"unit":1,"value":417.0,},"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":55.0,},},
             {"$GMRFlexPanel":"","%Name":"SettingsPanel","alignItems":2,"children":[
+                {"$GMRFlexPanel":"","%Name":"Controls","alignItems":2,"children":[
+                    {"$GMRFlexPanel":"","%Name":"ControlsButton","alignItems":2,"alignSelf":1,"children":[
+                        {"$GMRFlexPanel":"","%Name":"ControlButtonText","alignItems":2,"children":[
+                            {"$GMRTextItem":"v3","%Name":"text_575803BD","alignment":0,"charSpacing":0.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"fontId":{"name":"fnt_NersansThree","path":"fonts/fnt_NersansThree/fnt_NersansThree.yy",},"frameH":0.0,"frameW":0.0,"frozen":false,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"lineSpacing":0.0,"name":"text_575803BD","paragraphSpacing":0.0,"resourceType":"GMRTextItem","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"text":"Controls","wrap":false,"x":-9.5,"y":0.5,},
+                          ],"flexDirection":0,"height":{"unit":1,"value":59.0,},"justifyContent":1,"marginBottom":{"unit":1,"value":5.0,},"marginLeft":{"unit":1,"value":19.0,},"marginTop":{"unit":1,"value":3.0,},"name":"ControlButtonText","nodeColour":4294068361,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":345.0,},},
+                        {"$GMRSpriteGraphic":"v1","%Name":"graphic_3AD8EAE1","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_3AD8EAE1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"DEPspr_Button","path":"sprites/DEPspr_Button/DEPspr_Button.yy",},"x":-1.0,"y":8.5,},
+                      ],"flexDirection":0,"height":{"unit":3,"value":17.0,},"justifyContent":3,"marginBottom":{"unit":1,"value":6.0,},"marginTop":{"unit":1,"value":6.0,},"name":"ControlsButton","nodeColour":4282970773,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":109.0,},},
+                    {"$GMRFlexPanel":"","%Name":"CheckBox","alignItems":2,"children":[
+                        {"$GMRFlexPanel":"","%Name":"FullscreenCheckBox","alignItems":3,"alignSelf":2,"children":[
+                            {"$GMRFlexPanel":"","%Name":"FlexPanel","alignItems":2,"children":[],"flexDirection":0,"height":{"unit":3,"value":20.0,},"justifyContent":1,"name":"FlexPanel","nodeColour":4283560520,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":20.0,},},
+                            {"$GMRFlexPanel":"","%Name":"FlexPanel_9","alignItems":2,"children":[
+                                {"$GMRInstance":"v4","%Name":"inst_6983A383","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6983A383","objectId":{"name":"obj_Tick","path":"objects/obj_Tick/obj_Tick.yy",},"properties":[
+                                    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Tick","path":"objects/obj_Tick/obj_Tick.yy",},"propertyId":{"name":"tick_id","path":"objects/obj_Tick/obj_Tick.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+                                  ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":-8.5,},
+                              ],"flexDirection":0,"height":{"unit":1,"value":51.0,},"justifyContent":1,"name":"FlexPanel_9","nodeColour":4294068424,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":49.0,},},
+                            {"$GMRInstance":"v4","%Name":"inst_2CF89B49","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2CF89B49","objectId":{"name":"obj_Button","path":"objects/obj_Button/obj_Button.yy",},"previewSprite":{"name":"spr_TickFrame","path":"sprites/spr_TickFrame/spr_TickFrame.yy",},"properties":[
+                                {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Button","path":"objects/obj_Button/obj_Button.yy",},"propertyId":{"name":"button_id","path":"objects/obj_Button/obj_Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"9",},
+                                {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Button","path":"objects/obj_Button/obj_Button.yy",},"propertyId":{"name":"sprite_index","path":"objects/obj_Button/obj_Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_TickFrame",},
+                              ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.5,},
+                          ],"flexDirection":2,"height":{"unit":1,"value":69.0,},"justifyContent":1,"name":"FullscreenCheckBox","nodeColour":4294068387,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":67.0,},},
+                      ],"flexDirection":1,"height":{"unit":1,"value":70.0,},"justifyContent":3,"name":"CheckBox","nodeColour":4294082888,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":73.0,},},
+                  ],"flexDirection":2,"height":{"unit":1,"value":86.0,},"justifyContent":3,"layoutDirection":1,"name":"Controls","nodeColour":4285723208,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":627.0,},},
                 {"$GMRFlexPanel":"","%Name":"Fullscreen","alignItems":2,"children":[
                     {"$GMRFlexPanel":"","%Name":"FullscreenButton","alignItems":2,"alignSelf":1,"children":[
                         {"$GMRFlexPanel":"","%Name":"FullscreenButtonText","alignItems":2,"children":[

@@ -65,6 +65,7 @@
     {"name":"obj_CustsceneController","order":6,"path":"objects/obj_CustsceneController/obj_CustsceneController.yy",},
     {"name":"obj_DialogMariaDeniz","order":2,"path":"objects/obj_DialogMariaDeniz/obj_DialogMariaDeniz.yy",},
     {"name":"obj_DialogMicheal","order":1,"path":"objects/obj_DialogMicheal/obj_DialogMicheal.yy",},
+    {"name":"obj_DialogSampleA","order":14,"path":"objects/obj_DialogSampleA/obj_DialogSampleA.yy",},
     {"name":"obj_DialogueBox","order":9,"path":"objects/obj_DialogueBox/obj_DialogueBox.yy",},
     {"name":"obj_DialogueButton","order":5,"path":"objects/obj_DialogueButton/obj_DialogueButton.yy",},
     {"name":"obj_DialogueCharacter","order":6,"path":"objects/obj_DialogueCharacter/obj_DialogueCharacter.yy",},

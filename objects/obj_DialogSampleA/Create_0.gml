@@ -4,7 +4,7 @@ event_inherited();
 //hahaha these variable names are crazy
 //dw im just testing....
 //get fucking jumpscared ivan holy shit you are going to kill me xD
-dialog.add(DEPspr_ANGRY, "I AM VERY ANGRY!!!")
+/*dialog.add(DEPspr_ANGRY, "I AM VERY ANGRY!!!")
 dialog.add(DEPspr_Player, "hi i am the player :DDD")
 dialog.add(DEPspr_ANGRY, "I AM GOING TO FUCKING MURDER YOU RAAHHHHH!!!!!11!!1!!!!1111!1!")
 dialog.add(DEPspr_Player, "aaaa help me D::")
@@ -16,7 +16,7 @@ dialog2.add(DEPspr_Player, "test test test test test test");
 
 dialog3 = new scr_Dialogue()
 dialog3.add(DEPspr_Player, "greetings this is branch 2");
-dialog3.add(DEPspr_Player, "test test");
+dialog3.add(DEPspr_Player, "test test");*/
 
 
 

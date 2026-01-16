@@ -146,8 +146,3 @@ PointAndClickMovement = function(){
 		}
 	}
 }
-
-//later we can set this movement var with game logic and switch between movement systems that way
-//important when setting movement to not use the brackets for the function
-movement = PointAndClickMovement
-//movement = TopDownMovement

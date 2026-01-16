@@ -40,8 +40,8 @@ on_dialog_end = function(descriptor){
 		room_goto(rm_endscreen)
 	}
 	if(descriptor == "smoking_no"){
-		global.NewPlayerX = 596;
-		global.NewPlayerY = 596;
+		global.NewPlayerX = 600;
+		global.NewPlayerY = 600;
 		global.GameStateDict[GameStates.BenchVisited] = true;
 		room_goto(rm_outside)	
 	}

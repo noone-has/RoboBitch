@@ -25,6 +25,7 @@ global.isFullscreen = 1;
 global.AudioVolume = 1;
 global.MusicVolume = 1;
 global.PlayerName = "Player";
+global.ControlScheme = true;
 
 // Pause 
 global.paused = false;
