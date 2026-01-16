@@ -9,13 +9,11 @@ global.NewPlayerY = 700;
 enum SequenceStates{
 	BusArriving,
 	BusLeaving,
-	DenizMariaExit,
-	WelcomeExit,
-	StartCupGame,
 }
 
 //>>>ADD NEW GAME STATE VARIABLES HERE<<<
 enum GameStates{
+	BusLeft,
 	BenchVisited,
 	CupGameCompleted,
 }
@@ -23,5 +21,7 @@ enum GameStates{
 global.GameStateDict = []
 
 //Inital game states
+global.GameStateDict[GameStates.BusLeft] = false;
 global.GameStateDict[GameStates.BenchVisited] = false;
 global.GameStateDict[GameStates.CupGameCompleted] = false;
+

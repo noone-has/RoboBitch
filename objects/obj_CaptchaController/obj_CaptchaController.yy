@@ -11,8 +11,8 @@
   "name":"obj_CaptchaController",
   "overriddenProperties":[],
   "parent":{
-    "name":"Systems",
-    "path":"folders/Objects/Systems.yy",
+    "name":"Captcha",
+    "path":"folders/Objects/Minigames/Captcha.yy",
   },
   "parentObjectId":null,
   "persistent":false,

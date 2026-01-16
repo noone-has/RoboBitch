@@ -2,9 +2,9 @@ var swipePointX = swipePosition.getX()
 var swipePointY = swipePosition.getY()
 
 
-//			convert to milli's
+//convert to milli's
 busTimer -= delta_time/1000
-
+if (busTimer < 0){room_goto(rm_endscreen)};
 if(collision_circle(swipePointX, swipePointY, checkingRadius, obj_OVCard, false, true) && !swipeStarted){
 	swipeStarted = true
 	swipeStartedTimeStamp = current_time
@@ -57,7 +57,9 @@ if(swipeStarted){
 if(done){
 	if(current_time - doneTimeStamp > transitioningTime){
 		layer_set_visible("CardSwipeLayer", false)
+		global.GameStateDict[GameStates.BusLeft] = true;
 		room_goto(rm_BusStop)
 		global.SequenceState = SequenceStates.BusLeaving;
+
 	}
 }

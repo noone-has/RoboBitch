@@ -1,3 +1,2 @@
-if(Disabler == true){
-	visible = false;
-}
+if(Disabler != noone){
+	visible = !Disabler;}

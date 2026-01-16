@@ -10,8 +10,8 @@
   "name":"obj_OVCardReader",
   "overriddenProperties":[],
   "parent":{
-    "name":"Systems",
-    "path":"folders/Objects/Systems.yy",
+    "name":"Cardswipe",
+    "path":"folders/Objects/Minigames/Cardswipe.yy",
   },
   "parentObjectId":null,
   "persistent":false,

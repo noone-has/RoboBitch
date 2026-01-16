@@ -11,10 +11,7 @@
     "name":"Characters",
     "path":"folders/Objects/Characters.yy",
   },
-  "parentObjectId":{
-    "name":"obj_RunGameObstacle",
-    "path":"objects/obj_RunGameObstacle/obj_RunGameObstacle.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
