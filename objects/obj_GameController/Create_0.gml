@@ -20,7 +20,7 @@ cursor_sprite = spr_Cursor1;
 global.isFullscreen = 1;
 global.AudioVolume = 1;
 global.MusicVolume = 1;
-
+global.PlayerName = "Player";
 // Pause 
 global.paused = false;
 scr_Pause();
