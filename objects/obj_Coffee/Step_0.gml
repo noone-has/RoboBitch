@@ -2,15 +2,27 @@
 move_x = 0
 move_y = 0
 
+//mousement movement
+if(mouse_check_button(mb_left)){
+	if(mouse_x - x < 0){
+		move_x = -moveSpeed;
+	}
+	if(mouse_x - x > 0){
+		move_x = moveSpeed;
+	}
+}
+
+//keyboard movement
 if keyboard_check(vk_right) or keyboard_check(ord("D"))
 	{
-		move_x = 7.5
+		move_x = moveSpeed
 	}
 	
 if keyboard_check(vk_left) or keyboard_check(ord("A"))
 	{
-		move_x = -7.5
+		move_x = -moveSpeed
 	}
+	
 
 // delay after score is 10, trigger alarm once
 if (global.CupGameScore >= 10 && alarm[0] < 0)
