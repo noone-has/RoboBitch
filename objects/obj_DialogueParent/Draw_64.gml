@@ -13,4 +13,7 @@ if(global.is_making_choice)
 	}
 }
 
+else{
+	layer_set_visible("DialogueOptionsLayer", false)
+}
 

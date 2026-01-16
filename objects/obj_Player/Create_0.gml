@@ -111,12 +111,16 @@ PointAndClickMovement = function(){
 	if(mouse_check_button_pressed(1)){
 		nextPoint = new scr_Position(mouse_x, mouse_y - sprite_height/2);
 		
+		if(nextPoint.getX() - x < 0 && lastDirection == Direction.Right){ directionChanged = true; lastDirection = Direction.Left }
+		else if(nextPoint.getX() - x > 0 && lastDirection == Direction.Left) { directionChanged = true; lastDirection = Direction.Right }
+		
 		if(point_distance(nextPoint.getX(), nextPoint.getY(), x, y) < 5) { return; }
 		
 		moving = true;
 	}
 	
 	if(moving){
+		isMovingX = true;
 		//get the difference(delta) on both axis
 		var dx = nextPoint.getX() - x;
 		var dy = nextPoint.getY() - y;
@@ -138,6 +142,7 @@ PointAndClickMovement = function(){
 			//make sure the player is EXACTLY at the new position
 			x = nextPoint.getX();
 			y = nextPoint.getY();
+			isMovingX = false;
 		}
 	}
 }
