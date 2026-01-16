@@ -13,7 +13,7 @@
                   ],"flexDirection":0,"height":{"unit":1,"value":100.0,},"justifyContent":1,"name":"CardSwipePanel","nodeColour":4282958322,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":100.0,},},
               ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"CardSwipeLayer","nodeColour":4282970771,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
           ],"locked":false,"name":"CardSwipe","nodeColour":4294068367,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":true,},
-      ],"locked":false,"name":"Minigame","nodeColour":4284412488,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":false,},
+      ],"locked":false,"name":"Minigame","nodeColour":4284412488,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":true,},
     {"$GMRUIFolder":"","%Name":"Phone","children":[
         {"$GMRUILayer":"v1","%Name":"PhoneLayer","alignItems":2,"children":[
             {"$GMRFlexPanel":"","%Name":"PhoneElements","alignItems":2,"children":[
@@ -85,7 +85,7 @@
                 {"$GMRSpriteGraphic":"v1","%Name":"Phone","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"Phone","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.59749997,"scaleY":0.5568737,"spriteId":{"name":"spr_Phone","path":"sprites/spr_Phone/spr_Phone.yy",},"x":-189.0,"y":-381.89685,},
               ],"flexDirection":0,"height":{"unit":1,"value":100.0,},"justifyContent":1,"name":"PhoneElements","nodeColour":4292823282,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":100.0,},},
           ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"PhoneLayer","nodeColour":4294081608,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
-      ],"locked":false,"name":"Phone","nodeColour":4290791666,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":false,},
+      ],"locked":false,"name":"Phone","nodeColour":4290791666,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":true,},
     {"$GMRUIFolder":"","%Name":"Dialogue","children":[
         {"$GMRUILayer":"v1","%Name":"DialogueLayer","alignItems":1,"children":[
             {"$GMRFlexPanel":"","%Name":"CharacterFramePanel","alignItems":1,"children":[
@@ -120,7 +120,7 @@
                 {"$GMRFlexPanel":"","%Name":"idk","alignItems":2,"children":[],"flexDirection":0,"height":{"unit":3,"value":1080.0,},"justifyContent":1,"name":"idk","nodeColour":4287033928,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":1920.0,},},
               ],"flexDirection":0,"height":{"unit":3,"value":72.0,},"justifyContent":1,"name":"Chatbox","nodeColour":4282970726,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":417.0,},},
           ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"ChatboxLayer","nodeColour":4294101320,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
-      ],"locked":false,"name":"Dialogue","nodeColour":4294073672,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":false,},
+      ],"locked":false,"name":"Dialogue","nodeColour":4294073672,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":true,},
     {"$GMRUIFolder":"","%Name":"MainUI","children":[
         {"$GMRUILayer":"v1","%Name":"PauseLayer","alignItems":2,"children":[
             {"$GMRFlexPanel":"","%Name":"PauseMenu","alignItems":2,"children":[
@@ -230,7 +230,7 @@
             {"$GMRFlexPanel":"","%Name":"MainMenu","alignItems":2,"children":[
                 {"$GMRSpriteGraphic":"v1","%Name":"MainMenuBG","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"MainMenuBG","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.04423466,"scaleX":0.41164133,"scaleY":0.40485516,"spriteId":{"name":"spr_MainMenu","path":"sprites/spr_MainMenu/spr_MainMenu.yy",},"x":50.0,"y":-208.19693,},
               ],"flexDirection":0,"height":{"unit":1,"value":100.0,},"justifyContent":1,"name":"MainMenu","nodeColour":4283058418,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":100.0,},},
-          ],"flexDirection":3,"gridX":32,"gridY":32,"justifyContent":1,"name":"SettingsLayer","nodeColour":4289458760,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+          ],"flexDirection":3,"gridX":32,"gridY":32,"justifyContent":1,"name":"SettingsLayer","nodeColour":4289458760,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
         {"$GMRUILayer":"v1","%Name":"MainMenuLayer","alignItems":2,"children":[
             {"$GMRFlexPanel":"","%Name":"TitlePanel","alignItems":2,"children":[
                 {"$GMRTextItem":"v3","%Name":"TitleText","alignment":0,"charSpacing":0.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"fontId":{"name":"fnt_NersansThree","path":"fonts/fnt_NersansThree/fnt_NersansThree.yy",},"frameH":0.0,"frameW":0.0,"frozen":false,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"lineSpacing":0.0,"name":"TitleText","paragraphSpacing":0.0,"resourceType":"GMRTextItem","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"text":"","wrap":false,"x":0.0,"y":0.0,},
@@ -260,8 +260,8 @@
                   ],"flexDirection":0,"height":{"unit":3,"value":17.0,},"justifyContent":1,"name":"QuitGame","nodeColour":4282932978,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":109.0,},},
               ],"flexDirection":0,"gapRow":16.0,"height":{"unit":1,"value":392.0,},"justifyContent":1,"name":"MainMenu","nodeColour":4291184882,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":523.0,},},
             {"$GMRSpriteGraphic":"v1","%Name":"Menu","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"Menu","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.2988988,"scaleY":0.33516058,"spriteId":{"name":"spr_MainMenu","path":"sprites/spr_MainMenu/spr_MainMenu.yy",},"x":677.0,"y":366.0,},
-          ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"MainMenuLayer","nodeColour":4291359304,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
-      ],"locked":false,"name":"MainUI","nodeColour":4282934770,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":false,},
+          ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"MainMenuLayer","nodeColour":4291359304,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+      ],"locked":false,"name":"MainUI","nodeColour":4282934770,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":true,},
   ],
   "locked":false,
   "name":"RoomUI",

@@ -4,13 +4,17 @@ randomise()
 
 // Menu Visibility
 var layers = layer_get_all();
+
+var exclude = ["MainMenuLayer", "Effect1", "Instances", "Sequences", "Background"] //<< These layers wont be disabled at start
+
 for (var i = 0; i < array_length(layers); i++) 
 {
-	var currentLayer = layer_get_id(layers[i]);
+	var currentLayer = layers[i];
 	var name = layer_get_name(currentLayer);
-	layer_set_visible(name, false) 
+	if(array_contains(exclude, name)){ continue; } //go to next iteration if layer should not be disabled
+	
+	layer_set_visible(currentLayer, false) 
 }
-layer_set_visible("MainMenuLayer", true) 
 
 // Cursor
 window_set_cursor(cr_none);

@@ -41,6 +41,9 @@
     "name":"spr_Door",
     "path":"sprites/spr_Door/spr_Door.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_empty",
+    "path":"sprites/spr_empty/spr_empty.yy",
+  },
   "visible":true,
 }

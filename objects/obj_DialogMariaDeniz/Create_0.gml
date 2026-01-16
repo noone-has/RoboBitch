@@ -35,10 +35,13 @@ dialog.add_branch(dialog_SmokingYes, "Take a hit")
 dialog.add_branch(dialog_SmokingNo, "Don't take a hit")
 
 on_dialog_end = function(descriptor){
+	if(descriptor == "smoking_yes"){
+		room_goto(rm_endscreen)
+	}
+	if(descriptor == "smoking_no"){
 		global.NewPlayerX = 596;
 		global.NewPlayerY = 596;
-		show_debug_message("smoking no")
 		global.GameStateDict[GameStates.BenchVisited] = true;
-		room_goto(rm_outside)
+		room_goto(rm_outside)	
 	}
 }

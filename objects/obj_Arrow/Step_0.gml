@@ -1,2 +1,3 @@
 if(Disabler != noone){
-	visible = !Disabler;}
+	visible = !Disabler;
+}

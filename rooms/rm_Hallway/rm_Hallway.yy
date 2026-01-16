@@ -9,6 +9,7 @@
     {"name":"inst_1FAEAC40","path":"rooms/rm_Hallway/rm_Hallway.yy",},
     {"name":"inst_3D20DA38","path":"rooms/rm_Hallway/rm_Hallway.yy",},
     {"name":"ArrowStartCupGame","path":"rooms/rm_Hallway/rm_Hallway.yy",},
+    {"name":"inst_2EBC3CA7","path":"rooms/rm_Hallway/rm_Hallway.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -21,6 +22,7 @@
         {"$GMRInstance":"v4","%Name":"ArrowStartCupGame","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"ArrowStartCupGame","objectId":{"name":"obj_Arrow","path":"objects/obj_Arrow/obj_Arrow.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Arrow","path":"objects/obj_Arrow/obj_Arrow.yy",},"propertyId":{"name":"Disabler","path":"objects/obj_Arrow/obj_Arrow.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.GameStateDict[GameStates.CupGameCompleted]",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1264.0,"y":224.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2EBC3CA7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2EBC3CA7","objectId":{"name":"cm_CoffeeHallway","path":"objects/cm_CoffeeHallway/cm_CoffeeHallway.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_hallway","path":"sprites/spr_hallway/spr_hallway.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
