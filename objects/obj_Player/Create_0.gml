@@ -109,7 +109,7 @@ TopDownMovement = function(){
 
 PointAndClickMovement = function(){
 	if(mouse_check_button_pressed(1)){
-		nextPoint = new scr_Position(mouse_x - sprite_width/2, mouse_y - sprite_height/2);
+		nextPoint = new scr_Position(mouse_x, mouse_y - sprite_height/2);
 		
 		if(point_distance(nextPoint.getX(), nextPoint.getY(), x, y) < 5) { return; }
 		
@@ -144,5 +144,5 @@ PointAndClickMovement = function(){
 
 //later we can set this movement var with game logic and switch between movement systems that way
 //important when setting movement to not use the brackets for the function
-//movement = PointAndClickMovement
-movement = TopDownMovement
+movement = PointAndClickMovement
+//movement = TopDownMovement
