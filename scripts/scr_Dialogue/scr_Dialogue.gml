@@ -5,12 +5,12 @@ function scr_Dialogue() constructor{
 	_fallback_branch = 0;
 	descriptor = 0;
 	choice_context = [];
-	current_dialog_index = 0;
+	current_dialog_index = -1;
 	
-	add = function(_name, _sprite, _message)
+	add = function(_name, _sprite, _message, _background = noone)
 	{
 		//add a struct to the dialogs array with a sprite and the message
-		array_push(_dialogs, {name: _name, sprite: _sprite, message: _message})
+		array_push(_dialogs, {name: _name, sprite: _sprite, message: _message, background: _background})
 	}
 	
 	pop = function(){

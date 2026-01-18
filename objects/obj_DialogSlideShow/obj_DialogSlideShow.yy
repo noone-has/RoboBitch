@@ -34,10 +34,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"LiftHallway",
-    "path":"sprites/LiftHallway/LiftHallway.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
