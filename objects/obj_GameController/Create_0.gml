@@ -29,6 +29,9 @@ global.MusicVolume = 1;
 global.PlayerName = "[Player Name]";
 global.ControlScheme = true;
 
+global.NewPlayerX = -1000
+global.NewPlayerY = 1000
+
 // Pause 
 global.paused = false;
 scr_Pause();
