@@ -3,17 +3,19 @@
 randomise()
 
 // Menu Visibility
-var layers = layer_get_all();
+if(room == rm_TitleScreen){
+	var layers = layer_get_all();
 
-var exclude = ["MainMenuLayer", "Effect1", "Instances", "Sequences", "Background"] //<< These layers wont be disabled at start
+	var exclude = ["MainMenuLayer", "Effect1", "Instances", "Sequences", "Background"] //<< These layers wont be disabled at start
 
-for (var i = 0; i < array_length(layers); i++) 
-{
-	var currentLayer = layers[i];
-	var name = layer_get_name(currentLayer);
-	if(array_contains(exclude, name)){ continue; } //go to next iteration if layer should not be disabled
+	for (var i = 0; i < array_length(layers); i++) 
+	{
+		var currentLayer = layers[i];
+		var name = layer_get_name(currentLayer);
+		if(array_contains(exclude, name)){ continue; } //go to next iteration if layer should not be disabled
 	
-	layer_set_visible(currentLayer, false) 
+		layer_set_visible(currentLayer, false) 
+	}
 }
 
 // Cursor
@@ -24,7 +26,7 @@ cursor_sprite = spr_Cursor1;
 global.isFullscreen = 1;
 global.AudioVolume = 1;
 global.MusicVolume = 1;
-global.PlayerName = "Player";
+global.PlayerName = "[Player Name]";
 global.ControlScheme = true;
 
 // Pause 

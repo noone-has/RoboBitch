@@ -3,6 +3,7 @@ if(global.should_show_dialog == false){
 	if(dialog.is_finished()){
 		//if the dialog is finished and no branches just destroy it
 		if(dialog.is_dead_end()){
+			show_debug_message("disabling DialogueLayer (dead end)")
 			layer_set_visible("DialogueLayer", false)
 			on_dialog_end(dialog.descriptor)
 			show_debug_message("destroying self")
@@ -35,3 +36,5 @@ else{
 		alpha = 0
 	}
 }
+
+show_debug_message(layer_get_visible("DialogueLayer"))
