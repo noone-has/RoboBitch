@@ -28,7 +28,8 @@ if(global.should_show_dialog == false){
 		global.should_show_dialog = true	
 	}
 }
-else{
+else
+{
 	if(keyboard_check_released(key_next)){
 		global.should_show_dialog = false
 		alpha = 0
