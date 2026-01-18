@@ -37,9 +37,28 @@ global.paused = false;
 scr_Pause();
 
 settingName = false;
+holdingBackspace = false;
+holdingBackspaceTimer = 0;
+holdingBackspaceThreshold = 0.3;
+holdingBackspaceInterval = 0.2;
+holdingBackspaceRepeatTimer = 0;
 
 ChangeName = function(){
 	newChar = keyboard_lastchar
+
+	if(keyboard_check(vk_backspace)){
+		holdingBackspaceTimer += 1/room_speed
+		if(holdingBackspaceTimer >= holdingBackspaceThreshold){
+			holdingBackspaceRepeatTimer -= 1/room_speed
+			if(holdingBackspaceRepeatTimer <= 0){
+				global.PlayerName = string_delete(global.PlayerName, string_length(global.PlayerName), 1)
+				holdingBackspaceRepeatTimer = holdingBackspaceInterval
+			}
+		}
+	}
+	else{
+		holdingBackspaceTimer = 0
+	}
 
 	if(keyboard_check_pressed(vk_anykey)){ //workaround to type a key only once
 		if(keyboard_lastkey == vk_backspace){
