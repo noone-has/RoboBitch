@@ -26,7 +26,6 @@ on_dialog_end = function(descriptor){
 
 show_dialog = function(character_sprite, text, character_name)
 {
-	show_debug_message("enabling DialogueLayer (show_dialog)")
 	layer_set_visible("DialogueLayer", true)
 	var textID = layer_text_get_id("DialogueLayer", "DialogueText");
 	layer_text_text(textID, text)

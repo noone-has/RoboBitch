@@ -85,7 +85,7 @@
                 {"$GMRSpriteGraphic":"v1","%Name":"Phone","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"Phone","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.59749997,"scaleY":0.5568737,"spriteId":{"name":"spr_Phone","path":"sprites/spr_Phone/spr_Phone.yy",},"x":-189.0,"y":-381.89685,},
               ],"flexDirection":0,"height":{"unit":1,"value":100.0,},"justifyContent":1,"name":"PhoneElements","nodeColour":4292823282,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":100.0,},},
           ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"PhoneLayer","nodeColour":4294081608,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
-      ],"locked":false,"name":"Phone","nodeColour":4290791666,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":false,},
+      ],"locked":false,"name":"Phone","nodeColour":4290791666,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":true,},
     {"$GMRUIFolder":"","%Name":"Dialogue","children":[
         {"$GMRUILayer":"v1","%Name":"DialogueLayer","alignItems":3,"children":[
             {"$GMRFlexPanel":"","%Name":"DialoguePanel","alignItems":3,"children":[
@@ -101,7 +101,7 @@
                     {"$GMRSpriteGraphic":"v1","%Name":"DialogueSprite","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"DialogueSprite","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.8197199,"scaleY":0.8197199,"spriteId":{"name":"spr_Dialogue","path":"sprites/spr_Dialogue/spr_Dialogue.yy",},"x":-629.0,"y":-142.10748,},
                   ],"flexDirection":0,"height":{"unit":1,"value":100.0,},"justifyContent":1,"name":"DialogueBackgroundPanel","nodeColour":4294084424,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":100.0,},},
               ],"flexDirection":2,"height":{"unit":2,"value":100.0,},"justifyContent":0,"name":"DialoguePanel","nodeColour":4283844850,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":2,"value":100.0,},},
-          ],"flexDirection":2,"gridX":32,"gridY":32,"justifyContent":0,"name":"DialogueLayer","nodeColour":4283953736,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+          ],"flexDirection":2,"gridX":32,"gridY":32,"justifyContent":0,"name":"DialogueLayer","nodeColour":4283953736,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
         {"$GMRUILayer":"v1","%Name":"DialogueOptionsLayer","alignItems":2,"children":[
             {"$GMRFlexPanel":"","%Name":"DialogueOptions","alignItems":2,"children":[
                 {"$GMRFlexPanel":"","%Name":"DialogueOption1","alignItems":2,"children":[
@@ -262,6 +262,9 @@
             {"$GMRFlexPanel":"","%Name":"TitlePanel","alignItems":2,"children":[
                 {"$GMRTextItem":"v3","%Name":"TitleText","alignment":0,"charSpacing":0.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"fontId":{"name":"fnt_NersansThree","path":"fonts/fnt_NersansThree/fnt_NersansThree.yy",},"frameH":0.0,"frameW":0.0,"frozen":false,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"lineSpacing":0.0,"name":"TitleText","paragraphSpacing":0.0,"resourceType":"GMRTextItem","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"text":"","wrap":false,"x":0.0,"y":0.0,},
               ],"flexDirection":0,"height":{"unit":3,"value":17.0,},"justifyContent":1,"name":"TitlePanel","nodeColour":4294068417,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":109.0,},},
+            {"$GMRFlexPanel":"","%Name":"FlexPanel_2","alignItems":2,"children":[
+                {"$GMRInstance":"v4","%Name":"inst_4D8EF766","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4D8EF766","objectId":{"name":"obj_DialogSlideShow","path":"objects/obj_DialogSlideShow/obj_DialogSlideShow.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":8.0,"y":8.0,},
+              ],"flexDirection":0,"height":{"unit":3,"value":16.0,},"justifyContent":1,"name":"FlexPanel_2","nodeColour":4282970809,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":16.0,},},
             {"$GMRFlexPanel":"","%Name":"MainMenu","alignItems":2,"children":[
                 {"$GMRFlexPanel":"","%Name":"StartGame","alignItems":2,"children":[
                     {"$GMRFlexPanel":"","%Name":"StartGamePanel","alignItems":2,"children":[

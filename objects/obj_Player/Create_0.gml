@@ -132,8 +132,6 @@ PointAndClickMovement = function(){
 		var move_x = directionToNextPoint.getX()*moveSpd
 		var move_y = directionToNextPoint.getY()*moveSpd
 		
-		show_debug_message(string(move_x) + ";" + string(move_y))
-		
 		move_and_collide(move_x, move_y, all)
 	
 		//check if the player is close to the new position

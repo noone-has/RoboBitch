@@ -5,6 +5,7 @@ function scr_Dialogue() constructor{
 	_fallback_branch = 0;
 	descriptor = 0;
 	choice_context = [];
+	current_dialog_index = 0;
 	
 	add = function(_name, _sprite, _message)
 	{
@@ -16,6 +17,7 @@ function scr_Dialogue() constructor{
 		//return and remove the first dialog in the queue
 		var _t = array_first(_dialogs)
 		array_delete(_dialogs, 0, 1)
+		current_dialog_index++;
 		
 		return _t
 	}
