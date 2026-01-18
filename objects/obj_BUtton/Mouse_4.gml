@@ -1,3 +1,6 @@
+
+audio_play_sound(sfx_menu, 10, false, global.AudioVolume);
+
 switch (button_id)
 { 
 	case Buttons.Start:	
@@ -25,7 +28,7 @@ switch (button_id)
 		global.paused = !global.paused 
 		with (obj_GameController)
 		{
-		  scr_Pause();
+			scr_Pause();
 		}
 	break;
 	
@@ -55,5 +58,3 @@ switch (button_id)
 		global.ControlScheme = !global.ControlScheme
 	break;
 }
-
-audio_play_sound(sfx_menu, 10, false, global.AudioVolume);

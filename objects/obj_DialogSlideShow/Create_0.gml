@@ -13,5 +13,7 @@ dialog.add("test", DEPspr_ANGRY, "now it should be bakerspace", spr_Bakerspace)
 
 
 on_dialog_end = function(descriptor){
-	room_goto(rm_BusStop)
+	with(obj_GameController){
+		settingName = true;
+	}
 }

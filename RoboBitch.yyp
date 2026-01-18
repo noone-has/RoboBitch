@@ -33,6 +33,7 @@
     {"$GMFolder":"","%Name":"SFX","folderPath":"folders/SFX.yy","name":"SFX","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"BGs","folderPath":"folders/Sprites/BGs.yy","name":"BGs","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"BeginningSlides","folderPath":"folders/Sprites/BGs/BeginningSlides.yy","name":"BeginningSlides","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Collision Masks","folderPath":"folders/Sprites/BGs/Collision Masks.yy","name":"Collision Masks","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Characters","folderPath":"folders/Sprites/Characters.yy","name":"Characters","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Portraits","folderPath":"folders/Sprites/Characters/Portraits.yy","name":"Portraits","resourceType":"GMFolder","resourceVersion":"2.0",},

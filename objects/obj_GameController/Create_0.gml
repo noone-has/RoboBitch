@@ -26,7 +26,7 @@ cursor_sprite = spr_Cursor1;
 global.isFullscreen = 1;
 global.AudioVolume = 1;
 global.MusicVolume = 1;
-global.PlayerName = "[Player Name]";
+global.PlayerName = "Robert";
 global.ControlScheme = true;
 
 global.NewPlayerX = -1000
@@ -35,3 +35,25 @@ global.NewPlayerY = 1000
 // Pause 
 global.paused = false;
 scr_Pause();
+
+settingName = false;
+
+ChangeName = function(){
+	newChar = keyboard_lastchar
+
+	if(keyboard_check_pressed(vk_anykey)){ //workaround to type a key only once
+		if(keyboard_lastkey == vk_backspace){
+			global.PlayerName = string_delete(global.PlayerName, string_length(global.PlayerName), 1)
+		}
+		else{
+			global.PlayerName += newChar;
+		}
+	}
+	
+	if(keyboard_check_pressed(vk_enter)){
+		settingName = false;
+		room_goto(rm_BusStop)
+	}
+	
+	show_debug_message(global.PlayerName);
+}

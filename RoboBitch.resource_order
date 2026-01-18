@@ -21,6 +21,7 @@
     {"name":"Sequences","order":8,"path":"folders/Sequences.yy",},
     {"name":"SFX","order":9,"path":"folders/SFX.yy",},
     {"name":"Sprites","order":10,"path":"folders/Sprites.yy",},
+    {"name":"BeginningSlides","order":21,"path":"folders/Sprites/BGs/BeginningSlides.yy",},
     {"name":"Collision Masks","order":1,"path":"folders/Sprites/BGs/Collision Masks.yy",},
     {"name":"Characters","order":18,"path":"folders/Sprites/Characters.yy",},
     {"name":"Portraits","order":3,"path":"folders/Sprites/Characters/Portraits.yy",},
