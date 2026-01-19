@@ -8,6 +8,7 @@ if (global.CupGameBegin = true)
 			{
 				y = 0
 				visible = false;
+				audio_stop_sound(sfx_brumming);
 			}
 
 		// Step event

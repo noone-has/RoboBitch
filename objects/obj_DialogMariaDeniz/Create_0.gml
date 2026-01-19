@@ -2,8 +2,8 @@ event_inherited();
 trigger_radius = 10000
 
 //Main dialogue
-dialog.add(" ", spr_Normal, "[The two girls were laughing and talking together about something you couldn't quite grasp. The moment you rolled in front of them, they turn to face you. They seemed surprisingly excited to see you.]")
-dialog.add(" ", spr_Normal, "[The moment you rolled in front of them, they turn to face you. They seemed surprisingly excited to see you.]")
+dialog.add(" ", spr_Normal, "[The two girls were laughing and talking together about something you couldn't quite grasp.]")
+dialog.add(" ", spr_Normal, "[The moment you rolled in front of them, they turn to face you. They seem suprised.]")
 dialog.add("Dennis",spr_DennisPortrait, "Oh sweet, a robot? Since when do we have those running around at school?!", noone, vl_oh_sweet_a_robot) 
 dialog.add("Marla", spr_MarlaPortrait, "No idea, actually. They look cool though.")
 dialog.add("Marla", spr_MarlaPortrait, "Say, robot, would you like a hit of this cigarette?", noone, vl_Take_a_hit)
