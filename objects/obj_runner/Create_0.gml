@@ -73,21 +73,20 @@ PointAndClickMovement = function(){
 		var dx = nextPoint.getX() - x;
 		
 		//get a direction vector
-		directionToNextPoint = new scr_Position(dx, dy)
+		directionToNextPoint = new scr_Position(dx, 0)
 		directionToNextPoint.normalize()
 		
 		var move_x = directionToNextPoint.getX()*moveSpd
 		
-		show_debug_message(string(move_x) + ";" + string(0))
+		show_debug_message(string(move_x))
 		
 		move_and_collide(move_x, 0, all)
 	
 		//check if the player is close to the new position
-		if(point_distance(x, y, nextPoint.getX(), nextPoint.getY()) < 5){
+		if(point_distance(x, y, nextPoint.getX(), y) < 5){
 			moving = false
 			//make sure the player is EXACTLY at the new position
 			x = nextPoint.getX();
-			y = nextPoint.getY();
 		}
 	}
 }

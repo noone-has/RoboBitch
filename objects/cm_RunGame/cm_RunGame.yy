@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"BaseCollisionMaskSprite",
-    "path":"sprites/BaseCollisionMaskSprite/BaseCollisionMaskSprite.yy",
+    "name":"spr_RunGameCM",
+    "path":"sprites/spr_RunGameCM/spr_RunGameCM.yy",
   },
   "spriteMaskId":null,
   "visible":true,
