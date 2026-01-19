@@ -337,9 +337,9 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_TitleScreen","path":"rooms/rm_TitleScreen/rm_TitleScreen.yy",},},
-    {"roomId":{"name":"rm_CupGame","path":"rooms/rm_CupGame/rm_CupGame.yy",},},
     {"roomId":{"name":"rm_BeginningSlideshow","path":"rooms/rm_BeginningSlideshow/rm_BeginningSlideshow.yy",},},
     {"roomId":{"name":"rm_cafeterialift","path":"rooms/rm_cafeterialift/rm_cafeterialift.yy",},},
+    {"roomId":{"name":"rm_CupGame","path":"rooms/rm_CupGame/rm_CupGame.yy",},},
     {"roomId":{"name":"rm_RunGame","path":"rooms/rm_RunGame/rm_RunGame.yy",},},
     {"roomId":{"name":"rm_BusStop","path":"rooms/rm_BusStop/rm_BusStop.yy",},},
     {"roomId":{"name":"rm_outside","path":"rooms/rm_outside/rm_outside.yy",},},
