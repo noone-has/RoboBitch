@@ -142,8 +142,13 @@
     {"name":"spr_bar7","order":10,"path":"sprites/spr_bar7/spr_bar7.yy",},
     {"name":"spr_bar8","order":11,"path":"sprites/spr_bar8/spr_bar8.yy",},
     {"name":"spr_bar9","order":12,"path":"sprites/spr_bar9/spr_bar9.yy",},
+<<<<<<< HEAD
     {"name":"spr_bpblue","order":2,"path":"sprites/spr_bpblue/spr_bpblue.yy",},
     {"name":"spr_bpred","order":3,"path":"sprites/spr_bpred/spr_bpred.yy",},
+=======
+    {"name":"spr_bpblue","order":7,"path":"sprites/spr_bpblue/spr_bpblue.yy",},
+    {"name":"spr_bpred","order":6,"path":"sprites/spr_bpred/spr_bpred.yy",},
+>>>>>>> 0b23c1ba2615013d52220dfda11319d1df0670ec
     {"name":"spr_Bus","order":5,"path":"sprites/spr_Bus/spr_Bus.yy",},
     {"name":"spr_BusCardGif","order":1,"path":"sprites/spr_BusCardGif/spr_BusCardGif.yy",},
     {"name":"spr_BusStop","order":2,"path":"sprites/spr_BusStop/spr_BusStop.yy",},
@@ -205,10 +210,12 @@
     {"name":"spr_Portrait","order":10,"path":"sprites/spr_Portrait/spr_Portrait.yy",},
     {"name":"spr_Robot_1","order":15,"path":"sprites/spr_Robot_1/spr_Robot_1.yy",},
     {"name":"spr_Robot","order":8,"path":"sprites/spr_Robot/spr_Robot.yy",},
+    {"name":"spr_rungameBG","order":8,"path":"sprites/spr_rungameBG/spr_rungameBG.yy",},
     {"name":"spr_Sad","order":4,"path":"sprites/spr_Sad/spr_Sad.yy",},
     {"name":"spr_Shock","order":5,"path":"sprites/spr_Shock/spr_Shock.yy",},
     {"name":"spr_sky","order":14,"path":"sprites/spr_sky/spr_sky.yy",},
     {"name":"spr_SliderBar","order":3,"path":"sprites/spr_SliderBar/spr_SliderBar.yy",},
+    {"name":"spr_spilledcup1","order":4,"path":"sprites/spr_spilledcup1/spr_spilledcup1.yy",},
     {"name":"spr_TalkingBubble","order":12,"path":"sprites/spr_TalkingBubble/spr_TalkingBubble.yy",},
     {"name":"spr_teacher","order":13,"path":"sprites/spr_teacher/spr_teacher.yy",},
     {"name":"spr_TickFrame","order":2,"path":"sprites/spr_TickFrame/spr_TickFrame.yy",},
