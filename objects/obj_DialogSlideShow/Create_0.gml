@@ -19,7 +19,7 @@ dialog.add("", spr_Rando2, "The woman spent several days at home rebuilding and 
 dialog.add("", spr_Rando2, "And there you were, in all your glory.", Slide6)
 dialog.add("", spr_Rando2, "She was proud of how you turned out. You were able to function at last.", Slide6)
 dialog.add("MOTHER", spr_Rando2, "There. Your name will be..", Slide6)
-dialog.add("MOTHER", spr_Robot, $"{global.PlayerName}...", Slide6)
+dialog.add("MOTHER", spr_Rando2, $"{global.PlayerName}...", Slide6)
 dialog.add("", spr_Rando2, "The woman hands you a yellow card with a huge smile on her face.", Slide7)
 dialog.add("MOTHER", spr_Rando2, "You’re gonna go out there and do great things with your new life. Even if you’re a robot.. I know you’ll fit right in.", Slide7)
 dialog.add("", spr_Rando2, "She sends you off on the bus to the Haze University, where new adventures await you.", Slide7)
