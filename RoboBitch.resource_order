@@ -2,7 +2,6 @@
   "FolderOrderSettings":[
     {"name":"Deprecated","order":3,"path":"folders/Deprecated.yy",},
     {"name":"Fonts","order":4,"path":"folders/Fonts.yy",},
-    {"name":"Voicelines","order":11,"path":"folders/Voicelines.yy",},
     {"name":"Import","order":1,"path":"folders/Import.yy",},
     {"name":"Objects","order":5,"path":"folders/Objects.yy",},
     {"name":"Characters","order":19,"path":"folders/Objects/Characters.yy",},
@@ -34,6 +33,7 @@
     {"name":"Portraits","order":14,"path":"folders/Sprites/Player/Portraits.yy",},
     {"name":"UI","order":1,"path":"folders/Sprites/UI.yy",},
     {"name":"Phone","order":1,"path":"folders/Sprites/UI/Phone.yy",},
+    {"name":"Voicelines","order":11,"path":"folders/Voicelines.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"DEPfnt_MeatMadness","order":8,"path":"fonts/DEPfnt_MeatMadness/DEPfnt_MeatMadness.yy",},
