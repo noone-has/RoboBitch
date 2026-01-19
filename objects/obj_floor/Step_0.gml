@@ -1,11 +1,10 @@
 //falling down
 if (falling_down = true)
 	{
-		y += 5
+		y += 7
 	}
 	
 if (y >= room_height)
 	{
-		y = -sprite_height;
+		y = -sprite_height + 7;
 	}
-

@@ -1,3 +1,3 @@
 global.CupGameScore = 0;
 
-moveSpeed = 7.5
+moveSpeed = 10
