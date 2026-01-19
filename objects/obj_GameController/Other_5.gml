@@ -1,1 +1,1 @@
-global.LastRoom = $"{room}"
+global.LastRoom = room;
