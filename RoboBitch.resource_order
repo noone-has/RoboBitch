@@ -68,7 +68,6 @@
     {"name":"obj_cocotier","order":3,"path":"objects/obj_cocotier/obj_cocotier.yy",},
     {"name":"obj_Coffee","order":11,"path":"objects/obj_Coffee/obj_Coffee.yy",},
     {"name":"obj_continue","order":10,"path":"objects/obj_continue/obj_continue.yy",},
-    {"name":"obj_CupGameButton","order":13,"path":"objects/obj_CupGameButton/obj_CupGameButton.yy",},
     {"name":"obj_CustsceneController","order":6,"path":"objects/obj_CustsceneController/obj_CustsceneController.yy",},
     {"name":"obj_DialogMariaDeniz","order":1,"path":"objects/obj_DialogMariaDeniz/obj_DialogMariaDeniz.yy",},
     {"name":"obj_DialogSampleA","order":14,"path":"objects/obj_DialogSampleA/obj_DialogSampleA.yy",},
