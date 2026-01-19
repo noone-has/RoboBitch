@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"vl_i_am_ur_class_buddy",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":5.2480044,
+  "exportDir":"",
+  "name":"vl_i_am_ur_class_buddy",
+  "parent":{
+    "name":"Voicelines",
+    "path":"folders/Voicelines.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"vl_i_am_ur_class_buddy.wav",
+  "volume":1.0,
+}

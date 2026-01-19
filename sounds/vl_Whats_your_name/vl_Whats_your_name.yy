@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"vl_Whats_your_name",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":4.8,
+  "exportDir":"",
+  "name":"vl_Whats_your_name",
+  "parent":{
+    "name":"Voicelines",
+    "path":"folders/Voicelines.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"vl_Whats_your_name.wav",
+  "volume":1.0,
+}

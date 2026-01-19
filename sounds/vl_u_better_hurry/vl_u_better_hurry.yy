@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"vl_u_better_hurry",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":3.3493197,
+  "exportDir":"",
+  "name":"vl_u_better_hurry",
+  "parent":{
+    "name":"Voicelines",
+    "path":"folders/Voicelines.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"vl_u_better_hurry.wav",
+  "volume":1.0,
+}

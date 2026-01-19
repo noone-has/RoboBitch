@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"vl_if_u_ever_need_our_help_3",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":11.98932,
+  "exportDir":"",
+  "name":"vl_if_u_ever_need_our_help_3",
+  "parent":{
+    "name":"Voicelines",
+    "path":"folders/Voicelines.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"vl_if_u_ever_need_our_help_3.wav",
+  "volume":1.0,
+}
