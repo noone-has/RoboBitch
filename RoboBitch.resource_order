@@ -186,7 +186,7 @@
     {"name":"spr_Keyboard","order":19,"path":"sprites/spr_Keyboard/spr_Keyboard.yy",},
     {"name":"spr_Knob","order":11,"path":"sprites/spr_Knob/spr_Knob.yy",},
     {"name":"spr_LiftAnim","order":13,"path":"sprites/spr_LiftAnim/spr_LiftAnim.yy",},
-    {"name":"spr_LiftBG","order":10,"path":"sprites/spr_LiftBG/spr_LiftBG.yy",},
+    {"name":"spr_LiftBG","order":24,"path":"sprites/spr_LiftBG/spr_LiftBG.yy",},
     {"name":"spr_LiftHallway","order":12,"path":"sprites/spr_LiftHallway/spr_LiftHallway.yy",},
     {"name":"spr_logo","order":14,"path":"sprites/spr_logo/spr_logo.yy",},
     {"name":"spr_MainHall","order":4,"path":"sprites/spr_MainHall/spr_MainHall.yy",},
