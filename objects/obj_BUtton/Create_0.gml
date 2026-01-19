@@ -9,4 +9,5 @@ enum Buttons
 	Back,
 	CaptchaVerify,
 	ControlScheme,
+	Colorblind,
 }

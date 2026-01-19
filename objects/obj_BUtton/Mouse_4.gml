@@ -57,4 +57,7 @@ switch (button_id)
 	case Buttons.ControlScheme:
 		global.ControlScheme = !global.ControlScheme
 	break;
+	
+	case Buttons.Colorblind:
+	break;
 }
