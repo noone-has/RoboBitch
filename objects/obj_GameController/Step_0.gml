@@ -14,3 +14,6 @@ if (keyboard_check_pressed(vk_escape))
 }
 
 if(settingName){ChangeName()}
+
+
+

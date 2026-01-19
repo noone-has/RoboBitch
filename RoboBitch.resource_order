@@ -139,6 +139,7 @@
     {"name":"DEPspr_Player","order":10,"path":"sprites/DEPspr_Player/DEPspr_Player.yy",},
     {"name":"DEPspr_SliderBar","order":1,"path":"sprites/DEPspr_SliderBar/DEPspr_SliderBar.yy",},
     {"name":"GameIcon","order":19,"path":"sprites/GameIcon/GameIcon.yy",},
+    {"name":"pausemenu","order":22,"path":"sprites/pausemenu/pausemenu.yy",},
     {"name":"Slide1","order":5,"path":"sprites/Slide1/Slide1.yy",},
     {"name":"Slide3","order":6,"path":"sprites/Slide3/Slide3.yy",},
     {"name":"Slide4","order":1,"path":"sprites/Slide4/Slide4.yy",},

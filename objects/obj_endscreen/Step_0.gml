@@ -1,11 +1,4 @@
-
-
-if keyboard_check(vk_anykey) && (CanRestartRoom == true)
+if (keyboard_check(vk_anykey) || mouse_check_button(mb_left)) && (CanRestartRoom == true)
 	{
-		game_restart()
-	}
-	
-if mouse_check_button(vk_anykey)  && (CanRestartRoom == true)
-	{
-		game_restart()
+		room_goto(global.LastRoom)
 	}
