@@ -1,11 +1,12 @@
 tilesNeeded = 9;
 tilesPressed = 0;
-global.captchaVerified = false
+global.showCaptha = true
+global.showDigiroster = false;
+showVerifiedCheck = false
 
 verify = function(){
 	if(tilesPressed >= tilesNeeded){
-		global.captchaVerified = true;
-		
+		showVerifiedCheck = true;
 		if(alarm[0]<0){
 			alarm[0] = 1*room_speed
 		}

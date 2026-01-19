@@ -5,7 +5,7 @@ upKey =    keyboard_check(ord("W")) || keyboard_check(vk_up)
 downKey =  keyboard_check(ord("S")) || keyboard_check(vk_down)
 
 
-if (!global.isInDialogue && !global.is_making_choice)
+if (!global.isInDialogue && !global.is_making_choice && !global.showCaptha && !global.showDigiroster)
 {
 	if (global.ControlScheme = true) {TopDownMovement();} else {PointAndClickMovement();}
 }

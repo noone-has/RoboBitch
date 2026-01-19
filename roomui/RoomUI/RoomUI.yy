@@ -22,7 +22,7 @@
                   ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":189.16455,"y":-373.5,},
               ],"flexDirection":0,"height":{"unit":3,"value":20.0,},"justifyContent":1,"name":"FlexPanel_2","nodeColour":4294097736,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":20.0,},},
             {"$GMRSpriteGraphic":"v1","%Name":"graphic_55BF571A","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_55BF571A","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.40216497,"scaleY":0.40259856,"spriteId":{"name":"spr_Deregister","path":"sprites/spr_Deregister/spr_Deregister.yy",},"x":780.8355,"y":196.48471,},
-          ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"DigiRosterLayer","nodeColour":4282970712,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+          ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"DigiRosterLayer","nodeColour":4282970712,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
         {"$GMRUILayer":"v1","%Name":"CaptchaLayer","alignItems":2,"children":[
             {"$GMRFlexPanel":"","%Name":"PhoneElements","alignItems":2,"children":[
                 {"$GMRInstance":"v4","%Name":"inst_391BFF4A","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_391BFF4A","objectId":{"name":"obj_CaptchaController","path":"objects/obj_CaptchaController/obj_CaptchaController.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-210.0,"y":-397.89685,},
@@ -95,7 +95,7 @@
         {"$GMRUILayer":"v1","%Name":"PhoneLayer","alignItems":2,"children":[
             {"$GMRSpriteGraphic":"v1","%Name":"Phone","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"Phone","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.59749997,"scaleY":0.5568737,"spriteId":{"name":"spr_Phone","path":"sprites/spr_Phone/spr_Phone.yy",},"x":720.4186,"y":97.359985,},
           ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"PhoneLayer","nodeColour":4287252722,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
-      ],"locked":false,"name":"Phone","nodeColour":4290791666,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":true,},
+      ],"locked":false,"name":"Phone","nodeColour":4290791666,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":false,},
     {"$GMRUIFolder":"","%Name":"Dialogue","children":[
         {"$GMRUILayer":"v1","%Name":"DialogueLayer","alignItems":3,"children":[
             {"$GMRFlexPanel":"","%Name":"DialogueText","alignItems":2,"children":[

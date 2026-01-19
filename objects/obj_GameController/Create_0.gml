@@ -35,6 +35,9 @@ global.LastRoom = "";
 global.NewPlayerX = -1000
 global.NewPlayerY = 1000
 
+global.showCaptha = false;
+global.showDigiroster = false;
+
 // Pause 
 global.paused = false;
 scr_Pause();
@@ -74,8 +77,13 @@ ChangeName = function(){
 		if(keyboard_lastkey == vk_backspace){
 			global.PlayerName = string_delete(global.PlayerName, string_length(global.PlayerName), 1)
 		}
+		else if(keyboard_check(vk_shift) && !keyboard_check_pressed(vk_shift)){
+			global.PlayerName += string_upper(newChar)
+		}
 		else{
-			global.PlayerName += newChar;
+			if(!keyboard_check_pressed(vk_shift)){
+				global.PlayerName += newChar;
+			}
 		}
 	}
 	
