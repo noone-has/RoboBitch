@@ -16,6 +16,8 @@ if(room == rm_TitleScreen){
 	
 		layer_set_visible(currentLayer, false) 
 	}
+	
+	layer_set_visible("MainMenuLayer", true);
 }
 
 // Cursor
