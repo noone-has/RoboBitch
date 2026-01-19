@@ -207,6 +207,7 @@
     {"id":{"name":"DEPspr_SliderBar","path":"sprites/DEPspr_SliderBar/DEPspr_SliderBar.yy",},},
     {"id":{"name":"DEPspr_SliderKnob","path":"sprites/DEPspr_SliderKnob/DEPspr_SliderKnob.yy",},},
     {"id":{"name":"GameIcon","path":"sprites/GameIcon/GameIcon.yy",},},
+    {"id":{"name":"pausemenu","path":"sprites/pausemenu/pausemenu.yy",},},
     {"id":{"name":"Slide1","path":"sprites/Slide1/Slide1.yy",},},
     {"id":{"name":"Slide2","path":"sprites/Slide2/Slide2.yy",},},
     {"id":{"name":"Slide3","path":"sprites/Slide3/Slide3.yy",},},

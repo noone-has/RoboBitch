@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"fnt_NeresansThree",
+  "%Name":"fnt_NersansThree",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":60,
@@ -4234,7 +4234,7 @@
   "last":0,
   "lineHeight":72,
   "maintainGms1Font":false,
-  "name":"fnt_NeresansThree",
+  "name":"fnt_NersansThree",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",

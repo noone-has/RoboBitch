@@ -30,6 +30,7 @@ global.AudioVolume = 1;
 global.MusicVolume = 1;
 global.PlayerName = "Robert";
 global.ControlScheme = true;
+global.LastRoom = "";
 
 global.NewPlayerX = -1000
 global.NewPlayerY = 1000
