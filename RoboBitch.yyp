@@ -293,6 +293,7 @@
     {"id":{"name":"spr_Shock","path":"sprites/spr_Shock/spr_Shock.yy",},},
     {"id":{"name":"spr_sky","path":"sprites/spr_sky/spr_sky.yy",},},
     {"id":{"name":"spr_SliderBar","path":"sprites/spr_SliderBar/spr_SliderBar.yy",},},
+    {"id":{"name":"spr_spilledcup1","path":"sprites/spr_spilledcup1/spr_spilledcup1.yy",},},
     {"id":{"name":"spr_TalkingBubble","path":"sprites/spr_TalkingBubble/spr_TalkingBubble.yy",},},
     {"id":{"name":"spr_teacher","path":"sprites/spr_teacher/spr_teacher.yy",},},
     {"id":{"name":"spr_TickFrame","path":"sprites/spr_TickFrame/spr_TickFrame.yy",},},

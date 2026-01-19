@@ -218,6 +218,7 @@
     {"name":"spr_Shock","order":5,"path":"sprites/spr_Shock/spr_Shock.yy",},
     {"name":"spr_sky","order":14,"path":"sprites/spr_sky/spr_sky.yy",},
     {"name":"spr_SliderBar","order":3,"path":"sprites/spr_SliderBar/spr_SliderBar.yy",},
+    {"name":"spr_spilledcup1","order":4,"path":"sprites/spr_spilledcup1/spr_spilledcup1.yy",},
     {"name":"spr_TalkingBubble","order":12,"path":"sprites/spr_TalkingBubble/spr_TalkingBubble.yy",},
     {"name":"spr_teacher","order":13,"path":"sprites/spr_teacher/spr_teacher.yy",},
     {"name":"spr_TickFrame","order":2,"path":"sprites/spr_TickFrame/spr_TickFrame.yy",},
