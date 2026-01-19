@@ -80,7 +80,6 @@
     {"name":"obj_endscreen","order":11,"path":"objects/obj_endscreen/obj_endscreen.yy",},
     {"name":"obj_fade","order":12,"path":"objects/obj_fade/obj_fade.yy",},
     {"name":"obj_fadein","order":13,"path":"objects/obj_fadein/obj_fadein.yy",},
-    {"name":"obj_fadeout","order":14,"path":"objects/obj_fadeout/obj_fadeout.yy",},
     {"name":"obj_GameController","order":1,"path":"objects/obj_GameController/obj_GameController.yy",},
     {"name":"obj_logo","order":7,"path":"objects/obj_logo/obj_logo.yy",},
     {"name":"obj_movementkeys","order":11,"path":"objects/obj_movementkeys/obj_movementkeys.yy",},
