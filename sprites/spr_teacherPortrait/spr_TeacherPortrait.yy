@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_TeacherPortrait",
   "bboxMode":0,
-  "bbox_bottom":236,
-  "bbox_left":0,
-  "bbox_right":234,
+  "bbox_bottom":266,
+  "bbox_left":28,
+  "bbox_right":262,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"565d8c96-b5f5-4f28-8c8e-8992dfb0ed74","name":"565d8c96-b5f5-4f28-8c8e-8992dfb0ed74","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5d6d27c6-84c2-4765-b8d7-23a9a5f80c0b","name":"5d6d27c6-84c2-4765-b8d7-23a9a5f80c0b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":237,
+  "height":268,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"fd0f0042-7f6e-4385-bf56-69d43ef86abc","blendMode":0,"displayName":"default","isLocked":false,"name":"fd0f0042-7f6e-4385-bf56-69d43ef86abc","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"0943a712-7a89-46fa-9a2e-27dec031c6f8","blendMode":0,"displayName":"default","isLocked":false,"name":"0943a712-7a89-46fa-9a2e-27dec031c6f8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_TeacherPortrait",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"565d8c96-b5f5-4f28-8c8e-8992dfb0ed74","path":"sprites/spr_TeacherPortrait/spr_TeacherPortrait.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4c0f0d05-e201-4430-9e0e-72671fd1052b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5d6d27c6-84c2-4765-b8d7-23a9a5f80c0b","path":"sprites/spr_TeacherPortrait/spr_TeacherPortrait.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"76dddef1-8dda-4da3-8a33-1accf7e81d74","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":235,
+  "width":300,
 }

@@ -326,6 +326,7 @@
     {"id":{"name":"spr_spilledcup1","path":"sprites/spr_spilledcup1/spr_spilledcup1.yy",},},
     {"id":{"name":"spr_TalkingBubble","path":"sprites/spr_TalkingBubble/spr_TalkingBubble.yy",},},
     {"id":{"name":"spr_teacher","path":"sprites/spr_teacher/spr_teacher.yy",},},
+    {"id":{"name":"spr_TeacherPortrait","path":"sprites/spr_TeacherPortrait/spr_TeacherPortrait.yy",},},
     {"id":{"name":"spr_TickFrame","path":"sprites/spr_TickFrame/spr_TickFrame.yy",},},
     {"id":{"name":"spr_Unamused","path":"sprites/spr_Unamused/spr_Unamused.yy",},},
     {"id":{"name":"spr_VendingMachineBG","path":"sprites/spr_VendingMachineBG/spr_VendingMachineBG.yy",},},

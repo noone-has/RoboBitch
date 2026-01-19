@@ -13,7 +13,7 @@ dialog_SmokingYes = new scr_Dialogue()
 dialog_SmokingYes.descriptor = "smoking_yes"
 dialog_SmokingYes.add(global.PlayerName, spr_Normal, "Sure, why not")
 dialog_SmokingYes.add(global.PlayerName, spr_Normal, "[As you try to take a hit from the offered cigarette, a mean looking teacher happens to walk by. She does not look happy.]")
-dialog_SmokingYes.add("", spr_empty, "What is the meaning of this? Do you not see the sign behind you? This is absolutely unacceptable! Get out of here now!")
+dialog_SmokingYes.add("Teach",spr_TeacherPortrait, "What is the meaning of this? Do you not see the sign behind you? This is absolutely unacceptable! Get out of here now!")
 
 //Say no to smoking
 dialog_SmokingNo = new scr_Dialogue()

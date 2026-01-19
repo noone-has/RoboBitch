@@ -4,8 +4,8 @@ event_inherited();
 trigger_radius = 10000
 
 //Main dialogue
-dialog.add("Teacher", spr_teacher, "Welcome newcomer.")
-dialog.add("Teacher", spr_teacher, "You're already late! Get your ass to class.")
+dialog.add("Teacher", spr_TeacherPortrait, "Welcome newcomer.")
+dialog.add("Teacher", spr_TeacherPortrait, "You're already late! Get your ass to class.")
 
 on_dialog_end = function(descriptor)
 	{

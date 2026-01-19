@@ -1,4 +1,4 @@
-dialog = new scr_Dialogue()
+	dialog = new scr_Dialogue()
 
 
 global.should_show_dialog = false
