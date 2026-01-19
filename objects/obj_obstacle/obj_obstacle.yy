@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_empty",
-    "path":"sprites/spr_empty/spr_empty.yy",
+    "name":"spr_bpred",
+    "path":"sprites/spr_bpred/spr_bpred.yy",
   },
   "spriteMaskId":{
     "name":"spr_empty",
