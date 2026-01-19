@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_emo2",
-    "path":"sprites/spr_emo2/spr_emo2.yy",
+    "name":"spr_Marla",
+    "path":"sprites/spr_Marla/spr_Marla.yy",
   },
   "spriteMaskId":null,
   "visible":true,
