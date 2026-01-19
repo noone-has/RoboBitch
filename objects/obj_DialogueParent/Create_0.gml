@@ -1,6 +1,5 @@
 dialog = new scr_Dialogue()
 
-key_next = vk_space;
 
 global.should_show_dialog = false
 global.is_making_choice = false
@@ -11,7 +10,7 @@ is_making_choice = false
 current_dialog = {}
 
 alpha = 0
-
+global.isInDialogue = false;
 trigger_radius = 20
 
 //used to execute logic when a branch gets selected
@@ -40,5 +39,3 @@ show_dialog = function(character_sprite, text, character_name)
 	alpha = lerp(alpha, 1, 0.06)
 	image_alpha = alpha
 }
-
-	

@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_bpred",
-    "path":"sprites/spr_bpred/spr_bpred.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":{
     "name":"spr_empty",
     "path":"sprites/spr_empty/spr_empty.yy",

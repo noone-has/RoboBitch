@@ -44,9 +44,16 @@ holdingBackspaceInterval = 0.2;
 holdingBackspaceRepeatTimer = 0;
 
 ChangeName = function(){
+	global.isInDialogue = true; //set this to true so the player wont move
 	newChar = keyboard_lastchar
-
-	if(keyboard_check(vk_backspace)){
+	
+	if(keyboard_check_pressed(vk_enter)){
+		global.isInDialogue = false;
+		settingName = false;
+		room_goto(rm_BusStop)
+	}
+	
+	else if(keyboard_check(vk_backspace)){
 		holdingBackspaceTimer += 1/room_speed
 		if(holdingBackspaceTimer >= holdingBackspaceThreshold){
 			holdingBackspaceRepeatTimer -= 1/room_speed
@@ -67,11 +74,6 @@ ChangeName = function(){
 		else{
 			global.PlayerName += newChar;
 		}
-	}
-	
-	if(keyboard_check_pressed(vk_enter)){
-		settingName = false;
-		room_goto(rm_BusStop)
 	}
 	
 	show_debug_message(global.PlayerName);
