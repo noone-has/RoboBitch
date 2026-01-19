@@ -31,12 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bpred",
-    "path":"sprites/spr_bpred/spr_bpred.yy",
+    "name":"DEPspr_ANGRY",
+    "path":"sprites/DEPspr_ANGRY/DEPspr_ANGRY.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_empty",
-    "path":"sprites/spr_empty/spr_empty.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
