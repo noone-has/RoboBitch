@@ -116,7 +116,6 @@
     {"id":{"name":"obj_cocotier","path":"objects/obj_cocotier/obj_cocotier.yy",},},
     {"id":{"name":"obj_Coffee","path":"objects/obj_Coffee/obj_Coffee.yy",},},
     {"id":{"name":"obj_continue","path":"objects/obj_continue/obj_continue.yy",},},
-    {"id":{"name":"obj_CupGameButton","path":"objects/obj_CupGameButton/obj_CupGameButton.yy",},},
     {"id":{"name":"obj_CustsceneController","path":"objects/obj_CustsceneController/obj_CustsceneController.yy",},},
     {"id":{"name":"obj_DialogBuddy","path":"objects/obj_DialogBuddy/obj_DialogBuddy.yy",},},
     {"id":{"name":"obj_DialogMariaDeniz","path":"objects/obj_DialogMariaDeniz/obj_DialogMariaDeniz.yy",},},
