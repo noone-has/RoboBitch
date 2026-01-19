@@ -11,8 +11,8 @@ dialog.add("Marla", spr_MarlaPortrait, "Say, robot, would you like a hit of this
 //Say yes to smoking
 dialog_SmokingYes = new scr_Dialogue()
 dialog_SmokingYes.descriptor = "smoking_yes"
-dialog_SmokingYes.add(global.PlayerName, spr_Robot, "Sure, why not")
-dialog_SmokingYes.add(global.PlayerName, spr_Robot, "[As you try to take a hit from the offered cigarette, a mean looking teacher happens to walk by. She does not look happy.]")
+dialog_SmokingYes.add(global.PlayerName, spr_Normal, "Sure, why not")
+dialog_SmokingYes.add(global.PlayerName, spr_Normal, "[As you try to take a hit from the offered cigarette, a mean looking teacher happens to walk by. She does not look happy.]")
 dialog_SmokingYes.add("", spr_empty, "What is the meaning of this? Do you not see the sign behind you? This is absolutely unacceptable! Get out of here now!")
 
 //Say no to smoking
@@ -22,7 +22,7 @@ dialog_SmokingNo.add(global.PlayerName, spr_Happy, "U-uhm.. No thank you. I was 
 dialog_SmokingNo.add("Marla", spr_MarlaPortrait, "But of course we can. Lucky for you, I happen to have a map of the school in my bag. You can have it")
 dialog_SmokingNo.add("",spr_empty, "[The kind girl hands you her map, it’s quite big]")
 dialog_SmokingNo.add("Marla", spr_MarlaPortrait, "By the way, I am Marla, and this is Dennis. What is your name?", noone, vl_Whats_your_name)
-dialog_SmokingNo.add(global.PlayerName, spr_Robot, $"I'm {global.PlayerName}. {global.PlayerName} the robot!")	
+dialog_SmokingNo.add(global.PlayerName, spr_Normal, $"I'm {global.PlayerName}. {global.PlayerName} the robot!")	
 dialog_SmokingNo.add("",spr_empty, "[The girl laughs wholeheartedly]")
 dialog_SmokingNo.add("Dennis", spr_DennisPortrait, "Even your name is awesome. I hope we get to see more robots rolling around here soon.")
 dialog_SmokingNo.add("Dennis", spr_DennisPortrait, "[She takes another drag of her cigarette, blowing it out in the opposite direction]")
