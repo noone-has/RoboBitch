@@ -212,7 +212,6 @@
     {"id":{"name":"spr_bpred","path":"sprites/spr_bpred/spr_bpred.yy",},},
     {"id":{"name":"spr_Bus","path":"sprites/spr_Bus/spr_Bus.yy",},},
     {"id":{"name":"spr_BusCard","path":"sprites/spr_BusCard/spr_BusCard.yy",},},
-    {"id":{"name":"spr_BusCardGif","path":"sprites/spr_BusCardGif/spr_BusCardGif.yy",},},
     {"id":{"name":"spr_BusStop","path":"sprites/spr_BusStop/spr_BusStop.yy",},},
     {"id":{"name":"spr_BusStopCM","path":"sprites/spr_BusStopCM/spr_BusStopCM.yy",},},
     {"id":{"name":"spr_Captcha","path":"sprites/spr_Captcha/spr_Captcha.yy",},},
