@@ -216,6 +216,8 @@
     {"name":"spr_Phone","order":3,"path":"sprites/spr_Phone/spr_Phone.yy",},
     {"name":"spr_PlayerTemp","order":7,"path":"sprites/spr_PlayerTemp/spr_PlayerTemp.yy",},
     {"name":"spr_Portrait","order":10,"path":"sprites/spr_Portrait/spr_Portrait.yy",},
+    {"name":"spr_Rando","order":3,"path":"sprites/spr_Rando/spr_Rando.yy",},
+    {"name":"spr_Rando2","order":4,"path":"sprites/spr_Rando2/spr_Rando2.yy",},
     {"name":"spr_Robot_1","order":15,"path":"sprites/spr_Robot_1/spr_Robot_1.yy",},
     {"name":"spr_Robot","order":8,"path":"sprites/spr_Robot/spr_Robot.yy",},
     {"name":"spr_Sad","order":4,"path":"sprites/spr_Sad/spr_Sad.yy",},
