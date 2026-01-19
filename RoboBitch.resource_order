@@ -37,6 +37,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"DEPfnt_MeatMadness","order":8,"path":"fonts/DEPfnt_MeatMadness/DEPfnt_MeatMadness.yy",},
+    {"name":"fnt_Dyslexic","order":2,"path":"fonts/fnt_Dyslexic/fnt_Dyslexic.yy",},
     {"name":"fnt_NersansThree","order":1,"path":"fonts/fnt_NersansThree/fnt_NersansThree.yy",},
     {"name":"BaseCollisionMaskObj","order":6,"path":"objects/BaseCollisionMaskObj/BaseCollisionMaskObj.yy",},
     {"name":"cm_Appie","order":3,"path":"objects/cm_Appie/cm_Appie.yy",},

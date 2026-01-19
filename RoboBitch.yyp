@@ -79,6 +79,7 @@
   "name":"RoboBitch",
   "resources":[
     {"id":{"name":"DEPfnt_MeatMadness","path":"fonts/DEPfnt_MeatMadness/DEPfnt_MeatMadness.yy",},},
+    {"id":{"name":"fnt_Dyslexic","path":"fonts/fnt_Dyslexic/fnt_Dyslexic.yy",},},
     {"id":{"name":"fnt_NersansThree","path":"fonts/fnt_NersansThree/fnt_NersansThree.yy",},},
     {"id":{"name":"BaseCollisionMaskObj","path":"objects/BaseCollisionMaskObj/BaseCollisionMaskObj.yy",},},
     {"id":{"name":"cm_Appie","path":"objects/cm_Appie/cm_Appie.yy",},},

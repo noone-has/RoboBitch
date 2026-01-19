@@ -6,5 +6,7 @@ switch (tick_id)
 		if(global.ControlScheme) { sprite_index = spr_Keyboard }
 		else { sprite_index = spr_Mouse }
 	break;
+	case 2:
+	break;
 	
 }
