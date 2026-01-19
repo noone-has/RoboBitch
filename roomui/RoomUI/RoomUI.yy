@@ -95,7 +95,7 @@
         {"$GMRUILayer":"v1","%Name":"PhoneLayer","alignItems":2,"children":[
             {"$GMRSpriteGraphic":"v1","%Name":"Phone","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"Phone","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.59749997,"scaleY":0.5568737,"spriteId":{"name":"spr_Phone","path":"sprites/spr_Phone/spr_Phone.yy",},"x":720.4186,"y":97.359985,},
           ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"PhoneLayer","nodeColour":4287252722,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
-      ],"locked":false,"name":"Phone","nodeColour":4290791666,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":true,},
+      ],"locked":false,"name":"Phone","nodeColour":4290791666,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":false,},
     {"$GMRUIFolder":"","%Name":"Dialogue","children":[
         {"$GMRUILayer":"v1","%Name":"DialogueLayer","alignItems":3,"children":[
             {"$GMRFlexPanel":"","%Name":"DialogueText","alignItems":2,"children":[
