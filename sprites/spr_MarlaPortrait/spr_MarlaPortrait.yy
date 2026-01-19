@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_Marla",
+  "%Name":"spr_MarlaPortrait",
   "bboxMode":0,
   "bbox_bottom":257,
   "bbox_left":31,
@@ -21,9 +21,9 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"7554059b-83d7-4974-9600-efb3fc8449d6","blendMode":0,"displayName":"default","isLocked":false,"name":"7554059b-83d7-4974-9600-efb3fc8449d6","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_Marla",
+  "name":"spr_MarlaPortrait",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Portraits",
     "path":"folders/Sprites/Characters/Portraits.yy",
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_Marla",
+    "%Name":"spr_MarlaPortrait",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_Marla",
+    "name":"spr_MarlaPortrait",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,7 +69,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7fe02420-f406-4ce4-b55a-c87dc29dc896","path":"sprites/spr_Marla/spr_Marla.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7fe02420-f406-4ce4-b55a-c87dc29dc896","path":"sprites/spr_MarlaPortrait/spr_MarlaPortrait.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"691e0092-62df-43ac-9fee-d33d5d2e3ac0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
