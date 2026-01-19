@@ -176,7 +176,6 @@
     {"id":{"name":"captcha_background","path":"sprites/captcha_background/captcha_background.yy",},},
     {"id":{"name":"captcha_hint_screen","path":"sprites/captcha_hint_screen/captcha_hint_screen.yy",},},
     {"id":{"name":"CaptchaImages","path":"sprites/CaptchaImages/CaptchaImages.yy",},},
-    {"id":{"name":"CoofieSpill","path":"sprites/CoofieSpill/CoofieSpill.yy",},},
     {"id":{"name":"DEP1spr_MainMenu","path":"sprites/DEP1spr_MainMenu/DEP1spr_MainMenu.yy",},},
     {"id":{"name":"DEP1spr_menu","path":"sprites/DEP1spr_menu/DEP1spr_menu.yy",},},
     {"id":{"name":"DEPspr_ANGRY","path":"sprites/DEPspr_ANGRY/DEPspr_ANGRY.yy",},},
