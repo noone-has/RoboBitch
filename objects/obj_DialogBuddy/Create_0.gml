@@ -1,12 +1,11 @@
 // Inherit the parent event
 event_inherited();
 
-trigger_radius = 200
+trigger_radius = 170
 
 //Main dialogue
-dialog.add("Buddy", spr_buddy, "You gotta hurry the fuck up.")
-dialog.add("Buddy", spr_buddy, "I recommend you to run...")
-dialog.add("Buddy", spr_buddy, "RUN, NOW, RUN!")
+dialog.add("Buddy", spr_buddy, "Welcome newcomer.")
+dialog.add("Buddy", spr_buddy, "You're already late! Get your ass to class.")
 
 on_dialog_end = function(descriptor)
 	{
