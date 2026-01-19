@@ -8,7 +8,7 @@ global.is_making_choice = false
 is_making_choice = false
 
 current_dialog = {}
-
+	
 alpha = 0
 global.isInDialogue = false;
 trigger_radius = 20

@@ -53,7 +53,7 @@ ChangeName = function(){
 	if(keyboard_check_pressed(vk_enter)){
 		global.isInDialogue = false;
 		settingName = false;
-		room_goto(rm_BusStop)
+		
 	}
 	
 	else if(keyboard_check(vk_backspace)){
@@ -79,5 +79,7 @@ ChangeName = function(){
 		}
 	}
 	
+	var textID = layer_text_get_id("DialogueLayer", "DialogueText");
+	layer_text_text(textID, global.PlayerName)
 	show_debug_message(global.PlayerName);
 }
