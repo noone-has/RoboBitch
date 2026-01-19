@@ -15,7 +15,7 @@ activate = function(){
 	global.NewPlayerX = targetX;
 	global.NewPlayerY = targetY;
 	show_debug_message($"switched room to {target_room}")
-
+	
 }
 
 //hide the door icon
