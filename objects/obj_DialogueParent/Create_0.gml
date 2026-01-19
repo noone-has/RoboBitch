@@ -35,7 +35,4 @@ show_dialog = function(character_sprite, text, character_name)
 	with(obj_DialogueCharacter){
 		sprite_index = other.current_dialog.sprite
 	}
-	
-	alpha = lerp(alpha, 1, 0.06)
-	image_alpha = alpha
 }

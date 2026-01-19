@@ -4,7 +4,6 @@ enum triggers {
 }
 
 activate = function(){
-	
 	if(Disabler != noone){
 		if(Disabler == true){
 			return;

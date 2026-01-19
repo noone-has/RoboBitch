@@ -10,4 +10,5 @@ enum Buttons
 	CaptchaVerify,
 	ControlScheme,
 	Colorblind,
+	ClosePhone,
 }

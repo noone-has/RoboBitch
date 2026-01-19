@@ -35,6 +35,5 @@ if(global.should_show_dialog == false){
 else{
 	if((keyboard_check_pressed(vk_space) && global.ControlScheme) || (mouse_check_button_pressed(mb_left) && !global.ControlScheme)){
 		global.should_show_dialog = false
-		alpha = 0
 	}
 }
