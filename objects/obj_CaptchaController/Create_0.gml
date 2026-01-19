@@ -4,6 +4,8 @@ global.showCaptha = true
 global.showDigiroster = false;
 showVerifiedCheck = false
 
+global.isOnPhone = true;
+
 verify = function(){
 	if(tilesPressed >= tilesNeeded){
 		showVerifiedCheck = true;
