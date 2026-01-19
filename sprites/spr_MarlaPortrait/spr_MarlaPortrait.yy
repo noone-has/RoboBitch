@@ -23,7 +23,7 @@
   ],
   "name":"spr_MarlaPortrait",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Portraits",
     "path":"folders/Sprites/Characters/Portraits.yy",

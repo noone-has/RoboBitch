@@ -226,7 +226,6 @@
     {"name":"spr_Portrait","order":10,"path":"sprites/spr_Portrait/spr_Portrait.yy",},
     {"name":"spr_Rando","order":3,"path":"sprites/spr_Rando/spr_Rando.yy",},
     {"name":"spr_Rando2","order":4,"path":"sprites/spr_Rando2/spr_Rando2.yy",},
-    {"name":"spr_Robot_1","order":15,"path":"sprites/spr_Robot_1/spr_Robot_1.yy",},
     {"name":"spr_Robot","order":8,"path":"sprites/spr_Robot/spr_Robot.yy",},
     {"name":"spr_Sad","order":4,"path":"sprites/spr_Sad/spr_Sad.yy",},
     {"name":"spr_Shock","order":5,"path":"sprites/spr_Shock/spr_Shock.yy",},
@@ -242,5 +241,6 @@
     {"name":"spr_WalkLoop","order":1,"path":"sprites/spr_WalkLoop/spr_WalkLoop.yy",},
     {"name":"spr_WalkStart","order":2,"path":"sprites/spr_WalkStart/spr_WalkStart.yy",},
     {"name":"spr_XButton","order":4,"path":"sprites/spr_XButton/spr_XButton.yy",},
+    {"name":"TitleScreen","order":25,"path":"sprites/TitleScreen/TitleScreen.yy",},
   ],
 }
