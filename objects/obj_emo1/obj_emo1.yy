@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_emo1",
-    "path":"sprites/spr_emo1/spr_emo1.yy",
+    "name":"spr_Dennis",
+    "path":"sprites/spr_Dennis/spr_Dennis.yy",
   },
   "spriteMaskId":null,
   "visible":true,
