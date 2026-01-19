@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"fadeout",
+  "%Name":"obj_fadeout",
   "eventList":[],
   "managed":true,
-  "name":"fadeout",
+  "name":"obj_fadeout",
   "overriddenProperties":[],
   "parent":{
     "name":"UI",
