@@ -14,6 +14,8 @@ if(currentDialogIndex = 16)
 	{
 		settingName = true;
 	}
+	
+	layer_set_visible("InsertNameLayer", true);
 }
 else
 {
@@ -21,4 +23,14 @@ else
 	{
 		settingName = false;
 	}
+	layer_set_visible("InsertNameLayer", false);
+}
+
+if(currentDialogIndex < 4)
+{
+	layer_set_visible("ContinueLayer", true);
+}
+else
+{
+	layer_set_visible("ContinueLayer", false);	
 }

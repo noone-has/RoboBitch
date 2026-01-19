@@ -1,4 +1,4 @@
-window_set_fullscreen(global.isFullscreen);
+	window_set_fullscreen(global.isFullscreen);
 if (keyboard_check_pressed(vk_escape))
 {
 	if (room == rm_TitleScreen)
