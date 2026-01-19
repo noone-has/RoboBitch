@@ -1,4 +1,4 @@
-objectSprites = [spr_BPBlue, spr_BPRed, spr_spilledcup1]
+objectSprites = [spr_BPBlue, spr_BPRed, spr_spilledcup1, spr_paper, spr_banana]
 arraySize = array_length(objectSprites)
 randomIndex = irandom(arraySize - 1)
 randomSprite = array_get(objectSprites, randomIndex)

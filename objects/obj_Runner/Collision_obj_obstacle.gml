@@ -1,1 +1,1 @@
-room_goto(rm_endscreen)
+room_restart()

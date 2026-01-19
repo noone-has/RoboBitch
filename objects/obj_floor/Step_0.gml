@@ -1,10 +1,14 @@
-//falling down
-if (falling_down = true)
+if (global.stop_running = false)
 	{
-		y += 7
-	}
 	
-if (y >= room_height)
-	{
-		y = -sprite_height + 7;
+		//falling down
+		if (falling_down = true)
+			{
+				y += 7
+			}
+	
+		if (y >= room_height)
+			{
+				y = -sprite_height + 7;
+			}
 	}

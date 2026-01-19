@@ -1,3 +1,6 @@
+global.stop_running = false;
+alarm[1] = 20*room_speed;
+
 depth = 99
 falling_down = false;
 alarm[0] = 3 * room_speed;

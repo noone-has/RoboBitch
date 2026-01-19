@@ -1,5 +1,8 @@
-
 depth = -100
+
+alarm[1] = 25*room_speed
+
+walktothetop = false;
 
 
 /* fyi all object rerun create code when you enter a new room
