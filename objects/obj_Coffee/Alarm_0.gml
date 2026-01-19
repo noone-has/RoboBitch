@@ -1,5 +1,5 @@
-global.NewPlayerX = 704
-global.NewPlayerY = 480
+global.NewPlayerX = 1242
+global.NewPlayerY = 361
 
 global.GameStateDict[GameStates.CupGameCompleted] = true;
 
