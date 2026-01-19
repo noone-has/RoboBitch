@@ -126,7 +126,6 @@
     {"id":{"name":"obj_endscreen","path":"objects/obj_endscreen/obj_endscreen.yy",},},
     {"id":{"name":"obj_fade","path":"objects/obj_fade/obj_fade.yy",},},
     {"id":{"name":"obj_fadein","path":"objects/obj_fadein/obj_fadein.yy",},},
-    {"id":{"name":"obj_fadeout","path":"objects/obj_fadeout/obj_fadeout.yy",},},
     {"id":{"name":"obj_Floor","path":"objects/obj_Floor/obj_Floor.yy",},},
     {"id":{"name":"obj_GameController","path":"objects/obj_GameController/obj_GameController.yy",},},
     {"id":{"name":"obj_logo","path":"objects/obj_logo/obj_logo.yy",},},
