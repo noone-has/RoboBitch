@@ -3,10 +3,25 @@ event_inherited();
 
 trigger_radius = 10000
 
-dialog.add("", spr_Robot, "1", Slide1)
-dialog.add("", spr_Robot, "2", Slide2)
-dialog.add("", spr_Robot, "3", Slide3)
-
+dialog.add("?", spr_Robot, "Another failed invention...", Slide1)
+dialog.add("?", spr_Robot, "The engineer seems heavily frustrated with you. Stupid robot..", Slide1)
+dialog.add("?", spr_Robot, "Why weren’t you working the way you should be working?!", Slide1)
+dialog.add("?", spr_Robot, "What a waste.", Slide2)
+dialog.add("", spr_Robot, "Angrily, you get tossed into the dumpster, left to be gone and forgotten about. Not like the engineer cared.. You were just another failed test subject to him after all.", Slide2)
+dialog.add("", spr_Robot, "You lay there in the dumpster, completely disassembled. It was only a matter of time before you’d join the scrapheap. Your life was already done for.", Slide2)
+dialog.add("", spr_Robot, "Or so it seemed..", Slide2)
+dialog.add("!", spr_Robot, "A young woman happened to walk by later that exact same day, a glistening robot arm sticking out of a dumpster caught both her eye and her attention.", Slide3)
+dialog.add("", spr_Robot, "As she opened the dumpster, she saw you laying there, your parts scattered inside.", Slide4)
+dialog.add("?", spr_Robot, "Poor thing..", Slide4)
+dialog.add("", spr_Robot, "Without hesitating, the young sympathetic woman gathered all of your scattered parts, driven by the urge to build you back to your old state and give you a second chance. She didn’t know what she was getting into, but she couldn’t care less. While you were the engineer’s trash, you were her treasure.", Slide4)
+dialog.add("", spr_Robot, "The woman spent several days at home rebuilding and reprogramming you, determined to bring you back to life.", Slide5)
+dialog.add("", spr_Robot, "And there you were, in all your glory.", Slide6)
+dialog.add("", spr_Robot, "She was proud of how you turned out. You were able to function properly at last.", Slide6)
+dialog.add("MOTHER", spr_Robot, $"There. Your name will be.. {global.PlayerName}", Slide6)
+dialog.add("", spr_Robot, "This is where you fill in your name", Slide6)
+dialog.add("", spr_Robot, "The woman hands you a yellow card with a huge smile on her face. It looks like an OV-chipcard..", Slide7)
+dialog.add("MOTHER", spr_Robot, "You’re gonna go out there and do great things with your new life. Even if you’re a robot.. I know you’ll fit right in.", Slide7)
+dialog.add("", spr_Robot, "She sends you off on the bus to the Haze University, where new adventures await you.", Slide7)
 
 on_dialog_end = function(descriptor){
 	with(obj_GameController){

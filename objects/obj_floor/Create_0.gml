@@ -1,4 +1,4 @@
-depth = 1
+depth = 99
 falling_down = false;
 alarm[0] = 3 * room_speed;
 

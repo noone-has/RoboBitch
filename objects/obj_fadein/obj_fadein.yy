@@ -34,9 +34,6 @@
     "name":"spr_fade",
     "path":"sprites/spr_fade/spr_fade.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_empty",
-    "path":"sprites/spr_empty/spr_empty.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
