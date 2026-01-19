@@ -7,7 +7,7 @@ verify = function(){
 		global.captchaVerified = true;
 		
 		if(alarm[0]<0){
-			alarm[0] = 3*room_speed
+			alarm[0] = 1*room_speed
 		}
 	}
 }

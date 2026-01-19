@@ -4,3 +4,4 @@ if(global.captchaVerified){
 	layer_set_visible("DigiRosterLayer", true)
 	draw_sprite_stretched(spr_CaptchaTick, 0, x+90, y+250, 310, 300)
 }
+else if (global.captchaVerified)

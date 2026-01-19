@@ -1,1 +1,1 @@
-layer_set_visible("PhoneLayer", false)
+global.showDigiroster = true;

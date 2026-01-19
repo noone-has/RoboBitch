@@ -60,4 +60,8 @@ switch (button_id)
 	
 	case Buttons.Colorblind:
 	break;
+	
+	case Buttons.ClosePhone:
+		global.showDigiroster = false;
+	break;
 }
