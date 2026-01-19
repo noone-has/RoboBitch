@@ -267,6 +267,8 @@
     {"id":{"name":"spr_Door","path":"sprites/spr_Door/spr_Door.yy",},},
     {"id":{"name":"spr_Drop","path":"sprites/spr_Drop/spr_Drop.yy",},},
     {"id":{"name":"spr_elevatoranimatedBG","path":"sprites/spr_elevatoranimatedBG/spr_elevatoranimatedBG.yy",},},
+    {"id":{"name":"spr_emo1","path":"sprites/spr_emo1/spr_emo1.yy",},},
+    {"id":{"name":"spr_emo2","path":"sprites/spr_emo2/spr_emo2.yy",},},
     {"id":{"name":"spr_empty","path":"sprites/spr_empty/spr_empty.yy",},},
     {"id":{"name":"spr_end","path":"sprites/spr_end/spr_end.yy",},},
     {"id":{"name":"spr_Endscreen","path":"sprites/spr_Endscreen/spr_Endscreen.yy",},},
