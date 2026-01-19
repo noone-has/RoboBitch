@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":3.6813831,
+  "duration":4.022313,
   "exportDir":"",
   "name":"sfx_drop",
   "parent":{
