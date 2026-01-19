@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_fade",
-  "eventList":[],
+  "%Name":"obj_fadeout",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_fade",
+  "name":"obj_fadeout",
   "overriddenProperties":[],
   "parent":{
     "name":"UI",
@@ -27,7 +30,13 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
-  "spriteMaskId":null,
+  "spriteId":{
+    "name":"spr_fade",
+    "path":"sprites/spr_fade/spr_fade.yy",
+  },
+  "spriteMaskId":{
+    "name":"spr_empty",
+    "path":"sprites/spr_empty/spr_empty.yy",
+  },
   "visible":true,
 }
