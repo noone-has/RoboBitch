@@ -1,2 +1,2 @@
 image_alpha += 0.01;
-if image_alpha = 1 {instace_destroy()};
+if image_alpha = 1 {room = rm_outside};

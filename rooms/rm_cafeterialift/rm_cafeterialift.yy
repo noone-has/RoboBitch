@@ -8,6 +8,8 @@
   "instanceCreationOrder":[
     {"name":"inst_C79459E","path":"rooms/rm_cafeterialift/rm_cafeterialift.yy",},
     {"name":"inst_38B6807","path":"rooms/rm_cafeterialift/rm_cafeterialift.yy",},
+    {"name":"inst_489E3DB2","path":"rooms/rm_cafeterialift/rm_cafeterialift.yy",},
+    {"name":"inst_672D019F","path":"rooms/rm_cafeterialift/rm_cafeterialift.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -16,6 +18,8 @@
         {"$GMRInstance":"v4","%Name":"inst_38B6807","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_38B6807","objectId":{"name":"obj_RoomSwitcher","path":"objects/obj_RoomSwitcher/obj_RoomSwitcher.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_RoomSwitcher","path":"objects/obj_RoomSwitcher/obj_RoomSwitcher.yy",},"propertyId":{"name":"target_room","path":"objects/obj_RoomSwitcher/obj_RoomSwitcher.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_upstairslift",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1440.0,"y":416.0,},
+        {"$GMRInstance":"v4","%Name":"inst_489E3DB2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_489E3DB2","objectId":{"name":"obj_Arrow","path":"objects/obj_Arrow/obj_Arrow.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-19.992575,"scaleX":1.0,"scaleY":1.0,"x":1549.0,"y":233.0,},
+        {"$GMRInstance":"v4","%Name":"inst_672D019F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_672D019F","objectId":{"name":"cm_liftbottom","path":"objects/cm_liftbottom/cm_liftbottom.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.30532935,"scaleY":0.28088492,"x":-512.0,"y":-160.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_LiftHallway","path":"sprites/spr_LiftHallway/spr_LiftHallway.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
