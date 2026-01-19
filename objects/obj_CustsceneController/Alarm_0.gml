@@ -1,1 +1,1 @@
-bus_sequence = layer_sequence_create("Instances", 1184, 704, sq_BusArriving)
+bus_sequence = layer_sequence_create("Sequences", 1184, 704, sq_BusArriving)
