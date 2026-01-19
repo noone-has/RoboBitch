@@ -1,3 +1,5 @@
+
+
 if(global.should_show_dialog == false){
 	
 	if(dialog.is_finished()){
@@ -5,6 +7,7 @@ if(global.should_show_dialog == false){
 		if(dialog.is_dead_end()){
 			layer_set_visible("DialogueLayer", false)
 			on_dialog_end(dialog.descriptor)
+			global.isInDialogue = false;
 			instance_destroy()
 		}
 		
@@ -25,12 +28,12 @@ if(global.should_show_dialog == false){
 	}
 	if(collision_circle(x, y, trigger_radius, obj_Player, false, true)){
 		current_dialog = dialog.pop()
-		global.should_show_dialog = true	
+		global.should_show_dialog = true
+		global.isInDialogue = true;
 	}
 }
-else
-{
-	if(keyboard_check_released(key_next)){
+else{
+	if((keyboard_check_pressed(vk_space) && global.ControlScheme) || (mouse_check_button_pressed(mb_left) && !global.ControlScheme)){
 		global.should_show_dialog = false
 		alpha = 0
 	}
