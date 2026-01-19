@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"DEPspr_Button",
-    "path":"sprites/DEPspr_Button/DEPspr_Button.yy",
+    "name":"spr_Button",
+    "path":"sprites/spr_Button/spr_Button.yy",
   },
   "spriteMaskId":null,
   "visible":true,
