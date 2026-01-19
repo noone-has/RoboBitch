@@ -304,6 +304,7 @@
     {"id":{"name":"spr_WalkLoop","path":"sprites/spr_WalkLoop/spr_WalkLoop.yy",},},
     {"id":{"name":"spr_WalkStart","path":"sprites/spr_WalkStart/spr_WalkStart.yy",},},
     {"id":{"name":"spr_XButton","path":"sprites/spr_XButton/spr_XButton.yy",},},
+    {"id":{"name":"TitleScreen","path":"sprites/TitleScreen/TitleScreen.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
