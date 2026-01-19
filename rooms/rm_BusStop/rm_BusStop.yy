@@ -13,8 +13,9 @@
     {"name":"inst_5568D84A","path":"rooms/rm_BusStop/rm_BusStop.yy",},
     {"name":"inst_558ED0F","path":"rooms/rm_BusStop/rm_BusStop.yy",},
     {"name":"ArrowBus","path":"rooms/rm_BusStop/rm_BusStop.yy",},
-    {"name":"inst_37CB1518","path":"rooms/rm_BusStop/rm_BusStop.yy",},
     {"name":"inst_5517F3E2","path":"rooms/rm_BusStop/rm_BusStop.yy",},
+    {"name":"inst_37CB1518","path":"rooms/rm_BusStop/rm_BusStop.yy",},
+    {"name":"inst_140BD834","path":"rooms/rm_BusStop/rm_BusStop.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -39,6 +40,7 @@
         {"$GMRInstance":"v4","%Name":"ArrowBus","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"ArrowBus","objectId":{"name":"obj_Arrow","path":"objects/obj_Arrow/obj_Arrow.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Arrow","path":"objects/obj_Arrow/obj_Arrow.yy",},"propertyId":{"name":"Disabler","path":"objects/obj_Arrow/obj_Arrow.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"!global.GameStateDict[GameStates.BusLeft]",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":672.0,},
+        {"$GMRInstance":"v4","%Name":"inst_140BD834","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_140BD834","objectId":{"name":"obj_movementkeys","path":"objects/obj_movementkeys/obj_movementkeys.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.102505624,"scaleY":0.10250561,"x":992.0,"y":224.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Backgrounds_1","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Backgrounds_1","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_BusStop","path":"sprites/spr_BusStop/spr_BusStop.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":"_filter_clouds","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[

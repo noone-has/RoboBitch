@@ -13,6 +13,7 @@
     {"name":"ArrowMaria","path":"rooms/rm_outside/rm_outside.yy",},
     {"name":"ArrowDeniz","path":"rooms/rm_outside/rm_outside.yy",},
     {"name":"ArrowEntrance","path":"rooms/rm_outside/rm_outside.yy",},
+    {"name":"inst_5E373792","path":"rooms/rm_outside/rm_outside.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -41,6 +42,7 @@
         {"$GMRInstance":"v4","%Name":"ArrowEntrance","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"ArrowEntrance","objectId":{"name":"obj_Arrow","path":"objects/obj_Arrow/obj_Arrow.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Arrow","path":"objects/obj_Arrow/obj_Arrow.yy",},"propertyId":{"name":"Disabler","path":"objects/obj_Arrow/obj_Arrow.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"!global.GameStateDict[GameStates.BenchVisited]",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":992.0,"y":320.0,},
+        {"$GMRInstance":"v4","%Name":"inst_5E373792","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5E373792","objectId":{"name":"cm_outside2","path":"objects/cm_outside2/cm_outside2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.23981309,"scaleY":0.2398131,"x":2.0,"y":4.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_HanzeOutside","path":"sprites/spr_HanzeOutside/spr_HanzeOutside.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

@@ -2,7 +2,8 @@ event_inherited();
 trigger_radius = 10000
 
 //Main dialogue
-dialog.add(global.PlayerName, spr_Robot, /*"[The two girls were laughing and talking together about something you could not quite grasp. The moment you rolled in front of them, they turn to face you. They seemed surprisingly excited to see you.]"*/)
+dialog.add(" ", spr_Normal, "[The two girls were laughing and talking together about something you couldn't quite grasp. The moment you rolled in front of them, they turn to face you. They seemed surprisingly excited to see you.]")
+dialog.add(" ", spr_Normal, "[The moment you rolled in front of them, they turn to face you. They seemed surprisingly excited to see you.]")
 dialog.add("Dennis",spr_Dennis, "Oh sweet, a robot? Since when do we have those running around at school?!") 
 dialog.add("Marla", spr_Marla, "No idea, actually. They look cool though.")
 dialog.add("Marla", spr_Marla, "Say, robot, would you like a hit of this cigarette?")
@@ -40,7 +41,7 @@ on_dialog_end = function(descriptor){
 		room_goto(rm_endscreen)
 	}
 	if(descriptor == "smoking_no"){
-		global.NewPlayerX = 600;
+		global.NewPlayerX = 700;
 		global.NewPlayerY = 600;
 		global.GameStateDict[GameStates.BenchVisited] = true;
 		room_goto(rm_outside)	
