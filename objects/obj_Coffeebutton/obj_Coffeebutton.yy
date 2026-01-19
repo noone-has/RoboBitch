@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_obstacle",
+  "%Name":"obj_Coffeebutton",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_obstacle",
+  "name":"obj_Coffeebutton",
   "overriddenProperties":[],
   "parent":{
-    "name":"RunGame",
-    "path":"folders/Objects/Minigames/RunGame.yy",
+    "name":"Coffeegame",
+    "path":"folders/Objects/Minigames/Coffeegame.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,12 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_empty",
-    "path":"sprites/spr_empty/spr_empty.yy",
+    "name":"spr_coffeebutton",
+    "path":"sprites/spr_coffeebutton/spr_coffeebutton.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_empty",
-    "path":"sprites/spr_empty/spr_empty.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

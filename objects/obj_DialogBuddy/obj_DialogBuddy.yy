@@ -1,19 +1,22 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Floor",
+  "%Name":"obj_DialogBuddy",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Floor",
+  "name":"obj_DialogBuddy",
   "overriddenProperties":[],
   "parent":{
-    "name":"RunGame",
-    "path":"folders/Objects/Minigames/RunGame.yy",
+    "name":"Dialogs",
+    "path":"folders/Objects/Dialogs.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_DialogueParent",
+    "path":"objects/obj_DialogueParent/obj_DialogueParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,13 +34,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_floor",
-    "path":"sprites/spr_floor/spr_floor.yy",
-  },
-  "spriteMaskId":{
-    "name":"spr_empty",
-    "path":"sprites/spr_empty/spr_empty.yy",
-  },
+  "spriteId":null,
+  "spriteMaskId":null,
   "visible":true,
 }
