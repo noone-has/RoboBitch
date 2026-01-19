@@ -12,21 +12,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"95ca0bb1-b870-4172-aa9d-a60fe9a3021f","name":"95ca0bb1-b870-4172-aa9d-a60fe9a3021f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a808192f-7768-46c4-bd29-3aa631609841","name":"a808192f-7768-46c4-bd29-3aa631609841","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1080,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"43eb3488-4625-4085-84e0-484a572464db","blendMode":0,"displayName":"default","isLocked":false,"name":"43eb3488-4625-4085-84e0-484a572464db","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"0bc6224d-b17d-459a-8cc5-5a8e9f066251","blendMode":0,"displayName":"default","isLocked":false,"name":"0bc6224d-b17d-459a-8cc5-5a8e9f066251","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_rungameBG",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BGs",
-    "path":"folders/Sprites/BGs.yy",
+    "name":"RunnerMG",
+    "path":"folders/Sprites/Minigames/RunnerMG.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"95ca0bb1-b870-4172-aa9d-a60fe9a3021f","path":"sprites/spr_rungameBG/spr_rungameBG.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1c0fe5f4-2de3-45b0-9b8f-5584db37668f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a808192f-7768-46c4-bd29-3aa631609841","path":"sprites/spr_rungameBG/spr_rungameBG.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f37cda31-c5ff-44e7-9477-3d232d177654","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
