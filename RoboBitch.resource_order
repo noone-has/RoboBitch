@@ -2,6 +2,7 @@
   "FolderOrderSettings":[
     {"name":"Deprecated","order":3,"path":"folders/Deprecated.yy",},
     {"name":"Fonts","order":4,"path":"folders/Fonts.yy",},
+    {"name":"Shaders","order":13,"path":"folders/Shaders.yy",},
     {"name":"Import","order":1,"path":"folders/Import.yy",},
     {"name":"Objects","order":5,"path":"folders/Objects.yy",},
     {"name":"Characters","order":19,"path":"folders/Objects/Characters.yy",},
