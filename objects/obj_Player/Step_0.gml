@@ -4,6 +4,8 @@ leftKey =  keyboard_check(ord("A")) || keyboard_check(vk_left)
 upKey =    keyboard_check(ord("W")) || keyboard_check(vk_up)
 downKey =  keyboard_check(ord("S")) || keyboard_check(vk_down)
 
+show_debug_message(global.isInDialogue)
+
 if (!global.isInDialogue && !global.is_making_choice)
 {
 	if (global.ControlScheme = true) {TopDownMovement();} else {PointAndClickMovement();}

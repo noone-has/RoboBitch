@@ -37,7 +37,6 @@ global.NewPlayerY = 1000
 
 global.showCaptha = false;
 global.showDigiroster = false;
-global.isOnPhone = 0;
 
 // Pause 
 global.paused = false;

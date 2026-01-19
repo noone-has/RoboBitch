@@ -62,7 +62,7 @@ switch (button_id)
 	break;
 	
 	case Buttons.ClosePhone:
-		global.isOnPhone = false;
+		global.isInDialogue = false;
 		global.showDigiroster = false;
 		global.showCaptha = false;
 		layer_set_visible("CaptchaLayer", false)

@@ -4,7 +4,7 @@ global.showCaptha = true
 global.showDigiroster = false;
 showVerifiedCheck = false
 
-global.isOnPhone = true;
+global.isInDialogue = true;
 
 verify = function(){
 	if(tilesPressed >= tilesNeeded){
