@@ -114,7 +114,6 @@
     {"name":"captcha_background","order":15,"path":"sprites/captcha_background/captcha_background.yy",},
     {"name":"captcha_hint_screen","order":6,"path":"sprites/captcha_hint_screen/captcha_hint_screen.yy",},
     {"name":"CaptchaImages","order":25,"path":"sprites/CaptchaImages/CaptchaImages.yy",},
-    {"name":"CoofieSpill","order":4,"path":"sprites/CoofieSpill/CoofieSpill.yy",},
     {"name":"DEP1spr_MainMenu","order":6,"path":"sprites/DEP1spr_MainMenu/DEP1spr_MainMenu.yy",},
     {"name":"DEP1spr_menu","order":3,"path":"sprites/DEP1spr_menu/DEP1spr_menu.yy",},
     {"name":"DEPspr_ANGRY","order":11,"path":"sprites/DEPspr_ANGRY/DEPspr_ANGRY.yy",},
