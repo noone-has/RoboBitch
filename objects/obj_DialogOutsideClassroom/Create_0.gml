@@ -9,6 +9,5 @@ dialog.add("Thoughts", spr_Happy, "I actually got there just in time.")
 
 on_dialog_end = function(descriptor)
 	{
-
 	}
 

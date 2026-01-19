@@ -10,6 +10,6 @@ dialog.add("Teacher", spr_teacher, "Welcome to Haze.")
 
 on_dialog_end = function(descriptor)
 	{
-
+		game_restart()
 	}
 

@@ -7,6 +7,8 @@ trigger_radius = 170
 dialog.add("Buddy", spr_BuddyPortrait, "Hi i'm your buddy.")
 dialog.add("Buddy", spr_BuddyPortrait, "Your teacher told me the room for your class got changed.")
 dialog.add("Buddy", spr_BuddyPortrait, "It's now in 6.97")
+dialog.add("Buddy", spr_BuddyPortrait, "And you are almost late.")
+dialog.add("Buddy", spr_BuddyPortrait, $"Better start running, see ya {global.PlayerName}.")
 
 on_dialog_end = function(descriptor)
 {
