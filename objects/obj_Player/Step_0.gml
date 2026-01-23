@@ -11,6 +11,9 @@ if (!global.isInDialogue && !global.is_making_choice)
 	if (global.ControlScheme = true) {TopDownMovement();} else {PointAndClickMovement();}
 }
 
+if(isMovingX){
+	part_particles_create(p_system, x, y+100, part_footstep, 1);
+}
 
 //Animation of robot:
 

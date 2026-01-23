@@ -13,6 +13,21 @@ thats why this code works :p*/
 x = global.NewPlayerX;
 y = global.NewPlayerY;
 
+//PART
+p_system = part_system_create()
+part_footstep = part_type_create()
+emitter = part_emitter_create(p_system)
+part_system_draw_order(p_system, true);
+part_system_depth(p_system, -1000);
+
+part_type_shape(part_footstep, pt_shape_smoke)
+part_type_size(part_footstep, 0.6, 0.7, 0.1, 0)
+part_type_colour1(part_footstep, c_grey)
+part_type_direction(part_footstep, 0, 360, 0, 0)
+part_type_life(part_footstep, 1*60, 1*60)
+part_type_speed(part_footstep, 0.3, 0.4, -0.03, 0)
+part_type_alpha1(part_footstep, 1)
+
 // SFX
 snd_step = sfx_GrassFootstep;
 step_snd_offset = 0;
